@@ -18,6 +18,8 @@ If you get a permission denied error during install, right click the installer a
 * After download, give the AppImage executable permissions through your file manager or using the terminal command `chmod +x redeclipse-*.AppImage`
 * You can then run Red Eclipse by double-clicking the AppImage or executing it from a terminal.
 
+[More information and options](../AppImages)
+
 ## Standard Package
 * Install Red Eclipse's dependencies.
   * Debian/Ubuntu: `sudo apt-get install curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0`
