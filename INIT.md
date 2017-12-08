@@ -1,1 +1,0 @@
-This init's the wiki
