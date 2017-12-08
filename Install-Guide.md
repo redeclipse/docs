@@ -1,6 +1,9 @@
-* [Windows](#windows)
-* [Linux](#linux)
-* [macOS](#macos)
+* [Windows Instructions](#windows)
+* [Linux Instructions](#linux)
+* [macOS Instructions](#macos)
+* [If you get stuck or need help](#if-you-get-stuck)
+
+***
 
 # Windows
 * [Download the installer](https://redeclipse.net/download/windows) and run it.
