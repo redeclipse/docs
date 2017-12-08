@@ -2,13 +2,14 @@ The last few months have been a fervor of development, starting with the New UI 
 
 ## A NEW RENDERING ENGINE
 
-From the [Tesseract website](http://tesseract.gg/): *Tesseract provides a unique open-source engine derived from Cube 2: Sauerbraten technology but with upgraded modern rendering techniques. The new rendering features include fully dynamic omnidirectional shadows, global illumination, HDR lighting, deferred shading, morphological/temporal/multisample anti-aliasing, and much more.*
+From the [Tesseract website](http://tesseract.gg/):
+> Tesseract provides a unique open-source engine derived from Cube 2: Sauerbraten technology but with upgraded modern rendering techniques. The new rendering features include fully dynamic omnidirectional shadows, global illumination, HDR lighting, deferred shading, morphological/temporal/multisample anti-aliasing, and much more.
 
 This is great news for us as we can take more advantage of newer hardware and do things we simply couldn't before due to the limitations of the old renderer. I know we've prided ourselves for a long time concerning the fact Red Eclipse can "run on a potato(tm)", but we're going to have to say goodbye to the potatoes in order to make progress. I am sorry to leave behind our root vegetable loving friends, but we are trying to make real progress by turning Red Eclipse into a beautiful looking game that people want to play.
 
 You can read more about the renderer [here](http://tesseract.gg/renderer.txt), but this outlines the differences in design choice:
 
-*Sauerbraten was reliant on precomputed lightmapping techniques to handle lighting of the world. This approach posed several problems. Dynamic entities in the world could not fully participate in lighting and so never looked quite "right" due to mismatches between dynamic and static lighting techniques. Lightmap generation took significant amounts of time, making light placement a painful guess-and-check process for mappers, creating a mismatch between the ease of instantly creating the level geometry and the not-so-instant-process of lighting it. Finally, storage of these lightmaps became a concern, so low-precision lightmaps were usually chosen, at the cost of appearance to reduce storage requirements. Tesseract instead chooses to use a fully dynamic lighting engine to resolve the mismatch between lighting of dynamic and static entities while making better trade-offs between appearance and storage requirements.*
+> Sauerbraten was reliant on precomputed lightmapping techniques to handle lighting of the world. This approach posed several problems. Dynamic entities in the world could not fully participate in lighting and so never looked quite "right" due to mismatches between dynamic and static lighting techniques. Lightmap generation took significant amounts of time, making light placement a painful guess-and-check process for mappers, creating a mismatch between the ease of instantly creating the level geometry and the not-so-instant-process of lighting it. Finally, storage of these lightmaps became a concern, so low-precision lightmaps were usually chosen, at the cost of appearance to reduce storage requirements. Tesseract instead chooses to use a fully dynamic lighting engine to resolve the mismatch between lighting of dynamic and static entities while making better trade-offs between appearance and storage requirements.
 
 ## MAPPING AND PORTING EXISTING MAPS
 
@@ -18,21 +19,21 @@ It is going to take a lot of time and effort to port some existing maps and crea
 
 You can change how a light behaves by modifying attribute 7 in a bitwise fashion. For those who can't imagine things in bits, the easiest way to think about it is that instead of (0, 1, 2, 3, 4, 5, 6 etc) you double each subsequent value (0, 1, 2, 4, 8, 16, etc) then add the ones you want together. For example: 1 + 2 + 4 = 7. The values are as follows:
 
-- 1 = L_NOSHADOW - does not cast shadows at all
-- 2 = L_NODYNSHADOW - does not cast shadows for dynamic entities (like players, etc)
-- 4 = L_VOLUMETRIC - creates a volumetric effect inside the area of influence for the light
+- 1 = `L_NOSHADOW` - does not cast shadows at all
+- 2 = `L_NODYNSHADOW` - does not cast shadows for dynamic entities (like players, etc)
+- 4 = `L_VOLUMETRIC` - creates a volumetric effect inside the area of influence for the light
 
 Having lights that work in realtime has finally allowed me to add both "palette" and "palindex" attributes to the LIGHT entity at attributes 8 and 9. This means maps can be completely responsive to to the available palettes which includes team colours in team games, even allowing for a neutral fallback if it is a free-for-all game. You can use these attributes in conjunction with "texpalette" to make textures the same colours. I would like to see more maps taking advantage of this feature as we can actually change the colours of the teams with variables. Anyway, I'll try to explain how this works.
 
 Palette "0" - rotating pulse colours:
 - 0 = this special value means apply no palette (0, 0)
-- 1 = PULSE_FIRE, fire like colours
-- 2 = PULSE_BURN, like fire, but darker (used for the burn residual)
-- 3 = PULSE_DISCO, disco colours (used for the bomber-ball)
-- 4 = PULSE_SHOCK, shock colours (used for the shock residual and zapper)
-- 5 = PULSE_BLEED, bleed colours (used for the bleed residual)
-- 6 = PULSE_BUFF, buff colours (used for the pulsation effect on buffed players)
-- 7 = PULSE_WARN, red like colours to highlight a problem or error (used when shooting a teammate)
+- 1 = `PULSE_FIRE`, fire like colours
+- 2 = `PULSE_BURN`, like fire, but darker (used for the burn residual)
+- 3 = `PULSE_DISCO`, disco colours (used for the bomber-ball)
+- 4 = `PULSE_SHOCK`, shock colours (used for the shock residual and zapper)
+- 5 = `PULSE_BLEED`, bleed colours (used for the bleed residual)
+- 6 = `PULSE_BUFF`, buff colours (used for the pulsation effect on buffed players)
+- 7 = `PULSE_WARN`, red like colours to highlight a problem or error (used when shooting a teammate)
 
 Palette "1" - team colours:
 - 0 = team neutral colour
