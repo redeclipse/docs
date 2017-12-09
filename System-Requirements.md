@@ -30,7 +30,7 @@ Geforce 8 series, 8800GS and higher
 
 Geforce 9 series, 9600GSO and higher
 
-Geforce 200 series, GT 240 and higher
+Geforce 200 series, GT 220 and higher
 
 Geforce 400 series, GT 420 and higher
 
