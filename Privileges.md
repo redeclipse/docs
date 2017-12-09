@@ -2,17 +2,17 @@ Players can [apply](https://redeclipse.net/apply) for an account that allows the
 
 ## Privilege Icons
 
-| Icon | Description |
-----------------------
-| ![Bot](images/privs/bot.png) | AI controlled opponent (bot) |
-| ![None](images/privs/none.png) | Guest Player |
-| ![Player](images/privs/player.png) | Authenticated Player |
-| ![Local Supporter](images/privs/localsupporter.png)![Supporter](images/privs/supporter.png) | Local/Global Supporters |
-| ![Local Moderator](images/privs/localmoderator.png)![Moderator](images/privs/moderator.png) | Local/Global Moderators |
-| ![Local Operator](images/privs/localoperator.png)![Moderator](images/privs/operator.png) | Local/Global Operators |
-| ![Local Administrator](images/privs/localadministrator.png)![Moderator](images/privs/administrator.png) | Local/Global Administrators |
-| ![Developer](images/privs/developer.png) | Project Developers |
-| ![Founder](images/privs/founder.png) | Project Founders |
+Icon | Description |
+-----|--------------
+| <img src="images/privs/bot.png" width="32px" height="32px" /> | AI controlled opponent (bot) |
+| <img src="images/privs/none.png" width="32px" height="32px" /> | Guest Player |
+| <img src="images/privs/player.png" width="32px" height="32px" /> | Authenticated Player |
+| <img src="images/privs/supporter.png" width="32px" height="32px" /> | Local/Global Supporters |
+| <img src="images/privs/moderator.png" width="32px" height="32px" /> | Local/Global Moderators |
+| <img src="images/privs/operator.png" width="32px" height="32px" /> | Local/Global Operators |
+| <img src="images/privs/administrator.png" width="32px" height="32px" /> | Local/Global Administrators |
+| <img src="images/privs/developer.png" width="32px" height="32px" /> | Project Developers |
+| <img src="images/privs/founder.png" width="32px" height="32px" /> | Project Founders |
 
 Of course, [bots](Bots) are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players. Some privilege levels can be either local or global. Local privileges are given to registered players on specific servers, as described in a following section. In contrast, global privileges are valid on all public servers.
 
