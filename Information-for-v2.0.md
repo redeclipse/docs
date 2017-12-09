@@ -1,4 +1,4 @@
-The lastg half of 2017 has been a fervor of development, starting with the New UI and culminating in a full port of the Tesseract engine to Red Eclipse that is being dubbed "version 2.0" which we will hopefully be releasing in the next few months. So, what does this mean?
+The last half of 2017 has been a fervor of development, starting with the New UI and culminating in a full port of the Tesseract engine to Red Eclipse that is being dubbed "version 2.0" which we will hopefully be releasing in the next few months. So, what does this mean?
 
 ## A NEW RENDERING ENGINE
 
