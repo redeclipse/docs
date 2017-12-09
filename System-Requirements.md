@@ -46,11 +46,9 @@ Gefoce 1000 series, any
 
 ### Intel
 
-<s>why do you have such a shit gpu get a real card like a rayydeon or grillforce</s>
+**Clarkdale/Arrandale Integrated (Ironlake, i3-\*\*\*, i5-\*\*\*, i7-\*\*\*, Pentium G9\*\*\*) is not officially supported.**
 
-**Clarkdale/Arrandale Integrated (Ironlake, i3-\*\*\*, i5-\*\*\*, i7-\*\*\*, Pentium G9\*\*\*) is not supported.**
-
-Sandy Bridge, HD 3000 (i3-2\*\*\*M, i5--2\*\*\*M, i7--2\*\*\*M, i5--25\*\*K, i7--26\*\*K) **Sandy Bridge GT1 (Pentium B8\*\*,Pentium B9\*\*, Pentium G6\*\*) is not considered adequate.**
+Sandy Bridge, HD 3000 (i3-2\*\*\*M, i5--2\*\*\*M, i7--2\*\*\*M, i5--25\*\*K, i7--26\*\*K) **Sandy Bridge GT1 (Pentium B8\*\*,Pentium B9\*\*, Pentium G6\*\*) is not officially considered adequate.**
 
 Ivy Bridge, HD 4000 (i3-3\*\*\*, i5-3\*\*\*, i7-37\*\*) **Ivy Bridge GT1 (Pentium G2\*\*\*, Pentium 20\*\*/21\*\*M) is playable, but may be choppy.**
 
@@ -66,7 +64,7 @@ Kaby Lake, any (i5-8\*\*\*M, i7-8\*\*\*M)<font size="-5">*mfw intel don't do thi
 
 Covfefe Lake, any (i3-8\*\*\*, i5-8\*\*\*, i7-8\*\*\*)
 
-**Bay Trail (Celeron J, Celeron N, Atom Z3\*\*\*, Pentium J, Pentium N) is not considered adequate**
+**Bay Trail (Celeron J, Celeron N, Atom Z3\*\*\*, Pentium J, Pentium N) is not officially considered adequate**
 
 ## CPU
 
@@ -91,8 +89,6 @@ Bulldozer, FX/A6/A8/A10, any
 Zen, R3/R5/R7, any
 
 ### Intel
-
-<s>**Intel is not a supported CPU vendor at this time.**</s>
 
 Core i3/m3
 
@@ -124,4 +120,4 @@ For APUs/faster integrated graphics, dual channel operation is highly recommende
 
 ## Disk
 
-20 minutes of pr0n <font size="-5">(Youtube 1080p, 8mbps)</font>
+About 800mb for a full install.

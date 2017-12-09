@@ -8,11 +8,11 @@ These weapons can be chosen in the *profile* game menu, and it is even possible 
 
 ### Shotgun and Rifle
 
-This traditional choice of loadout weapons is very popular, especially in [deathmatch](Deathmatch), [capture-the-flag](Capture_the_flag), [defend-and-control](Defend_and_control), and [bomber-ball](Bomber_ball) games. A player with these tools of destruction prioritizes the ability to inflict heavy damage—any time, anywhere, and over any distance.
+This traditional choice of loadout weapons is very popular, especially in [deathmatch](Deathmatch), [capture-the-flag](Capture-the-Flag), [defend-and-control](Defend-and-Control), and [bomber-ball](Bomber-ball) games. A player with these tools of destruction prioritizes the ability to inflict heavy damage—any time, anywhere, and over any distance.
 
 ### Flamer and Zapper
 
-This pair of weapons optimizes a players ability to outrun and annoy his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [capture_the_flag](Capture_the_flag) games. It is also very effective at getting enemies to waste time telling you in chat how "nooby" your weapon loadout is and attempt to convince you that other (read: shotgun/rifle) loadouts are what you "should" be using.
+This pair of weapons optimizes a players ability to outrun and annoy his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [capture-the-flag](Capture-the-Flag) games. It is also very effective at getting enemies to waste time telling you in chat how "nooby" your weapon loadout is and attempt to convince you that other (read: shotgun/rifle) loadouts are what you "should" be using.
 
 ### Plasma and Zapper
 
@@ -54,20 +54,7 @@ The player model is split into 3 parts which determine how much damage is applie
 
 ### Weapon variables
 
-When playing offline or as a server [operator](Privileges), almost all aspects of game rules can be tuned and modified using the [console](Console) to control thousands of [variables](Variables). This includes a large [array of variables](Vars_and_Commands_Tables) for each weapon that give you deep control of the weapon characteristics.
-
-* [Melee Variables](Melee_Vars)
-* [Pistol Variables](Pistol_Vars)
-* [Sword Variables](Sword_Vars)
-* [Shotgun Variables](Shotgun_Vars)
-* [SMG Variables](SMG_Vars)
-* [Flamer Variables](Flamer_Vars)
-* [Plasma Variables](Plasma_Vars)
-* [Zapper Variables](Zapper_Vars)
-* [Rifle Variables](Rifle_Vars)
-* [Grenade Variables](Grenade_Vars)
-* [Mine Variables](Mine_Vars)
-* [Rocket Variables](Rocket_Vars)
+When playing offline or as a server [operator](Privileges), almost all aspects of game rules can be tuned and modified using the [console](Console) to control thousands of [variables](Variables). This includes a large [array of variables](Variables-and-Commands) for each weapon that give you deep control of the weapon characteristics.
 
 ### Weapon IDs
 
@@ -78,7 +65,7 @@ Weapon numbers or IDs are used for certain variables, for instance when defining
 Variables related to flak or fragmentation give a plethora of options for creating weapon mods. However, the use of these variables can be rather confusing.
 
 * In essence, when the projectile of a weapon is destroyed (impact or expired lifetime), new flak projectiles can be created (fragmentation).
-* The corresponding *fragweap* variable defines which type of projectiles are created according to a [weapon ID](#Weapon_ID) (none for -1).
+* The corresponding *fragweap* variable defines which type of projectiles are created according to a [weapon ID](#weapon-ids) (none for -1).
 * Further *frag* variables define the number and dynamics of these projectiles.
 * A large array of *flak* variables has defaults inherited from their base weapon variables.
 * These *flak* variables define many properties of flak projectiles. The variable names refer to the type of flak created (the ID used for *fragweap*), not the type of parent projectile.

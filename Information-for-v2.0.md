@@ -1,4 +1,4 @@
-The last few months have been a fervor of development, starting with the New UI and culminating in a full port of the Tesseract engine to Red Eclipse that is being dubbed "version 2.0" which we will hopefully be releasing in the next few months. So, what does this mean?
+The lastg half of 2017 has been a fervor of development, starting with the New UI and culminating in a full port of the Tesseract engine to Red Eclipse that is being dubbed "version 2.0" which we will hopefully be releasing in the next few months. So, what does this mean?
 
 ## A NEW RENDERING ENGINE
 
@@ -76,4 +76,4 @@ This is a new map variable that should be set alongside `maptitle` and `mapautho
 
 ## IN CONCLUSION
 
-There's been a lot of work done since v1.5.8 was released, and there's a whole ton more still to do. This is actually an exciting time for the project and I hope you all enjoy the new rendering engine (I basically stayed up 40 hours at time for a whole week to get it done!). Also be sure to thank eihrul for all the hard work he's done on Tesseract and his tireless efforts helping us with everything technical in Red Eclipse, without him this game would not exist.
+There's been a lot of work done since v1.5.8 was released, and there's a whole ton more still to do. This is actually an exciting time for the project and I hope you all enjoy the new rendering engine (I basically stayed up 40 hours at time for a whole week to get it done!). Also be sure to thank eihrul for all the hard work he's done on Tesseract and his tireless efforts helping us with everything technical in Red Eclipse, without him this game would not exist. -Quin
