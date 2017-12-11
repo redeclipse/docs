@@ -10,6 +10,7 @@
 
 ## Server Administration
 - **[Server Setup](Server-Setup)** - How to configure and run a Red Eclipse server.
+- **[Administration Guide](Admin-Guide)** - How to manage and moderate a server.
 - **[Statistics System](Statistics-System)** - Information about the master server's global statistics system.
 
 ## Development
