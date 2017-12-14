@@ -56,7 +56,7 @@ See the .redeclipse user data in your home directory: `~/.redeclipse`
 
 #### Mac/OSX
 
-Check the app data in your home directory: `/Users/`<username>`/Library/Application Support/Red Eclipse`
+Check the app data in your home directory: `/Users/<username>/Library/Application Support/Red Eclipse`
 
 ### When I launch the game, there's a terminal. Is that normal?
 
