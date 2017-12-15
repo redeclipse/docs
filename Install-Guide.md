@@ -1,10 +1,3 @@
-* [Windows Instructions](#windows)
-* [Linux Instructions](#linux)
-* [macOS Instructions](#macos)
-* [If you get stuck or need help](#if-you-get-stuck)
-
-***
-
 # Windows
 * [Download the installer](https://redeclipse.net/download/windows) and run it.
 * Follow the installation prompts.
@@ -12,7 +5,7 @@
 
 If you get a permission denied error during install, right click the installer and [Run as Administrator](http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token). Alternatively, you can change the install location to a user-writable folder (like "[My] Documents") during the install process.
 
-# Linux
+# GNU/Linux or BSD
 ## AppImage
 * [Download the stable AppImage](https://redeclipse.net/appimage/stable/redeclipse-stable-x86_64.AppImage)
 * After download, give the AppImage executable permissions through your file manager or using the terminal command `chmod +x redeclipse-*.AppImage`
