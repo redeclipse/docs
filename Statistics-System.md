@@ -1,9 +1,3 @@
-* [Enable statistic system](#enable-statistic-system)
-* [Sending Process](#sending-process)
-* [Web Interface](#web-interface)
-* [Privacy](#privacy)
-
-***
 The statistics system, introduced after 1.5.3, records results of games and sends them to a central database on the master server.
 
 # Enable statistic system
