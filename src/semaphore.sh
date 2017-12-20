@@ -3,7 +3,8 @@
 SEMABUILD_PWD=`pwd`
 SEMABUILD_DEST="https://${GITHUB_TOKEN}:x-oauth-basic@github.com/red-eclipse/red-eclipse.github.io.git"
 SEMABUILD_DESTNAME="www"
-SEMABUILD_DESTPWD="${HOME}/www/docs"
+SEMABUILD_DESTPWD="${HOME}/${SEMABUILD_DESTNAME}"
+SEMABUILD_DESTDOCS="${SEMABUILD_DESTPWD}/docs"
 SEMABUILD_DEPLOY="false"
 
 semabuild_setup() {
@@ -20,23 +21,25 @@ semabuild_setup() {
 semabuild_process() {
     pushd "${SEMABUILD_PWD}" || return 1
     for i in *; do
-        if [ -d "${i}" ] && [ "${i}" != "src" ]; then
-            cp -rv "${i}" "${SEMABUILD_DESTPWD}/"
+        if [ -d "${i}" ]; then
+            if [ "${i}" != "src" ]; then
+                cp -rv "${i}" "${SEMABUILD_DESTDOCS}/"
+            fi
         else
             m=`echo "${i}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
             n=`echo "${i}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
             o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
             if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
                 p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
-                echo "CONVERT: ${i} - ${m} (${n}) - ${p}"
-                echo "---" > "${SEMABUILD_DESTPWD}/${i}"
-                echo "title: ${p}" >> "${SEMABUILD_DESTPWD}/${i}"
-                echo "origtitle: ${m}" >> "${SEMABUILD_DESTPWD}/${i}"
-                echo "layout: docs" >> "${SEMABUILD_DESTPWD}/${i}"
-                echo "---" >> "${SEMABUILD_DESTPWD}/${i}"
-                echo "* TOC" >> "${SEMABUILD_DESTPWD}/${i}"
-                echo "{:toc}" >> "${SEMABUILD_DESTPWD}/${i}"
-                cat "${i}" >> "${SEMABUILD_DESTPWD}/${i}"
+                echo "CONVERT: ${m} (${n}) - ${p} > ${SEMABUILD_DESTDOCS}/${i}"
+                echo "---" > "${SEMABUILD_DESTDOCS}/${i}"
+                echo "title: ${p}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "origtitle: ${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "layout: docs" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "{:toc}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                cat "${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
             fi
         fi
     done
