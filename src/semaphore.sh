@@ -49,10 +49,7 @@ semabuild_process() {
 
 semabuild_update() {
     pushd "${SEMABUILD_DESTPWD}" || return 1
-    git add * || return 1
-    git commit -a -m "Build docs:${SEMAPHORE_BUILD_NUMBER} from ${REVISION}" || return 1
-    git pull --rebase || return 1
-    git push -u origin master || return 1
+    git add * && git commit -a -m "Build docs:${SEMAPHORE_BUILD_NUMBER} from ${REVISION}"  && git pull --rebase && git push -u origin master
     popd || return 1
     return 0
 }
