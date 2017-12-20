@@ -4,7 +4,7 @@ Players can [apply](https://redeclipse.net/apply) for an account that allows the
 
 Icon | Description | Icon | Description
 -----|-------------|------|------------
-<img src="images/privs/bot.png" width="32px" height="32px" /> | Bot (AI Controlled) | |
+<img src="images/privs/bot.png" width="32px" height="32px" /> | Bot (AI Controlled) | 
 <img src="images/privs/none.png" width="32px" height="32px" /> | Guest Player | <img src="images/privs/player.png" width="32px" height="32px" /> | Authenticated Player
 <img src="images/privs/localsupporter.png" width="32px" height="32px" /> | Local Supporters | <img src="images/privs/supporter.png" width="32px" height="32px" /> | Global Supporters
 <img src="images/privs/localmoderator.png" width="32px" height="32px" /> | Local Moderators | <img src="images/privs/moderator.png" width="32px" height="32px" /> | Global Moderators
