@@ -20,7 +20,7 @@ semabuild_setup() {
 semabuild_process() {
     pushd "${SEMABUILD_PWD}" || return 1
     for i in *; do
-        if [ -d "${i}" ]; then
+        if [ -d "${i}" ] && [ "${i}" != "src" ]; then
             cp -rv "${i}" "${SEMABUILD_DESTPWD}/"
         else
             m=`echo "${i}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
@@ -46,7 +46,8 @@ semabuild_process() {
 
 semabuild_update() {
     pushd "${SEMABUILD_DESTPWD}" || return 1
-    git commit -a -m "Build ${SEMAPHORE_BUILD_NUMBER} from docs:${REVISION}" || return 1
+    git add * || return 1
+    git commit -a -m "Build docs:${SEMAPHORE_BUILD_NUMBER} from ${REVISION}" || return 1
     git pull --rebase || return 1
     git push -u origin master || return 1
     popd || return 1
