@@ -35,11 +35,13 @@ semabuild_process() {
                 echo "---" > "${SEMABUILD_DESTDOCS}/${i}"
                 echo "title: ${p}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "origfile: ${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "origtitle: ${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "permalink: /docs/${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "layout: docs" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "{:toc}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                cat "${i}" | sed -e "s/\](\([^)]*\)\.md)/](\1)/g" >> "${SEMABUILD_DESTDOCS}/${i}"
+                sed -e "s/\](\([^)]*\)\.md)/](\1)/g" "${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
             fi
         fi
     done
