@@ -1,4 +1,4 @@
-For those mutators specific to certain game modes, see the corresponding [mode pages](Modes-and-Mutators).
+For those mutators specific to certain game modes, see the corresponding [mode pages](Modes-and-Mutators.md).
 
 ## Multi <img src="images/modes/multi.png" width="64px"/>
 
