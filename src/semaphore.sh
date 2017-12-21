@@ -37,7 +37,6 @@ semabuild_process() {
                 echo "layout: docs" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "origfile: ${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "origtitle: ${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "permalink: /docs/${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 if [ "${m}" = "Home" ]; then
                     echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
                     echo "  - /docs" >> "${SEMABUILD_DESTDOCS}/${i}"
