@@ -31,16 +31,20 @@ semabuild_process() {
             o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
             if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
                 p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
-                echo "CONVERT: ${m} (${n}) - ${p} > ${SEMABUILD_DESTDOCS}/${i}"
+                q=`echo "${m}" | sed -e "s/[_.]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
+                echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${SEMABUILD_DESTDOCS}/${i}"
                 echo "---" > "${SEMABUILD_DESTDOCS}/${i}"
                 echo "title: ${p}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "layout: docs" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "origfile: ${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "origtitle: ${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                echo "permalink: /docs/${q}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 if [ "${m}" = "Home" ]; then
                     echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs/index" >> "${SEMABUILD_DESTDOCS}/${i}"
+                    echo "  - /docs/" >> "${SEMABUILD_DESTDOCS}/${i}"
+                elif [ "${m}" != "${q}" ]; then
+                    echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
+                    echo "  - /docs/${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
                 fi
                 echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
