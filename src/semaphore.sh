@@ -50,7 +50,7 @@ semabuild_process() {
                 echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "{:toc}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                sed -e "s/\](\([^)]*\)\.md)/](\1)/g" "${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g" "${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
             fi
         fi
     done
