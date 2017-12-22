@@ -44,7 +44,8 @@ semabuild_process() {
                     echo "  - /docs/" >> "${SEMABUILD_DESTDOCS}/${i}"
                 elif [ "${m}" != "${q}" ]; then
                     echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs/${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
+                    echo "  - /docs/${m}/" >> "${SEMABUILD_DESTDOCS}/${i}"
+                    echo "  - /docs/${m}.html" >> "${SEMABUILD_DESTDOCS}/${i}"
                 fi
                 echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
                 echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
