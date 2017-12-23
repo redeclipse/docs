@@ -14,7 +14,7 @@ Red Eclipse is available for download at no cost.
 - GNU/Linux packages can also be found on:
     - [Debian](Install-Guide.md#Debian/Ubuntu_repository)
     - [Ubuntu](Install-Guide.md#Debian/Ubuntu_repository)
-    -  AUR](https://aur.archlinux.org/packages/redeclipse)
+    - [AUR](https://aur.archlinux.org/packages/redeclipse)
     - [Chakra](https://chakralinux.org/ccr/packages.php?O=0&K=redeclipse&do_Search=+Go+)
 - BSD ports are available for:
     - [FreeBSD](https://www.freshports.org/games/redeclipse/)
