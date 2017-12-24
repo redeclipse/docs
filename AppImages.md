@@ -1,8 +1,8 @@
 The Red Eclipse project provides [AppImage](https://appimage.org) builds that should work on any recent Linux distribution as an easy, dependency-free way to install and run the game.
 
 ## Available AppImages
-* [Stable version](https://redeclipse.net/appimage/stable)
-* [Development version](https://redeclipse.net/appimage/master)
+* [Stable version](http://redeclipse.net/appimage/stable)
+* [Development version](http://redeclipse.net/appimage/master)
 
 ### File names
 * Client: `redeclipse-<BRANCH>-x86_64.AppImage`.
@@ -21,4 +21,3 @@ You can set the following environment variables to configure the AppImage's beha
   * If set, will prevent the automatic updating from opening a terminal to display progress.
 * `REDECLIPSE_APPIMAGE_TERM`
   * If set, will use the value of this variable as the terminal program to display update progress.
-

@@ -1,4 +1,4 @@
-[Red Eclipse](https://redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](Parkour-Guide.md), [distinct but all potent weapons](Weapons-Guide.md), and fast paced accessible gameplay.
+[Red Eclipse](http://redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](Parkour-Guide.md), [distinct but all potent weapons](Weapons-Guide.md), and fast paced accessible gameplay.
 
 ## New to Red Eclipse?
 - **[Frequently Asked Questions](FAQ.md)** - See if your question is one of the ones we're asked a lot.

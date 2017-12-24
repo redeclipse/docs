@@ -1,4 +1,4 @@
-Players can [apply](https://redeclipse.net/apply) for an account that allows them to authenticate as registered users. Registration is optional, so users are free to play anonymously. Some accounts have special privileges that serve for game moderation or server administration. These are indicated in-game as icons, which are shown to the left of all player names.
+Players can [apply](http://redeclipse.net/apply) for an account that allows them to authenticate as registered users. Registration is optional, so users are free to play anonymously. Some accounts have special privileges that serve for game moderation or server administration. These are indicated in-game as icons, which are shown to the left of all player names.
 
 ## Privilege Icons
 
@@ -34,6 +34,6 @@ This password can be entered via the *setpriv* command, which also servers to cl
 ```
 
 ## How to apply for an account
-Open registrations are available for all recurring players. If you play Red Eclipse with any regularity and would like others to be able to identify you, please [fill out an application](https://redeclipse.net/apply).
+Open registrations are available for all recurring players. If you play Red Eclipse with any regularity and would like others to be able to identify you, please [fill out an application](http://redeclipse.net/apply).
 
 Once you have received an authkey and added it to your [config.cfg](Game-Settings.md#config.cfg), you are free to identify when connecting to a game server. For this you find a checkbox in two of the in-game menus, the server menu (F2) and the user profile menu.
