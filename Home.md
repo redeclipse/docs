@@ -15,3 +15,5 @@
 
 ## Development
 - **[Version 2.0](Information-for-v2.0.md)** - Find out more about the upcoming v2.0 release, featuring [Tesseract](http://tesseract.gg/).
+- **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
+- **[Debugging](Debug.md)** - How to gather information for debugging.
