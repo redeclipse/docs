@@ -4,6 +4,7 @@
 
 |                           |                     |
 |---------------------------|---------------------|
+| **Name**                  | Fatal Error         |
 | **Author**                | blarg               |
 | **Filename**              | error               |
 | **Release Date**          | 2011-01-11          |
