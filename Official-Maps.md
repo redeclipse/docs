@@ -16,10 +16,6 @@
 <table>
     <tr>
         <td>
-            <div><img src="images/maps/absorption.png" width="128px" height="128px" /></div>
-            <div>Absorption</div>
-        </td>
-        <td>
             <div><img src="images/maps/abuse.png" width="128px" height="128px" /></div>
             <div>Abuse</div>
         </td>
@@ -35,12 +31,12 @@
             <div><img src="images/maps/cargo.png" width="128px" height="128px" /></div>
             <div>Cargo</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <div><img src="images/maps/castle.png" width="128px" height="128px" /></div>
             <div>Castle</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <div><img src="images/maps/center.png" width="128px" height="128px" /></div>
             <div>Center</div>
@@ -57,12 +53,12 @@
             <div><img src="images/maps/deathtrap.png" width="128px" height="128px" /></div>
             <div>Deathtrap</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <div><img src="images/maps/deli.png" width="128px" height="128px" /></div>
             <div>Deli</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <div><img src="images/maps/depot.png" width="128px" height="128px" /></div>
             <div>Depot</div>
@@ -79,12 +75,12 @@
             <div><img src="images/maps/echo.png" width="128px" height="128px" /></div>
             <div>Echo</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <div><img src="images/maps/enyo.png" width="128px" height="128px" /></div>
             <div>Enyo</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <div><a href="maps/Map-Error"><img src="images/maps/error.png" width="128px" height="128px" /></a></div>
             <div><a href="maps/Map-Error">Error</a> </div>
@@ -101,12 +97,12 @@
             <div><img src="images/maps/livefire.png" width="128px" height="128px" /></div>
             <div>Livefire</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <div><img src="images/maps/longestyard.png" width="128px" height="128px" /></div>
             <div>Longestyard</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <div><img src="images/maps/nova.png" width="128px" height="128px" /></div>
             <div>Nova</div>
@@ -123,12 +119,12 @@
             <div><img src="images/maps/suspended.png" width="128px" height="128px" /></div>
             <div>Suspended</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <div><img src="images/maps/tribal.png" width="128px" height="128px" /></div>
             <div>Tribal</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <div><img src="images/maps/ubik.png" width="128px" height="128px" /></div>
             <div>Ubik</div>
