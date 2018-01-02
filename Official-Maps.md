@@ -4,8 +4,8 @@
 <table>
     <tr>
         <td>
-            <div><a href="maps/Map-Error"><img src="images/maps/error.png" width="128px" height="128px" /></a></div>
-            <div><a href="maps/Map-Error">Error</a> </div>
+            <div><a href="maps/Map-Fatal-Error"><img src="images/maps/error.png" width="128px" height="128px" /></a></div>
+            <div><a href="maps/Map-Fatal-Error">Error</a></div>
         </td>
     </tr>
 </table>
@@ -141,8 +141,8 @@
 <table>
     <tr>
         <td>
-            <div><img src="images/maps/absorption.png" width="128px" height="128px" /></div>
-            <div>Absorption</div>
+            <div><a href="maps/Map-Absorption"><img src="images/maps/absorption.png" width="128px" height="128px" /></a></div>
+            <div><a href="maps/Map-Absorption">Absorption</a></div>
         </td>
         <td>
             <div><img src="images/maps/cyanide.png" width="128px" height="128px" /></div>
