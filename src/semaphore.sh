@@ -18,40 +18,53 @@ semabuild_setup() {
     return 0
 }
 
+semabuild_build() {
+    m=`echo "${4}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
+    n=`echo "${4}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
+    o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
+    if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
+        p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
+        q=`echo "${m}" | sed -e "s/[_.]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
+        echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${1}"
+        echo "---" > "${1}"
+        echo "title: ${p}" >> "${1}"
+        echo "layout: docs" >> "${1}"
+        echo "origfile: ${3}" >> "${1}"
+        echo "origtitle: ${m}" >> "${1}"
+        echo "permalink: /${2}/${q}" >> "${1}"
+        if [ "${m}" = "Home" ]; then
+            echo "redirect_from:" >> "${1}"
+            echo "  - /${2}/" >> "${1}"
+        elif [ "${m}" != "${q}" ]; then
+            echo "redirect_from:" >> "${1}"
+            echo "  - /${2}/${m}/" >> "${1}"
+            echo "  - /${2}/${m}.html" >> "${1}"
+        fi
+        echo "---" >> "${1}"
+        echo "* TOC" >> "${1}"
+        echo "{:toc}" >> "${1}"
+        sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/http:\/\/redeclipse\.net//g;s/http:\/\/www.redeclipse\.net//g" "${4}" >> "${1}"
+    fi
+}
+
 semabuild_process() {
     pushd "${SEMABUILD_PWD}" || return 1
     for i in *; do
         if [ -d "${i}" ]; then
-            if [ "${i}" != "src" ]; then
+            if [ "${i}" = "images" ]; then
                 cp -rv "${i}" "${SEMABUILD_DESTDOCS}/"
+            else
+                pushd "${i}" || return 1
+                mkdir -pv "${SEMABUILD_DESTDOCS}/${i}"
+                for j in *; do
+                    if [ ! -d "${j}" ]; then
+                        semabuild_build "${SEMABUILD_DESTDOCS}/${i}/${j}" "docs/${i}" "${i}/${j}" "${j}"
+                    fi
+                done
+                popd || return 1
             fi
         else
-            m=`echo "${i}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
-            n=`echo "${i}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
-            o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
-            if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
-                p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
-                q=`echo "${m}" | sed -e "s/[_.]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
-                echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${SEMABUILD_DESTDOCS}/${i}"
-                echo "---" > "${SEMABUILD_DESTDOCS}/${i}"
-                echo "title: ${p}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "layout: docs" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "origfile: ${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "origtitle: ${m}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "permalink: /docs/${q}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                if [ "${m}" = "Home" ]; then
-                    echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs/" >> "${SEMABUILD_DESTDOCS}/${i}"
-                elif [ "${m}" != "${q}" ]; then
-                    echo "redirect_from:" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs/${m}/" >> "${SEMABUILD_DESTDOCS}/${i}"
-                    echo "  - /docs/${m}.html" >> "${SEMABUILD_DESTDOCS}/${i}"
-                fi
-                echo "---" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "* TOC" >> "${SEMABUILD_DESTDOCS}/${i}"
-                echo "{:toc}" >> "${SEMABUILD_DESTDOCS}/${i}"
-                sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/http:\/\/redeclipse\.net//g;s/http:\/\/www.redeclipse\.net//g" "${i}" >> "${SEMABUILD_DESTDOCS}/${i}"
-            fi
+            semabuild_build "${SEMABUILD_DESTDOCS}/${i}" "docs" "${i}" "${i}"
         fi
     done
     popd || return 1
@@ -60,7 +73,13 @@ semabuild_process() {
 
 semabuild_update() {
     pushd "${SEMABUILD_DESTPWD}" || return 1
-    git add * && git commit -a -m "Build docs:${SEMAPHORE_BUILD_NUMBER} from ${REVISION}"  && git pull --rebase && git push -u origin master
+    git add * || return 1
+    for i in *; do
+        if [ -d "${i}" ] && [ "${i}" != ".git" ]; then
+            git add "${i}"/* || return 1
+        fi
+    done
+    git commit -a -m "Build docs:${SEMAPHORE_BUILD_NUMBER} from ${REVISION}"  && git pull --rebase && git push -u origin master
     popd || return 1
     return 0
 }
