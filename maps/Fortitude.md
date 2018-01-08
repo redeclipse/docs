@@ -8,7 +8,7 @@
 | **Author**                 | James 'Max Payne' Tonjes |
 | **Filename**               | fortitude                |
 | **Release Date**           | ????-??-??               |
-| **Removed in**             | 1.5.5                    |
+| **Removed in**             | 1.5.6                    |
 | **Size**                   | Small/Medium             |
 | **Complexity**             | Medium                   |
 | **Theme**                  | Futuristic               |
@@ -22,7 +22,7 @@
 
 ## Review
 
-This map is no longer included with the game. (Removed in 1.5.5)
+This map is no longer included with the game. (Removed in 1.5.6)
 
 ## Spawn Register
 

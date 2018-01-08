@@ -8,7 +8,7 @@
 | **Author**                 | Mike "mikeplus64" Ledger               |
 | **Filename**               | linear                                 |
 | **Release Date**           | 2011-02-19                             |
-| **Removed in**             | 1.5.5                                  |
+| **Removed in**             | 1.5.6                                  |
 | **Size**                   | Medium (4-8)                           |
 | **Complexity**             | Basic                                  |
 | **Theme**                  | Space                                  |
@@ -22,7 +22,7 @@
 
 ## Review
 
-This map is no longer included with the game. (Removed in 1.5.5)
+This map is no longer included with the game. (Removed in 1.5.6)
 
 ## Notes & Strategies
 

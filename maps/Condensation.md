@@ -8,7 +8,7 @@
 | **Author**                 | Unnamed                                                                |
 | **Filename**               | condensation                                                           |
 | **Release Date**           | ????-??-??                                                             |
-| **Removed in**             | 1.5.3                                                                  |
+| **Removed in**             | 1.5.4                                                                  |
 | **Size**                   | Large (16+)                                                            |
 | **Complexity**             | Intermediate                                                           |
 | **Theme**                  | N/A                                                                    |
@@ -22,7 +22,7 @@
 
 ## Review
 
-This map is no longer included with the game. (Removed in 1.5.3)
+This map is no longer included with the game. (Removed in 1.5.4)
 
 ## Notes & Strategies
 

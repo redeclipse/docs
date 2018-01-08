@@ -8,6 +8,7 @@
 | **Author**                                                | Kirill 'TristamK' Kolesnikov                             |
 | **Filename**                                              | hawk                                                     |
 | **Release Date**                                          | ????-??-??                                               |
+| **Removed in**                                            | 1.5.0                                                    |
 | **Difficulty**                                            | Easy to moderate                                         |
 | **Theme**                                                 | Space                                                    |
 | **Environmental Features**                                | N/A                                                      |
