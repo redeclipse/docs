@@ -14,6 +14,26 @@
 - **[Statistics System](Statistics-System.md)** - Information about the master server's global statistics system.
 
 ## Development
-- **[Version 2.0](Information-for-v2.0.md)** - Find out more about the upcoming v2.0 release, featuring [Tesseract](http://tesseract.gg/).
+- **[Version 2.0](Information-for-v2.0.md)** - Find out more about the upcoming **v2.0**, featuring [Tesseract](http://tesseract.gg/).
 - **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
 - **[Debugging](Debug.md)** - How to gather information for debugging.
+
+## Important Links
+- **[Downloads](http://redeclipse.net/download)** - Download the game and play it!
+- **[Account Application](http://redeclipse.net/apply)** - Apply for an account to identify yourself.
+- **[Discussion Area](http://redeclipse.net/discuss)** - Talk with your fellow players and developers.
+- **[Live Chat](http://redeclipse.net/chat)** - Join our IRC channel in `#redeclipse` on `chat.freenode.net`.
+- **[Discord Server](http://redeclipse.net/discord)** - Join our Discord Server, chats in `#re-lay` are sent to our IRC.
+- **[Facebook Messenger](http://redeclipse.net/messenger)** - Ask a quick question and we'll get back to you.
+- **[Issue Tracker](http://redeclipse.net/issues)** - The place for bug reports and approved feature requests.
+- **[Contribution Guidelines](http://redeclipse.net/contribute)** - See our rules and suggestions for contributing.
+- **[Game Statistics](http://redeclipse.net/stats)** - The place to see statistics collected by our master server.
+- **[Server List](http://redeclipse.net/servers)** - See a nice list of server and who's playing on them.
+- **[Official SubReddit](http://redeclipse.net/reddit)** - The place to share with your fellow Reddit'ors.
+- **[GameJolt Page](http://redeclipse.net/gamejolt)** - Leave us a review or use the GameJolt client to manage your game.
+- **[Facebook Page](http://redeclipse.net/facebook)** - Get social with our Facebook page and share your review of the game.
+- **[YouTube Page](http://redeclipse.net/youtube)** - The place to see Red Eclipse related videos and live streams.
+- **[GitHub Project](http://redeclipse.net/github)** - We do all our development on GitHub, so this is the place to start when developing.
+- **[Subscribe via Patreon](http://redeclipse.net/patreon)** - Pledge to our Patreon in order to help cover project costs.
+- **[Donate via PayPal](http://redeclipse.net/paypal)** - Make a one-time or recurring donation to help cover project costs.
+
