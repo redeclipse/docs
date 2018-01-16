@@ -53,7 +53,7 @@ semabuild_process() {
         if [ -d "${i}" ]; then
             if [ "${i}" = "images" ]; then
                 cp -rv "${i}" "${SEMABUILD_DESTDOCS}/"
-            else
+            elif [ "${i}" != "src" ]; then
                 pushd "${i}" || return 1
                 mkdir -pv "${SEMABUILD_DESTDOCS}/${i}"
                 for j in *; do
@@ -68,6 +68,22 @@ semabuild_process() {
         fi
     done
     popd || return 1
+    pushd "${SEMABUILD_DESTDOCS}" || return 1
+    for i in *; do
+        if [ -d "${i}" ]; then
+            if [ "${i}" != "src" ]; then
+                pushd "${i}" || return 1
+                for j in *; do
+                    if [ ! -d "${j}" ] &&  [ ! -e "${SEMABUILD_PWD}/${i}/${j}" ]; then
+                        git rm "${j}" || return 1
+                    fi
+                done
+                popd || return 1
+            fi
+        elif [ ! -e "${SEMABUILD_PWD}/${i}" ]; then
+            git rm "${i}" || return 1
+        fi
+    done
     return 0
 }
 
