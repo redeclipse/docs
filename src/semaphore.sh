@@ -32,16 +32,14 @@ semabuild_build() {
         echo "layout: docs" >> "${1}"
         echo "origfile: ${3}" >> "${1}"
         echo "origtitle: ${m}" >> "${1}"
-        echo "permalink: /${2}/${q}" >> "${1}"
+        echo "permalink: /${2}/${q}/" >> "${1}"
         SEMABUILD_REDIRECT="0"
         if [ "${m}" = "Home" ]; then
             echo "redirect_from:" >> "${1}"
-            echo "  - /${2}" >> "${1}"
             echo "  - /${2}/" >> "${1}"
             SEMABUILD_REDIRECT="1"
         elif [ "${m}" != "${q}" ]; then
             echo "redirect_from:" >> "${1}"
-            echo "  - /${2}/${m}" >> "${1}"
             echo "  - /${2}/${m}/" >> "${1}"
             SEMABUILD_REDIRECT="1"
         fi
@@ -49,7 +47,6 @@ semabuild_build() {
             if [ "${SEMABUILD_REDIRECT}" = "0" ]; then
                 echo "redirect_from:" >> "${1}"
             fi
-            echo "  - /${2}/${r}" >> "${1}"
             echo "  - /${2}/${r}/" >> "${1}"
         fi
         echo "---" >> "${1}"
