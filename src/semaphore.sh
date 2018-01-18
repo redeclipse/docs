@@ -36,7 +36,8 @@ semabuild_build() {
         SEMABUILD_REDIRECT="0"
         if [ "${m}" = "Home" ]; then
             echo "redirect_from:" >> "${1}"
-            echo "  - /${2}" >> "${1}"
+            echo "  - /${2}/" >> "${1}"
+            echo "  - /${2}/Main_Page" >> "${1}"
             SEMABUILD_REDIRECT="1"
         elif [ "${m}" != "${q}" ]; then
             echo "redirect_from:" >> "${1}"
