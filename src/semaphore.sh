@@ -82,7 +82,7 @@ semabuild_process() {
     pushd "${SEMABUILD_DESTDOCS}" || return 1
     for i in *; do
         if [ -d "${i}" ]; then
-            if [ "${i}" != "src" ]; then
+            if [ "${i}" != "src" ] && [ "${i}" != "bits" ]; then
                 pushd "${i}" || return 1
                 for j in *; do
                     if [ ! -d "${j}" ] &&  [ ! -e "${SEMABUILD_PWD}/${i}/${j}" ]; then
