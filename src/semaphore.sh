@@ -102,7 +102,7 @@ semabuild_update() {
     pushd "${SEMABUILD_DESTPWD}" || return 1
     git add * || return 1
     for i in *; do
-        if [ -d "${i}" ] && [ "${i}" != ".git" ]; then
+        if [ -d "${i}" ] && [ "${i}" != ".git" ] && [ "${i}" != "bits" ]; then
             git add "${i}"/* || return 1
         fi
     done
