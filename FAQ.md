@@ -40,7 +40,7 @@ Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open So
 Apart from this wiki, and playing on the game servers, you can:
 
 - Participate in the game [discussions](http://redeclipse.net/discuss).
-- Connect to [irc.freenode.net](irc://irc.freenode.net.md) IRC network, and join \#redeclipse channel or use the [WebChat](http://redeclipse.net/chat)
+- Connect to [irc.freenode.net](irc://irc.freenode.net) IRC network, and join \#redeclipse channel or use the [WebChat](http://redeclipse.net/chat)
 
 ## Where do I find screenshots, logs and other user data?
 

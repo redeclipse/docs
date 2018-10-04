@@ -54,7 +54,18 @@ semabuild_build() {
         echo "---" >> "${1}"
         echo "* TOC" >> "${1}"
         echo "{:toc}" >> "${1}"
-        sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/http:\/\/redeclipse\.net//g;s/http:\/\/www.redeclipse\.net//g" "${4}" >> "${1}"
+        c=`cat "${4}"`
+        f=`echo "${c}" | sed -e "s/)/)\n/g" | grep "\[.*\]\([^:]*.md\)" | sed -e "s/.*\[\([^]]*\)\](\([^):]*\))$/\2/;s/^\([^#]*\)#.*$/\1/" | sort | uniq`
+        for d in ${f}; do
+            echo -n "LINK CHECK: ${d} .. "
+            if [ -n "${d}" ] && [ ! -e "${d}" ]; then
+                c=`echo "${c}" | sed -e "s/\[\([^]]*\)\](${d})/~~\[\1\](${d})~~/g"`
+                echo "NOT FOUND!"
+            else
+                echo "found."
+            fi
+        done
+        echo "${c}" | sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/http:\/\/redeclipse\.net//g;s/http:\/\/www.redeclipse\.net//g" >> "${1}"
     fi
 }
 
