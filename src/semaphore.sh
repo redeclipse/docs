@@ -24,7 +24,7 @@ semabuild_build() {
     o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
     if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
         p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
-        q=`echo "${m}" | sed -e "s/[_.]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
+        q=`echo "${m}" | sed -e "s/[_]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
         r=`echo "${q}" | sed -e "s/-/_/g"`
         echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${1}"
         echo "---" > "${1}"
