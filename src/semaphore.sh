@@ -1,7 +1,7 @@
 #! /bin/bash
 
 SEMABUILD_PWD=`pwd`
-SEMABUILD_DEST="https://${GITHUB_TOKEN}:x-oauth-basic@github.com/red-eclipse/red-eclipse.github.io.git"
+SEMABUILD_DEST="https://${GITHUB_TOKEN}:x-oauth-basic@github.com/redeclipse/redeclipse.github.io.git"
 SEMABUILD_DESTNAME="www"
 SEMABUILD_DESTPWD="${HOME}/${SEMABUILD_DESTNAME}"
 SEMABUILD_DESTDOCS="${SEMABUILD_DESTPWD}/docs"
