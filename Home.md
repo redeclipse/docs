@@ -23,7 +23,6 @@
 - **[Downloads](http://redeclipse.net/download)** - Download the game and play it!
 - **[Account Application](http://redeclipse.net/apply)** - Apply for an account to identify yourself.
 - **[Discussion Area](http://redeclipse.net/discuss)** - Talk with your fellow players and developers.
-- **[Live Chat](http://redeclipse.net/chat)** - Join our IRC channel in `#redeclipse` on `chat.freenode.net`.
 - **[Discord Server](http://redeclipse.net/discord)** - Join our Discord Server, chats in `#re-lay` are sent to our IRC.
 - **[Facebook Messenger](http://redeclipse.net/messenger)** - Ask a quick question and we'll get back to you.
 - **[Issue Tracker](http://redeclipse.net/issues)** - The place for bug reports and approved feature requests.
