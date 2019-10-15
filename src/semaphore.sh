@@ -19,8 +19,8 @@ semabuild_setup() {
 }
 
 semabuild_build() {
-    m=`echo "${4}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
-    n=`echo "${4}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
+    m=`echo "${2}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
+    n=`echo "${2}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
     o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
     if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
         p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
@@ -30,26 +30,26 @@ semabuild_build() {
         echo "---" > "${1}"
         echo "title: ${p}" >> "${1}"
         echo "layout: docs" >> "${1}"
-        echo "origfile: ${3}" >> "${1}"
+        echo "origfile: ${2}" >> "${1}"
         echo "origtitle: ${m}" >> "${1}"
-        echo "permalink: /${2}/${q}" >> "${1}"
+        echo "permalink: /docs/${q}" >> "${1}"
         SEMABUILD_REDIRECT="0"
         echo "redirect_from:" >> "${1}"
         if [ "${m}" = "Home" ]; then
-            echo "  - /${2}/" >> "${1}"
-            echo "  - /${2}/Main_Page/" >> "${1}"
+            echo "  - /docs/" >> "${1}"
+            echo "  - /docs/Main_Page/" >> "${1}"
             echo "  - /wiki/Main_Page/" >> "${1}"
         elif [ "${m}" != "${q}" ]; then
-            echo "  - /${2}/${m}/" >> "${1}"
+            echo "  - /docs/${m}/" >> "${1}"
         fi
         if [ "${q}" != "${r}" ]; then
-            echo "  - /${2}/${r}/" >> "${1}"
+            echo "  - /docs/${r}/" >> "${1}"
         fi
         echo "  - /wiki/${r}/" >> "${1}"
         echo "---" >> "${1}"
         echo "* TOC" >> "${1}"
         echo "{:toc}" >> "${1}"
-        c=`cat "${4}"`
+        c=`cat "${3}"`
         f=`echo "${c}" | sed -e "s/)/)\n/g" | grep "\[.*\]\([^:]*.md\)" | sed -e "s/.*\[\([^]]*\)\](\([^):]*\))$/\2/;s/^\([^#]*\)#.*$/\1/" | sort | uniq`
         for d in ${f}; do
             echo -n "LINK CHECK: ${d} .. "
@@ -75,13 +75,13 @@ semabuild_process() {
                 mkdir -pv "${SEMABUILD_DESTDOCS}/${i}"
                 for j in *; do
                     if [ ! -d "${j}" ]; then
-                        semabuild_build "${SEMABUILD_DESTDOCS}/${i}/${j}" "docs/${i}" "${i}/${j}" "${j}"
+                        semabuild_build "${SEMABUILD_DESTDOCS}/${i}/${j}" "${i}/${j}" "${j}"
                     fi
                 done
                 popd || return 1
             fi
         else
-            semabuild_build "${SEMABUILD_DESTDOCS}/${i}" "docs" "${i}" "${i}"
+            semabuild_build "${SEMABUILD_DESTDOCS}/${i}" "${i}" "${i}"
         fi
     done
     popd || return 1
