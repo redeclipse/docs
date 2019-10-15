@@ -34,26 +34,18 @@ semabuild_build() {
         echo "origtitle: ${m}" >> "${1}"
         echo "permalink: /${2}/${q}" >> "${1}"
         SEMABUILD_REDIRECT="0"
+        echo "redirect_from:" >> "${1}"
         if [ "${m}" = "Home" ]; then
-            echo "redirect_from:" >> "${1}"
             echo "  - /${2}/" >> "${1}"
             echo "  - /${2}/Main_Page/" >> "${1}"
             echo "  - /wiki/Main_Page/" >> "${1}"
-            SEMABUILD_REDIRECT="1"
         elif [ "${m}" != "${q}" ]; then
-            echo "redirect_from:" >> "${1}"
             echo "  - /${2}/${m}/" >> "${1}"
-            echo "  - /wiki/${m}/" >> "${1}"
-            SEMABUILD_REDIRECT="1"
         fi
         if [ "${q}" != "${r}" ]; then
-            if [ "${SEMABUILD_REDIRECT}" = "0" ]; then
-                echo "redirect_from:" >> "${1}"
-                SEMABUILD_REDIRECT="1"
-            fi
             echo "  - /${2}/${r}/" >> "${1}"
-            echo "  - /wiki/${r}/" >> "${1}"
         fi
+        echo "  - /wiki/${r}/" >> "${1}"
         echo "---" >> "${1}"
         echo "* TOC" >> "${1}"
         echo "{:toc}" >> "${1}"
