@@ -41,6 +41,7 @@ semabuild_build() {
         if [ "${m}" = "Home" ]; then
             echo "  - /docs/" >> "${1}"
             echo "  - /docs/Main_Page/" >> "${1}"
+            echo "  - /wiki/"
             echo "  - /wiki/Main_Page/" >> "${1}"
         elif [ "${m}" != "${q}" ]; then
             echo "  - /docs/${m}/" >> "${1}"
