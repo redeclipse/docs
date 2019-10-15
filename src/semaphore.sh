@@ -26,12 +26,15 @@ semabuild_build() {
         p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
         q=`echo "${m}" | sed -e "s/[_]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
         r=`echo "${q}" | sed -e "s/-/_/g"`
+        s=`echo "${p}" | sed -e "s/\/: /g"`
+        t="$(echo "${s:0:1}" | tr '[:lower:]' '[:upper:]')${s:1}"
+        u=`echo "${m}" | cut -d"/" -f2-`
         echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${1}"
         echo "---" > "${1}"
-        echo "title: ${p}" >> "${1}"
+        echo "title: ${t}" >> "${1}"
         echo "layout: docs" >> "${1}"
         echo "origfile: ${2}" >> "${1}"
-        echo "origtitle: ${m}" >> "${1}"
+        echo "origtitle: ${u}" >> "${1}"
         echo "permalink: /docs/${q}" >> "${1}"
         SEMABUILD_REDIRECT="0"
         echo "redirect_from:" >> "${1}"
