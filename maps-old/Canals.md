@@ -1,4 +1,4 @@
-<img style='border:5px solid #ffe0e0e0' src="../images/maps/canals.png" width="256px" />
+<img style='border:5px solid #ffe0e0e0' src="../images/maps-old/canals.png" width="256px" />
 
 ## Information
 

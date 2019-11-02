@@ -1,4 +1,4 @@
-<img style='border:5px solid #ffe0e0e0' src="../images/maps/linear.png" width="256px" />
+<img style='border:5px solid #ffe0e0e0' src="../images/maps-old/linear.png" width="256px" />
 
 ## Information
 

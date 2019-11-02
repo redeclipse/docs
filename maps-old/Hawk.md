@@ -1,4 +1,4 @@
-<img style='border:5px solid #ffe0e0e0' src="../images/maps/hawk.png" width="256px" />
+<img style='border:5px solid #ffe0e0e0' src="../images/maps-old/hawk.png" width="256px" />
 
 ## Information
 
@@ -13,8 +13,8 @@
 | **Theme**                                                 | Space                                                    |
 | **Environmental Features**                                | N/A                                                      |
 | **Day/Night**                                             | ✔/✖                                                     |
-| **Top Time**                                              | [00:20.985s](http://play.redeclipse.net:28700/maps/hawk) |
-| **Top Time (Endurance)**                                  | [00:18.927s](http://play.redeclipse.net:28700/maps/hawk) |
+| **Top Time**                                              | [00:20.985s](http://play.redeclipse.net:28700/maps-old/hawk) |
+| **Top Time (Endurance)**                                  | [00:18.927s](http://play.redeclipse.net:28700/maps-old/hawk) |
 | **Checkpoints**                                           | 6                                                        |
 | **Recorded Routes**                                       | 0                                                        |
 | **Lights**                                                | 0                                                        |

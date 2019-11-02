@@ -1,4 +1,4 @@
-<img style='border:5px solid #ffe0e0e0' src="../images/maps/absorption.png" width="256px" />
+<img style='border:5px solid #ffe0e0e0' src="../images/maps-old/absorption.png" width="256px" />
 
 ## Information
 
@@ -12,8 +12,6 @@
 | **Theme**                                                 | Futuristic                                                     |
 | **Environmental Features**                                | N/A                                                            |
 | **Day/Night**                                             | ✔/✖                                                           |
-| **Top Time**                                              | [00:42.273s](http://play.redeclipse.net:28700/maps/absorption) |
-| **Top Time (Endurance)**                                  | [??:??.???s](http://play.redeclipse.net:28700/maps/absorption) |
 | **Checkpoints**                                           | 8                                                              |
 | **Recorded Routes**                                       | 2                                                              |
 | **Lights**                                                | 198                                                            |
