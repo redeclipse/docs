@@ -29,7 +29,7 @@
     <tr>
         <td>
             <div><a href="maps/Fortitude"><img src="images/maps/fortitude/fortitude.png" width="128px" height="128px" /></a></div>
-            <div><a href="maps/Fortitude">fortitude</a></div>
+            <div><a href="maps/Fortitude">Fortitude</a></div>
         </td>
         <td>
             <div><a href="maps/Rift"><img src="images/maps/rift/rift.png" width="128px" height="128px" /></a></div>
