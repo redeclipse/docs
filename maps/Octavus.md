@@ -17,7 +17,7 @@
 | **Lights**                 | 256                                                  |
 | **Entities**               | 491                                                  |
 | **Vertices**               | 85k                                                  |
-| **Triangles**              | 109k                                                 |
+| **Triangles**              | 110k                                                 |
 | **Vslots**                 | 130                                                  |
 | **Recommend Modes**        | CTF, TDM                                             |
 
