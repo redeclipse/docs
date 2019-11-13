@@ -7,7 +7,7 @@
 - **[Learn about the Weapons](Weapons-Guide.md)** - Each weapon is unique, learn the pros and cons.
 - **[Tips and Tricks for using Parkour](Parkour-Guide.md)** - Everyone loves running on walls, but there's more to learn.
 - **[Privilege Levels](Privileges.md)** - What those icons next to player names are all about.
-- **[Official Maps](Official-Maps.md)** - Descriptions and recommendations for the included levels
+- **[Official Maps](Official-Maps.md)** - Descriptions and recommendations for the included levels.
 
 ## Server Administration
 - **[Server Setup](Server-Setup.md)** - How to configure and run a Red Eclipse server.
@@ -17,6 +17,7 @@
 ## Development
 - **[Version 2.0](Information-for-v2.md)** - Find out more about the upcoming **v2.0**, featuring [Tesseract](http://tesseract.gg/).
 - **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
+- **[Core Principles](Core-Principles.md)** - Some of the ideas that shape how Red Eclipse 2 as a game is designed.
 - **[Debugging](Debug.md)** - How to gather information for debugging.
 
 ## Important Links
