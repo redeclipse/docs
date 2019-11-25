@@ -14,7 +14,7 @@
 | **Theme**                  | Skyscrapers                          |
 | **Environmental Features** | Rain                                 |
 | **Day/Night**              | ✔/✔                                  |
-| **Lights**                 | 133                                  |
+| **Lights**                 | 139 (39/106/121)                     |
 | **Entities**               | 344                                  |
 | **Vertices**               | 102k                                 |
 | **Triangles**              | 122k                                 |
