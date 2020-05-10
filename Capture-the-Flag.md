@@ -1,4 +1,3 @@
-## Capture-the-Flag
 
 | Icon | Mode description |
 |-|-|
