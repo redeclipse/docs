@@ -1,4 +1,3 @@
-## Bomber Ball
 
 | Icon | Mode description                                                                                                                                                                                                                                                                               |
 |-|-|
