@@ -1,4 +1,3 @@
-## Parkour Guide
 
 *Red Eclipse 2* features a parkour system, that allows you to navigate maps in many different ways.
 
