@@ -14,6 +14,10 @@
 - **[Administration Guide](Admin-Guide.md)** - How to manage and moderate a server.
 - **[Statistics System](Statistics-System.md)** - Information about the master server's global statistics system.
 
+## Map Editing
+- **[Editing Basics](Editing-Basics.md)** - Learn how to start making your own maps in Red Eclipse. 
+- **[Editing Reference](Editing-Reference.md)** - A detailed explanation of the available editor features.
+
 ## Development
 - **[Version 2.0](Information-for-v2.md)** - Find out more about the upcoming **v2.0**, featuring [Tesseract](http://tesseract.gg/).
 - **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
