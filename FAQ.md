@@ -110,7 +110,7 @@ For frequently used abbreviations and player slang, see [glossary](Glossary.md).
 
 ## What are those symbols near player names?
 
-These are the [privileges](Privileges.md) or ranks of registered players. You can request your own player account on <http://redeclipse.net/apply>
+These are the [privileges](Privileges.md) or ranks of registered players. You can request your own player account [here](http://redeclipse.net/apply).
 
 ## Why is there a timer when I get killed?
 
