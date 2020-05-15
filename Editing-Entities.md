@@ -12,8 +12,13 @@ An actor entity, can allow you to select specific weapons / personality of the a
 
 Affinities are entities that set the positional location of flags, capture points, bomberball spawns,  etc. 
 
-## Checkpoint
+## Camera
 
+`/newent camera`
+
+These entities are used when spectating with spectv. These can be [linked](Editing-Linking.md) to [rails](#rails) to allow them to move around.
+
+## Checkpoint
 
 `/newent checkpoint`
 
@@ -41,7 +46,7 @@ The `light` entity is used to add point lights. They can be configured with the 
 
 `/newent lightfx`
 
-An entity that can linked to `light` entities, to apply additional effects such as a spotlight. When linked to a light entity, the light entity takes on the additional properties of the `lightfx`. See [links](Editing-Links.md) for more information on how to link these together.
+An entity that can linked to `light` entities, to apply additional effects such as a spotlight. When linked to a light entity, the light entity takes on the additional properties of the `lightfx`. See [links](Editing-Linking.md) for more information on how to link these together.
 
 ## Mapmodel
 
@@ -71,7 +76,7 @@ A pusher entity gives you a push in the direction specified. These can be used f
 
 `/newent rail`
 
-Rails are a new feature in the development branch. Entities can be [linked](Editing-links.md) to a rail, allowing it to move around the map. These are used to add spectv cameras to a map, or to make mapmodels/lights move around as true dynamic objects.
+Rails are a new feature in the development branch. Entities can be [linked](Editing-Linking.md) to a rail, allowing it to move around the map. These are used to add spectv cameras to a map, or to make mapmodels/lights move around as true dynamic objects.
 
 ## Route
 
@@ -85,19 +90,19 @@ These are easier to place by using `/droproute 1` similar as to how [waypoints](
 
 `/newent sound`
 
-Will play a map-specific sound so long as the player is within the radius. By default (size 0), the sound is a point source. Its volume is maximal at the entity's location, and tapers off to 0 at the radius. Radius is always defined as distance from the entity's location. Sound entities can also be [linked](Editing-links.md) to other entities, such as mapmodels (allowing you to play a sound when a door is opened).
+Will play a map-specific sound so long as the player is within the radius. By default (size 0), the sound is a point source. Its volume is maximal at the entity's location, and tapers off to 0 at the radius. Radius is always defined as distance from the entity's location. Sound entities can also be [linked](Editing-Linking.md) to other entities, such as mapmodels (allowing you to play a sound when a door is opened).
 
 ## Teleport
 
 `/newent teleport`
 
-A teleport entity does exactly what you'd expect. [Linking](Editing-links.md) two of these together will act as arrival/destination for a teleport mechanism.
+A teleport entity does exactly what you'd expect. [Linking](Editing-Linking.md) two of these together will act as arrival/destination for a teleport mechanism.
 
 ## Trigger
 
 `/newent trigger`
 
-A trigger is used to create events. For example; A proximity trigger will allow you to open a door automatically when a player enters the radius of the trigger entity. Triggers are mostly useful when [linked](Editing-links.md) to other entities.
+A trigger is used to create events. For example; A proximity trigger will allow you to open a door automatically when a player enters the radius of the trigger entity. Triggers are mostly useful when [linked](Editing-Linking.md) to other entities.
 
 ## Weapon
 
@@ -109,4 +114,4 @@ The `weapon` entity is used to place weapon spawns within a map.
 
 `/newent wind`
 
-A wind entity allows a [mapmodel](Editing-Entities#Mapmodel) with the correct vertex painting applied, to sway around with a simulated wind effect.
+A wind entity allows a [mapmodel](#mapmodel) with the correct vertex painting applied, to sway around with a simulated wind effect.
