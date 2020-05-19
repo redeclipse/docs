@@ -1,3 +1,4 @@
 - [Blendmap](Editing-Blendmap.md)
 - [Entities](Editing-Entities.md)
+- [Fxlevels](Editing-Fxlevels.md)
 - [Waypoints](Editing-Waypoints.md)
