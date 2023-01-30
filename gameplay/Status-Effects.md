@@ -23,7 +23,7 @@ Some weapons induce status ailments that inflict some damage over time and last 
 ### Shock
 <img src="images/icons/shock.png" width="48px"/>
 
-Slows down movement greatly. Deals 2 damage per second for 5.5 seconds. Caused by the <img src="images/weapons/zapper.png" width="32px"/>zapper, <img src="images/weapons/mine.png" width="32px"/>mines and specific hurt residuals.
+Slows down movement greatly. Deals 3 damage per second for 5.5 seconds. Caused by the <img src="images/weapons/zapper.png" width="32px"/>the zapper's secondary, <img src="images/weapons/mine.png" width="32px"/>mines and specific hurt residuals.
 
 ### Burn
 <img src="images/icons/burn.png" width="48px"/>
@@ -33,4 +33,4 @@ Deals 3 damage per second for 5.5 seconds. Can be negated with the secondary fir
 ### Bleed
 <img src="images/icons/bleed.png" width="48px"/>
 
-Deals 3 damage per second for 5.5 seconds. Caused by the secondary fire of the <img src="images/weapons/shotgun.png" width="32px"/>shotgun, <img src="images/weapons/sword.png" width="32px"/>sword and specific hurt residuals. 
+Deals 3 damage per second for 5.5 seconds. Caused by the secondary fire of the <img src="images/weapons/shotgun.png" width="32px"/>the shotgun's secondary, <img src="images/weapons/sword.png" width="32px"/>the sword's secondary and specific hurt residuals. 
