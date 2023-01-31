@@ -1,4 +1,4 @@
-Variables can be used to change almost everything about how the game works. Currently there is almost no documentation on the website, so as of now this page is just a really long list of variables and descriptions copied and pasted from [here](https://github.com/redeclipse/base/blob/master/config/usage.cfg) and then formatted for the website. However, we are working on sorting these into a series of pages. You can help too by clicking the "edit on GitHub" button on the top right.
+Variables can be used to change almost everything about how the game works. Currently there is almost no documentation on the website, so as of now this page is just a really long list of variables and descriptions copied and pasted from [https://github.com/redeclipse/base/blob/master/config/usage.cfg](https://github.com/redeclipse/base/blob/master/config/usage.cfg) and then formatted for the website. However, we are working on sorting these into a series of pages. You can help too by clicking the "edit on GitHub" button on the top right.
 
 ### basic gameplay commands
 "name" "sets your player's display name" "name"
