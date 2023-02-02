@@ -6,3 +6,4 @@
 *.rej
 *.bak
 *.kate-swp
+.vscode

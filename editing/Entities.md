@@ -1,219 +1,132 @@
-## Creating Entities
+## Actor
 
-An entity can be created through usage of either the menu or console commands. To create an entity, you first have to be in edit mode.
+`/newent actor`
 
--   Using the menu:
+Actor entities are used to spawn additional enemies in the *onslaught* mutator. If no actor entities are present within a map, they will default to use the `playerstart` entities instead.
 
-Open the main menu with 'ESC'. Click on the "Editing" item. Go to the third tab of the submenu, labeled "ents". You can see some entity commands and a list of all the entities on this tab. By clicking on an item in the entity list, you can create it. Once an item is clicked, a command appears where you can change properties of the entity. Confirm the creation with 'RETURN' or cancel it with 'ESC'.
+An actor entity, can allow you to select specific weapons / personality of the actor that spawns in this location.
 
--   Using console commands.
+## Affinity
 
-Open the Console with the Tilde Key (~) or Forward Slash (/) or open the chat with 'T'.
+`/newent affinity`
 
-Use the /newent command to create a new light entity. Don't forget to enter the Forward Slash (/) if you opened the chat.
+Affinities are entities that set the positional location of flags, capture points, bomberball spawns, etc.
+These are usually placed with *modebit* and *mutsbit* set to the corresponding bitwise value for specific game modes / mutators.
 
-`/newent light 300 180 180 180`
+## Camera
 
-...This will create a Light Entity with a *radius* of 300 and *Red Green and Blue Values* of 180. This will give a medium-sized white/grey light.
+`/newent camera`
 
-## Entity Properties
+These entities are used when spectating with spectv. These can be [linked](Editing-Linking.md) to [rails](#rails) to allow them to move around.
 
-Entity properties are numbers that change the behaviour of an entity. Properties can be set during creation or after creation.
+## Checkpoint
 
-To modify properties after creation, select the entity you wish to change by clicking on it. After that, either
+`/newent checkpoint`
 
--   press the Period key (.) to change properties (/entset) directly to the value you want them...
--   hold the corresponding Number Key to the parameter you wish to change while scrolling with the scroll wheel.
+The `checkpoint` entity is used to track progress in the [Race](Race.md) game mode. When a player dies during Race, they will respawn at the last checkpoint.
 
-To move an entity, left-click the face corresponding to the axis you wish to move it along and drag it to the new position.
+## Decal
 
-You can change if entities snap to the grid while moving them using:
+`/newent decal`
 
-`/entselsnap (0|1)`
+The `decal` entity is used to project a texture onto cube geometry. This allows you to add extra detail, such as stains, logos, graffiti or even animations such as raindrops.
 
-## Types of Entities
+## Envmap
 
-<table cellspacing="10" style="width:100%">
-<tr>
-<td width="174">
-actor
+`/newent envmap`
 
-</td>
-<td width="219">
-spawnpoint for an enemy type in Campaign or Onslaught mode
+Creates an environment map reflecting the geometry around the entity.  The optional radius overrides the maximum distance within which glass or geometry using the  "bumpenv*" shaders will reflect from this environment map. If none is specified, the default is taken from the variable `envmapradius` (which defaults to 128 units), which may also be set in map cfgs. Environment maps are generated on a map load, or can be regenerated whilst editing using the `recalc` command. 
 
-</td>
-</tr>
-<tr>
-<td width="174">
-affinity
+## Light
 
-</td>
-<td width="219">
-special mode objects such as Flags and Bombs
+`/newent light`
 
-</td>
-</tr>
-<tr>
-<td width="174">
-camera
+The `light` entity is used to add point lights. They can be configured with the following attributes;
 
-</td>
-<td width="219">
-camera for spectv viewing mode
+| #  | Name     | Description         |
+|----|----------|---------------------|
+| 1  | radius   | The maximum radius of light emmited by the entity
+| 2  | red      | The red channel (0-255)
+| 3  | green    | The green channel (0-255)
+| 4  | blue     | The blue channel (0-255)
+| 5  | flare    | Lens flare
+| 6  | fscale   | The scale of the lens flare
+| 7  | flags    | Additional bitwise flags for *no-shadow, static, no-specular, volumetric* effects.
+| 8  | palette  | The type of colour palette to use
+| 9  | palindex | The index of the chosen colour palette
+| 10 | variant  | Determines if the entity appears in both [map variants](Editing-Variants.md) or only one
+| 11 | fxlevel  | Determines if the entity will be rendered based on the users [map effects](Editing-Fxlevels.md) setting
 
-</td>
-</tr>
-<tr>
-<td width="174">
-checkpoint
+## Lightfx
 
-</td>
-<td width="219">
-respawn point for campaign and timetrial modes
+`/newent lightfx`
 
-</td>
-</tr>
-<tr>
-<td width="174">
-envmap
+An entity that can linked to `light` entities, to apply additional effects such as a spotlight. When linked to a light entity, the light entity takes on the additional properties of the `lightfx`. See [links](Editing-Linking.md) for more information on how to link these together.
 
-</td>
-<td width="219">
-an entity that maps a reflection inside its radius to reflective surfaces
+## Mapmodel
 
-</td>
-<tr>
-<td width="174">
-light
+`/newent mapmodel`
 
-</td>
-<td width="219">
-a spherical light max: 255 255 255
+A map model, i.e. a polygon mesh rendered as md3/md5/obj/iqm which you collide against, cast shadows etc. Mapmodels are useful for interactive objects that may require an animation, or for placing detail within a map for things that cannot be made within the octree.
 
-</td>
-</tr>
-<tr>
-<td width="174">
-lightfx
+## Particle
 
-</td>
-<td width="219">
-animates a light when linked to a light entity (see Linking Objects)
+`/newent particle`
 
-</td>
-</tr>
-<tr>
-<td width="174">
-mapmodel
+Particles allow you to add fire, rain, lasers, snow, etc.
 
-</td>
-<td width="219">
-a numbered mapmodel
+## Playerstart
 
-</td>
-</tr>
-</table>
-`Mapmodel Palette:`
-`palette is the colour type (0 = misc colours, 1 = team colours)`
-`palindex is the subset of each palette ->`
-`palette 0 = (0 = off, 1/2/3 = random pulse colours [fire/etc], 4/5/6 = linearly interpolated pulse colours)`
-`palette 1 = (0/1/2/3/4/5 = team colours neutral/alpha/omega/kappa/sigma/enemy (only in team games), 6/7/8/9/10/11 = forced team colour)`
-`colour is a specific colour you want to apply to the model (24 bit colour value, eg. 0xRRGGBB in hex)`
+`/newent playerstart`
 
-<table>
-<tr>
-<td width="174">
-particles
+Players spawn from these entities.
 
-</td>
-<td width="219">
-particles like smoke and fire
+## Pusher
 
-</td>
-<tr>
-<td width="174">
-playerstart
+`/newent pusher`
 
-</td>
-<td width="219">
-spawn point for players
+A pusher entity gives you a push in the direction specified. These can be used for creating jumppads, boosters, or even simulating wind that blows the player in a specific direction.
 
-</td>
-</tr>
-<tr>
-<td width="174">
-pusher
+## Rail
 
-</td>
-<td width="219">
-pushes a player in the direction indicated by its arrow
+`/newent rail`
 
-</td>
-</tr>
-</table>
-`Pusher Type:`
-`0 (conditional) will only apply a force if the velocity on each axis to which it is applying it to is below the amount threshold.`
-`1 (additional) will add the force to the current velocity.`
-`2 (redirectional) will take the current velocity and redirect it into the pusher direction and apply the force.`
-`3 (absolute) will simply replace the current velocity with the pusher direction and force."`
+Rails are a new feature in the development branch. Entities can be [linked](Editing-Linking.md) to a rail, allowing it to move around the map. These are used to add spectv cameras to a map, or to make mapmodels/lights move around as true dynamic objects.
 
-<table>
-<tr>
-<td width="174">
-sound
+## Route
 
-</td>
-<td width="219">
-a sound that plays when a player is within its radius
+`/newent route`
 
-</td>
-</tr>
-<tr>
-<td width="174">
-sunlight
+The `route` entities are used to add possible paths that the player can follow to complete a lap in [Race](Race.md) mode. 
 
-</td>
-<td width="219">
-creates a directional light
+These are easier to place by using `/droproute 1` similar as to how [waypoints](Editing-Waypoints.md) are placed.
 
-</td>
-</tr>
-<tr>
-<td width="174">
-teleport
+## Sound
 
-</td>
-<td width="219">
-portal. Link more than one of these to travel between them (see Linking)
+`/newent sound`
 
-</td>
-</tr>
-<tr>
-<td width="174">
-trigger
+Will play a map-specific sound so long as the player is within the radius. By default (size 0), the sound is a point source. Its volume is maximal at the entity's location, and tapers off to 0 at the radius. Radius is always defined as distance from the entity's location. Sound entities can also be [linked](Editing-Linking.md) to other entities, such as mapmodels (allowing you to play a sound when a door is opened).
 
-</td>
-<td width="219">
-triggers an other entities such as sounds and doors when a player is within its radius (see Linking)
+## Teleport
 
-</td>
-</tr>
-<tr>
-<td width="174">
-weapon
+`/newent teleport`
 
-</td>
-<td width="219">
-creates a spawn point for a weapon.
+A teleport entity does exactly what you'd expect. [Linking](Editing-Linking.md) two of these together will act as arrival/destination for a teleport mechanism.
 
-</td>
-</tr>
-</table>
-## Linking Entities
+## Trigger
 
-Some entities may be linked together.
+`/newent trigger`
 
-Sounds, Particles and LightFX can be linked to Triggers, Pushers, Teleports, Affinities, Playerstarts or Checkpoints. Triggers can control the state of linked Mapmodels (e.g. visibility, collision, door animations) or other Triggers. Furthermore, LightFX can be linked to Lights and Teleports to each other.
+A trigger is used to create events. For example; A proximity trigger will allow you to open a door automatically when a player enters the radius of the trigger entity. Triggers are mostly useful when [linked](Editing-Linking.md) to other entities.
 
-Each entity combination has a set of link modes that can be cycled through with the L key, for example to make a pair of Teleports work in either direction or both.
+## Weapon
+
+`/newent weapon`
+
+The `weapon` entity is used to place [weapon](Weapons-Guide.md) spawns within a map. 
+
+## Wind
+
+`/newent wind`
+
+A wind entity allows a [mapmodel](#mapmodel) with the correct vertex painting applied, to sway around with a simulated wind effect.

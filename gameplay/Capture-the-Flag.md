@@ -9,7 +9,7 @@
 -   A buff is also applied when carrying either your own flag, or the enemy flag.
 -   You can retrieve your own flag from the spawn area by pressing **F**, making capture for enemies more difficult.
 -   Press **F** to throw away any flags in your possession, or to pass the flag to teammates.
--   You cannot capture the opposing teams flag when your teams flag is not at any base.
+-   You cannot capture the opposing team's flag when your teams flag is not at any base.
 
 ### Mode-specific mutators
 

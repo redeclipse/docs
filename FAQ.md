@@ -126,7 +126,7 @@ In [capture](Capture-the-Flag.md) games, you can press **F** (per default) to pi
 
 ## Why are there no health pickups?
 
-In Red Eclipse, health regeneration and [impulse](Parkour-Guide.md) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
+In Red Eclipse the player regenerates health and [impulse](Parkour-Guide.md) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
 
 ## Why am I taking damage when no one is near me?
 

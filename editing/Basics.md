@@ -135,10 +135,10 @@ The *Red Eclipse Editing Encyclopedia*, found within the editing menu (press `E`
 
 ### More on map editing
 
-[Blendmaps](Editing-Blendmap.md) - Overlapping, and blend textures together.
-[Waypoints](Editing-Waypoints.md) - Letting bots navigate around the map.
+[Blendmaps](Blendmap.md) - Overlapping, and blend textures together.
+[Waypoints](Waypoints.md) - Letting bots navigate around the map.
 [Entities](Entities.md) - Managing particles, lighting, game specific objects, and more.
 [General FX](Fx.md) - General effects when map making.
 [Particle FX](Fx-Particle.md) - Using particle effects on map
 [Other FX](Fx-Other.md) - More effects to using on maps.
-[Level FX](Editing-Fxlevels.md) - How to increasing performance for users on lower settings.
+[Level FX](Fxlevels.md) - How to increasing performance for users on lower settings.

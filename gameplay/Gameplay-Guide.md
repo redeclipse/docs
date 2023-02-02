@@ -1,4 +1,4 @@
-Red Eclipse features 5 playable game modes which can be further customized through mutators. Along with the cooperative map editor and a demo viewer to playback previously recorded matches.
+Red Eclipse features 5 playable game modes which can be further customised through mutators. Along with the cooperative map editor and a demo viewer to playback previously recorded matches.
 
 ### Basic Gameplay
 Default gameplay consists of two teams placed within the level which compete against each other to score the most points within the set time limit.
@@ -9,7 +9,7 @@ In most games all players are equipped with a pistol and two of their favorite l
 
 #### Parkour
 
-Red Eclipse features a parkour system, that allows you to navigate maps with in many different ways.
+Red Eclipse features a parkour system, that allows you to navigate maps in many different ways.
 See the [main article](Parkour-Guide.md) on parkour here.
 
 #### Teams

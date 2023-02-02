@@ -70,7 +70,7 @@ For the installation and configuration steps follow the specific guides.
 1. [https://hub.docker.com/r/iceflower/redeclipse-server](https://hub.docker.com/r/iceflower/redeclipse-server)
 
 ## Configuration Files
-The configuration files are written in cubescript, lines starting with `//` are ignored. If you want to configure a setting simply remove the `//` in front of it and change it's value.
+The configuration files are written in cubescript, lines starting with `//` are ignored. If you want to configure a setting simply remove the `//` in front of it and change its value.
 
 ### servinit.cfg
 [servinit.cfg](https://raw.githubusercontent.com/redeclipse/base/stable/doc/examples/servinit.cfg) contains the configuration settings for a Red Eclipse server. As of Red Eclipse v1.4 Elara, the settings defined in `servinit.cfg` are set as the server's "default" settings, and using resetvars will simply restore the default settings, rather than re-executing `servexec.cfg`, which is now defunct and no longer used in Red Eclipse.

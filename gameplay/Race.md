@@ -5,7 +5,7 @@
 
 ### Tips & strategy
 
--   Attempt to complete the course as quickly as possible, however don't rush and get killed by at trap as there is a somewhat large respawn timer.
+-   Attempt to complete the course as quickly as possible, however don't rush and get killed by a trap as there is a somewhat large respawn timer.
 -   Turn the player opacity down in settings so your view is not obstructed, you are able to travel through player in this mode.
 
 ### Mode-specific mutators
