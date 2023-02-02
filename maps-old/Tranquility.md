@@ -5,7 +5,7 @@
 |                            |                                                     |
 |----------------------------|-----------------------------------------------------|
 | **Name**                   | Tranquility                                         |
-| **Author**                 | Derek 'Favorito' Ponicki                            |
+| **Author**                 | "Lucienne"                                          |
 | **Filename**               | tranquility                                         |
 | **Release Date**           | ????-??-??                                          |
 | **Removed in**             | 1.4.0                                               |
@@ -13,7 +13,7 @@
 | **Complexity**             | Easy                                                |
 | **Theme**                  | N/A                                                 |
 | **Environmental Features** | N/A                                                 |
-| **Day/Night**              | ✔/✖                                                 |
+| **Day/Night**              | ✔/✖                                                |
 | **Lights**                 | 71                                                  |
 | **Entities**               | 241                                                 |
 | **Vertices**               | ~29 000                                             |
