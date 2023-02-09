@@ -18,3 +18,13 @@ out
 *.orig
 *.rej
 *.bak
+*.kate-swp
+*.core
+*.diff
+*.patch
+*.out
+*.kdev*
+*.vscode*
+GPATH
+GTAGS
+GRTAGS
