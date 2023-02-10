@@ -132,3 +132,13 @@ A menu for finding available mapmodels can be shown by pressing `F6`. Scroll dow
 #### The REEE
 
 The *Red Eclipse Editing Encyclopedia*, found within the editing menu (press `E`). This menu displays an alphabetically ordered list of available commands related to editing, along with a description of usage, and the parameters each command expects.
+
+### More on map editing
+
+[Blendmaps](Blendmap.md) - Overlapping, and blend textures together.
+[Waypoints](Waypoints.md) - Letting bots navigate around the map.
+[Entities](Entities.md) - Managing particles, lighting, game specific objects, and more.
+[General FX](Fx.md) - General effects when map making.
+[Particle FX](Fx-Particle.md) - Using particle effects on map
+[Other FX](Fx-Other.md) - More effects to using on maps.
+[Level FX](Fxlevels.md) - How to increasing performance for users on lower settings.

@@ -84,7 +84,7 @@ On Windows, when Red Eclipse detects the renderer as 'GDI Generic' it will repor
 
 ## Can I contribute to the game?
 
-Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](Editing-Guide.md), art assets like models, config [scripts](Cubescript-Guide.md) like game menus, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](Contributing.md).
+Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](Editing-Basics.md), art assets like models, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](Contributing.md).
 
 ## I found a cheater, what can I do?
 
@@ -102,7 +102,7 @@ This depends on the current [mode and mutators](Modes-and-Mutators.md) of the ga
 
 ## Why is my player score negative?
 
-Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](Capture-the-Flag.md), [bombers](Bomber-ball.md) or [defenders](Defend-and-Control.md) even double this penalty. For details, see [Deathmatch Scoring](Deathmatch.md#Scoring).
+Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](Capture-the-Flag.md) or [bombers](Bomber-ball.md) even double this penalty. For details, see [Deathmatch Scoring](Deathmatch.md#Scoring).
 
 ## dm, pzap, gg - what did they just say?
 
@@ -124,9 +124,13 @@ It is easy to hit someone with a shotgun, but the weapon is really only effectiv
 
 In [capture](Capture-the-Flag.md) games, you can press **F** (per default) to pick up the flag in your own base, so the enemy cannot reach it that easily. The same button can also be used to drop a flag you carry, be it yours or the enemy's.
 
-## Why are there no ammo and health pickups?
+## Why are there no health pickups?
 
-In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and [impulse](Impulse-Guide.md) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
+In Red Eclipse the player regenerates health and [impulse](Parkour-Guide.md) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
+
+## Why am I taking damage when no one is near me?
+
+Your are under the effect of the a negative [status effect](Status-Effects.md).
 
 ## A green beeping thing obscured my vision - what the heck?
 
