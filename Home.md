@@ -1,22 +1,21 @@
-[Red Eclipse](http://redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](Parkour-Guide.md), [distinct but all potent weapons](Weapons-Guide.md), and fast paced accessible gameplay.
+[Red Eclipse](http://redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](gameplay/Parkour-Guide.md), [distinct but all potent weapons](gameplay/Weapons-Guide.md), and fast paced accessible gameplay.
 
 ## New to Red Eclipse?
 - **[Frequently Asked Questions](FAQ.md)** - See if your question is one of the ones we're asked a lot.
 - **[Installation Help](Install-Guide.md)** - If you're stuck, these are our official instructions.
-- **[Gameplay Guide](Gameplay-Guide.md)** - Want to learn how to play? This is a good start.
-- **[Learn about the Weapons](Weapons-Guide.md)** - Each weapon is unique, learn the pros and cons.
-- **[Tips and Tricks for using Parkour](Parkour-Guide.md)** - Everyone loves running on walls, but there's more to learn.
-- **[Privilege Levels](Privileges.md)** - What those icons next to player names are all about.
+- **[Gameplay Guide](gameplay/Gameplay-Guide.md)** - Want to learn how to play? This is a good start.
+- **[Learn about the Weapons](gameplay/Weapons-Guide.md)** - Each weapon is unique, learn the pros and cons.
+- **[Tips and Tricks for using Parkour](gameplay/Parkour-Guide.md)** - Everyone loves running on walls, but there's more to learn.
 - **[Official Maps](Official-Maps.md)** - Descriptions and recommendations for the included levels.
 
 ## Server Administration
-- **[Server Setup](Server-Setup.md)** - How to configure and run a Red Eclipse server.
-- **[Administration Guide](Admin-Guide.md)** - How to manage and moderate a server.
-- **[Statistics System](Statistics-System.md)** - Information about the master server's global statistics system.
+- **[Server Setup](server-how-to/Server-Setup.md)** - How to configure and run a Red Eclipse server.
+- **[Administration Guide](server-how-to/Admin-Guide.md)** - How to manage and moderate a server.
+- **[Privilege Levels](server-how-to/Privileges.md)** - What those icons next to player names are all about.
 
 ## Map Editing
-- **[Editing Basics](Editing-Basics.md)** - Learn how to start making your own maps in Red Eclipse. 
-- **[Editing Reference](Editing-Reference.md)** - A detailed explanation of the available editor features.
+- **[Editing Basics](editing/Basics.md)** - Learn how to start making your own maps in Red Eclipse.
+- **[Editing Reference](editing/Reference.md)** - A detailed explanation of the available editor features.
 
 ## Development
 - **[Version 2.0](Information-for-v2.md)** - Find out more about the upcoming **v2.0**, featuring [Tesseract](http://tesseract.gg/).
@@ -26,9 +25,8 @@
 
 ## Important Links
 - **[Downloads](http://redeclipse.net/download)** - Download the game and play it!
-- **[Account Application](http://redeclipse.net/apply)** - Apply for an account to identify yourself.
 - **[Discussion Area](http://redeclipse.net/discuss)** - Talk with your fellow players and developers.
-- **[Discord Server](http://redeclipse.net/discord)** - Join our Discord Server, chats in `#re-lay` are sent to our IRC.
+- **[Discord Server](http://redeclipse.net/discord)** - Join our Discord Server and hang out with the community.
 - **[Facebook Messenger](http://redeclipse.net/messenger)** - Ask a quick question and we'll get back to you.
 - **[Issue Tracker](http://redeclipse.net/issues)** - The place for bug reports and approved feature requests.
 - **[Contribution Guidelines](http://redeclipse.net/contribute)** - See our rules and suggestions for contributing.
