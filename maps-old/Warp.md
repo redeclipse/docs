@@ -5,7 +5,7 @@
 |                            |                                           |
 |----------------------------|-------------------------------------------|
 | **Name**                   | Warp                                      |
-| **Author**                 | Derek "JoJo" Stegall and "Lucienne"       |
+| **Author**                 | Derek "JoJo" Stegall                      |
 | **Filename**               | warp                                      |
 | **Release Date**           | 2010-06-03                                |
 | **Removed in**             | 1.5.0                                     |
