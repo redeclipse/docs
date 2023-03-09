@@ -58,7 +58,8 @@ semabuild_build() {
         for d in ${f}; do
             echo -n "LINK CHECK: ${d} .. "
             if [ -n "${d}" ] && [ ! -e "${d}" ]; then
-                c=`echo "${c}" | sed -e "s/\[\([^]]*\)\](${d})/~~\[\1\](${d})~~/g"`
+                e="${d//\//\\\/}"
+                c=`echo "${c}" | sed -e "s/\[\([^]]*\)\](${e})/~~\[\1\](${e})~~/g"`
                 echo "NOT FOUND!"
             else
                 echo "found."
