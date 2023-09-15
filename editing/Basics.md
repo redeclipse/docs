@@ -142,3 +142,4 @@ The *Red Eclipse Editing Encyclopedia*, found within the editing menu (press `E`
 [Particle FX](Fx-Particle.md) - Using particle effects on map
 [Other FX](Fx-Other.md) - More effects to using on maps.
 [Level FX](Fxlevels.md) - How to increasing performance for users on lower settings.
+[Models](Models.md) - How to import 3D models for use in redeclipse
