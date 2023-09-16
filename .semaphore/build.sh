@@ -5,7 +5,6 @@ SEMABUILD_DEST="https://${GITHUB_TOKEN}:x-oauth-basic@github.com/redeclipse/rede
 SEMABUILD_DESTNAME="www"
 SEMABUILD_DESTPWD="${HOME}/${SEMABUILD_DESTNAME}"
 SEMABUILD_DESTDOCS="${SEMABUILD_DESTPWD}/docs"
-SEMABUILD_DEPLOY="false"
 
 semabuild_setup() {
     echo "setting up ${SEMAPHORE_GIT_BRANCH}.."

@@ -20,7 +20,7 @@
 ## Development
 - **[Version 2.0](Information-for-v2.md)** - Find out more about the upcoming **v2.0**, featuring [Tesseract](http://tesseract.gg/).
 - **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
-- **[Core Principles](Core-Principles.md)** - Some of the ideas that shape how Red Eclipse 2 as a game is designed.
+- **[Core Principles](Core-Principles.md)** - Some of the ideas that shape how Red Eclipse as a game is designed.
 - **[Debugging](Debug.md)** - How to gather information for debugging.
 
 ## Important Links

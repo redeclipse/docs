@@ -1,5 +1,5 @@
 
-The core principles for how RE2 gameplay is designed. This does not cover the specific gameplay choices of the game, but instead is focused on the parameters the game has been attempted to be balanced upon. Red Eclipse 2's gameplay is not a unique solution to these parameters, but explaining what kinds of thoughts led to these decisions.
+The core principles for how RE2 gameplay is designed. This does not cover the specific gameplay choices of the game, but instead is focused on the parameters the game has been attempted to be balanced upon. Red Eclipse's gameplay is not a unique solution to these parameters, but explaining what kinds of thoughts led to these decisions.
 
 * This is a free game. All the engine code, the UI design and implementation, the maps, the assets, and the gameplay is made by volunteers.
     - Wanton complaining about how you dislike the game is akin to walking into a soup kitchen and yelling at the volunteer cook.
