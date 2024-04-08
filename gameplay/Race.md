@@ -1,7 +1,7 @@
 
 | Icon | Mode description |
 |-|-|
-| <img src="images/modes/race.png" width="64px"/>| Compete in a race for the most number of laps, carefully managing your limited impulse and executing various [parkour moves](Parkour-Guide.md).
+| <img src="../images/modes/race.png" width="64px"/>| Compete for the fastest time completing a lap. The number of laps does not matter.
 
 ### Tips & strategy
 
@@ -12,6 +12,6 @@
 
 | Icon | Mutator | Description |
 |-|-|-|
-| <img src="images/modes/racetimed.png" width="64px"/>     | **Timed**     | Compete for the fastest time completing a lap. The number of laps does not matter.                                                                                                          |
-| <img src="images/modes/raceendurance.png" width="64px"/> | **Endurance** | Disables impulse restoration on checkpoints and when respawning. Also slows down impulse recovery, so plan your route carefully.                                                            |
-| <img src="images/modes/racegauntlet.png" width="64px"/>  | **Gauntlet**  | One team (blue/Alpha) races to reach the goal and score points, while the other team (red/Omega) tries to shoot them before they can get there. Teams switch off halfway through the match. |
+| <img src="../images/modes/racelapped.png" width="64px"/>     | **Lapped**     | Compete in a race for the most number of laps, carefully managing your limited impulse and executing various [parkour moves](Parkour-Guide.md).                                     |
+| <img src="../images/modes/raceendurance.png" width="64px"/> | **Endurance** | Disables impulse restoration on checkpoints and when respawning. Also slows down impulse recovery, so plan your route carefully.                                                            |
+| <img src="../images/modes/racegauntlet.png" width="64px"/>  | **Gauntlet**  | One team (blue/Alpha) races to reach the goal and score points, while the other team (red/Omega) tries to shoot them before they can get there. Teams switch off halfway through the match. |
