@@ -1,7 +1,7 @@
 
 | Icon | Mode description |
 |-|-|
-| <img src="images/modes/deathmatch.png" width="128px"/> | Battle it out, highest score wins. |
+| <img src="../images/modes/deathmatch.png" width="128px"/> | Battle it out, highest score wins. |
 
 ### Tips & strategy
 
@@ -13,5 +13,5 @@
 
 | Icon | Mutator | Description |
 |-|-|-|
-| <img src="images/modes/gladiator.png" title="gladiator.png" alt="gladiator.png" width="64" /> | **Gladiator** | Fight in a confined area with increased pushback from damage. |
-| <img src="images/modes/oldschool.png" title="oldschool.png" alt="oldschool.png" width="64" /> | **Old School** | Secure the most number of frags instead of points. |
+| <img src="../images/modes/gladiator.png" title="gladiator.png" alt="gladiator.png" width="64" /> | **Gladiator** | Fight in a confined area with increased pushback from damage. |
+| <img src="../images/modes/oldschool.png" title="oldschool.png" alt="oldschool.png" width="64" /> | **Old School** | Secure the most number of frags instead of points. |
