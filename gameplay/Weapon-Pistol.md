@@ -28,8 +28,6 @@ Are there any interesting things that can be said about this gun? You kinda have
 
 ### Strengths & Weaknesses
 
-**Strong against:**
-None.
+**Strong against:** <br/>None.
 
-**Weak against:**
-None.
+**Weak against:** <br/>None.
