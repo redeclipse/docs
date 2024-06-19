@@ -1,3 +1,5 @@
+*NOTE: This guide is up-to-date with version 2.0.9-9 of Red Eclipse.*
+
 In most games, all players are equipped with a pistol and two loadout weapons that can be chosen in the Player Setup menu. Furthermore, explosive weapons can be collected in the arena, such as grenades and mines, to bolster their offensive abilities.
 
 Click on one of these weapons to read more about them in detail, or continue onwards for more general information:
@@ -5,11 +7,11 @@ Click on one of these weapons to read more about them in detail, or continue onw
 | | | | |
 |:-------:|:-------:|:-------:|:-------:|
 | **Sidearm Pistol** | **Energy Sword** | **Super Shotgun** | **Submachine Gun** |
-| [<img src="../images/weapons/pistol.png" width="128px"/>](Weapon-Pistol.md) | [<img src="../images/weapons/sword.png" width="128px"/>](Weapon-Sword.md) | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/shotgun.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/smg.png" width="128px"/></a> |
+| [<img src="../images/weapons/pistol.png" width="128px"/>](Weapon-Pistol.md) | [<img src="../images/weapons/sword.png" width="128px"/>](Weapon-Sword.md) | [<img src="../images/weapons/shotgun.png" width="128px"/>](Weapon-Shotgun.md) | [<img src="../images/weapons/smg.png" width="128px"/>](Weapon-Smg.md) |
 | **Flame Thrower** | **Plasma Inductor** | **Electro Zapper** | **Laser Rifle** |
-| <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/flamer.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/plasma.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/zapper.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/rifle.png" width="128px"/></a> |
+| [<img src="../images/weapons/flamer.png" width="128px"/>](Weapon-Flamer.md) | [<img src="../images/weapons/plasma.png" width="128px"/>](Weapon-Plasma.md) | [<img src="../images/weapons/zapper.png" width="128px"/>](Weapon-Zapper.md) | [<img src="../images/weapons/rifle.png" width="128px"/>](Weapon-Rifle.md) |
 | **Corrosion Cannon** | **Frag Grenade** | **Shock Mine** | **Rocket Launcher** |
-| <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/corroder.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/grenade.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/mine.png" width="128px"/></a> | <a href="https://jekyllrb.com/docs/home/"><img src="../images/weapons/rocket.png" width="128px"/></a> |
+| [<img src="../images/weapons/corroder.png" width="128px"/>](Weapon-Corroder.md) | [<img src="../images/weapons/grenade.png" width="128px"/>](Weapon-Grenade.md) | [<img src="../images/weapons/mine.png" width="128px"/>](Weapon-Mine.md) | [<img src="../images/weapons/rocket.png" width="128px"/>](Weapon-Rocket.md) |
 
 These weapons have been given ratings in different categories so that you can judge certain traits that a weapon has.
 - *Utility ratings* determine how versatile a weapon is in regards to its predominant use strategy. This can extend to more creative ways of using the weapon, or any additional benefits it may provide. A weapon with limited utility isn't bad - it will mostly do one thing it's intended to do.
