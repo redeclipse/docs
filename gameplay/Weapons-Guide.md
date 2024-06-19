@@ -43,6 +43,8 @@ From easiest to hardest, here are the weapons you can master in Red Eclipse:
 
 ### Weapon weight
 
+*NOTE: This specific part of the guide is NOT up-to-date with Red Eclipse 2.0.9-9. Please wait patiently.*
+
 Each weapon has a different weight. In general, the heavier the weapon, the more powerful it is, but you will move slower than other players who use lighter weapons. Here are some info you want to know:
 - Claw, Pistol and Sword: 0 units
 - Shotgun: 5 units
