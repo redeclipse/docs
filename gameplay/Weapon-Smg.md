@@ -2,7 +2,7 @@
 
 [Click here to return to the main page.](Weapons-Guide.md)
 
-<img src="../images/weapons/sword.png" width="256px"/>
+<img src="../images/weapons/smg.png" width="256px"/>
 
 | Utility | Power | Difficulty |
 |---------------|---------------|----------------|
