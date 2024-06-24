@@ -28,6 +28,10 @@ Important to note down is that blobs, just like plasma projectiles, have a "graz
 
 With this weapon, the first important thing to understand is that you want to reduce collateral damage caused to your teammates while using it. In FFA, you can just keep firing at everyone and somebody will eventually run into your missed projectile, but in team game modes, at least think a little where you're firing the alt fire. If you absolutely must, you can fire it in your base to try and attempt somebody stealing your flag or to protect said flag from getting captured, but friendly players or bots might later step on these and you may teamkill them, so it's a little better to use the primary in this case. Spraying mines around an enemy's base, however, is a good idea, since it's an investment for the future. Getting up close is not so bad with this gun, either. Another good thing to remember is that both the primary and alt fire are gravitized, so on low gravity maps, their effective range extends somewhat.
 
+### Counterplay
+
+The Corroder lacks projectile speed, which is the main weakness of this weapon. It's hard to hit with the primary already as it is - spare for point-blank ranges - while the secondary is even slower and very easy to see coming. Attacks at long range or quick hit-and-run tactics can be particularly frustrating for Corroder users because of that. Another problem regarding this weapon is that its alt-fire projectiles can be shot down even mid-flight, which you can exploit with rapid-fire weapons (provided you aim directly at the blobs they fire). Do not let them play with you at their desired range. Finally, open spaces are ever so slightly more undesirable for this weapon due to its minelaying capabilities - the more room their enemy has to move, the less likely they will accidentally step on a mine lying on the floor and the easier it is to dodge the plodding projectiles. Try to force them out in the open and see how it goes.
+
 ### Strengths & Weaknesses
 
 **Strong against:**
