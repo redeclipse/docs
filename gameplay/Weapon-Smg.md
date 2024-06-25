@@ -22,7 +22,11 @@ Alt fire is very finicky and funky. It fires a big bullet that costs 3 ammo, als
 
 ### Tips
 
-Utilize the ricochet mechanic when you see an opportunity, it's there for a reason. It helps a ton when you can't afford to peek your head out, or when somebody is running behind a corner and thinks they're safe. But other than that, there is not much else to suggest with this weapon - it's just very good at what it does, which is kill people at medium ranges.
+Utilize the ricochet mechanic when you see an opportunity, it's there for a reason. It helps a ton when you can't afford to peek your head out, or when somebody is running behind a corner and thinks they're safe. But other than that, there is not much else to suggest with this weapon - it's just very good at what it does, which is killing people at medium ranges.
+
+### Counterplay
+
+A height advantage over an SMG user can be quite helpful in the heat of battle, more than against most weapons, since now their ricochets won't so easily hit you and they'll have to rely more on good aim to destroy you. On the contrary, you can stay near the ground and attempt to get them to hit themselves with their own projectiles, but this is neither that easy to accomplish, nor very practical. Being a generalist weapon, it is hard to pinpoint exactly what game plan an SMG user will adopt, so most of your "counter" play will boil down to simply playing the game.
 
 ### Strengths & Weaknesses
 
