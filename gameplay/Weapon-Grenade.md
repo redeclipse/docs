@@ -26,6 +26,9 @@ Both fire modes throw the exact same lightly-gravitized projectile that lobs and
 
 Cooking nades works with either fire mode. It takes eight "pings" (about 4 seconds) emitted by the nade for it to explode, so you have a rather generous amount of time to kill somebody with it, which is both good if you want to do a precise short-range throw, and bad if you need to urgently kill the enemy. Two interesting grenade things: one, they can be shot off from the air. This makes it a bad idea to use against shotgunners or other projectile spammers sometimes. And two, if you die while holding a cooked (or not cooked) grenade, you will explode, taking everyone nearby with you. This is very useful to know, because that allows you to essentially hold hostage your enemies if they're very close.
 
+### Counterplay
+When somebody is using a Grenade, they give you a large, 4 seconds heads-up, allowing you to decide your next course of action. That is a lot in a firefight, considering most weapons can kill you in a second (sometimes less) with perfect accuracy. When you see someone preparing to throw a nade, get in their face as soon as possible so that they either refuse to direct it straight at you or blow themselves up with you. Be wary of any ricochets or misses - a grenade out of your line of sight can and will reduce you to bloody chunks if you're not careful. You can also shoot down the grenades if you're feeling adventurous, but if you're close to somebody holding a grenade, do not kill them. Get away from them so they won't blow you up as they die. Lastly, if a grenade is glued to you, do everyone a favor and get away from other players so that your killer does not score that many points.
+
 ### Strengths & Weaknesses
 
 **Strong against:** <br/>None.
