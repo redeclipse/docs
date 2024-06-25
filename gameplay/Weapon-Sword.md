@@ -26,6 +26,10 @@ Alt fire can be charged, and it's an overhead swing with the sword. Ridiculously
 
 Both fire modes also cause bleeding upon hit. Keep that in mind, especially when grazing your enemies, and don't forget to use your kick (Q) frequently with the Sword. Also, don't charge at people like a moron... at least not all the time. It's a tactic that works way more than you'd expect, but for the Sword, weapon match-ups are especially important due to its extremely limited range. Be a little more creative and wary. Jump down from walls, parkour up to them and then run away,  remember that it grants you a ton of mobility that no other weapon has. It is also a weapon that, just like the Pistol, does not have a finite supply of ammunition, so you have the added bonus of not expending your resources.
 
+### Counterplay
+
+A Sword user that cannot get within your range has their damage output castrated, but there are many ways they can get close to you that are the real problem. If the player is smart, they will take cover behind objects while you're firing at them, so force them out into open spaces - something that's rather easy to do if they are chasing you down relentlessly, but gives them a big disadvantage. Try to read their movements and time your impulses to dodge their attacks instead of plainly running away. Remember, they have the superior agility, but anyone can impulse, and a single move that throws them off can cost them their life. 
+
 ### Strengths & Weaknesses
 
 **Strong against:**
