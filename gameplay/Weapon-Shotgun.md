@@ -24,6 +24,10 @@ Alt fire uses two shells to launch a big, yellow ball of death that explodes int
 
 You want to be close to your enemies with the Shotgun, but you have a little bit of leeway - it's slightly longer-ranged than the Flamethrower, for instance, and deals respectable damage as long as it's nothing further than a few metres away. Use kick (Q) frequently, it may help you net extra kills if your shotgun blast almost killed somebody and you need to finish them off. They'll want to run from you, so make sure you give chase and don't let go, because the second they get away from your effective range, they're the ones with an advantage. Give yourself some time to reload it fully, since it's the slowest reloading weapon in the game, chambering only two shells at a time, and you don't want to be caught with that before a battle. Memorize where the ammo pickups are, you'll need them - the Shotgun burns through ammo very fast.
 
+### Counterplay
+
+While keeping your distance from any close-ranged weapon is generally recommended, the Shotgun will instantly kill you if you get within point-blank range, so it is especially a good idea to feel out how far you can keep yourself away from a Shotgun user without dying. Whenever you see them reloading, use that to your advantage as soon as possible. Their damage output will drastically fall off as soon as they blow their whole load, allowing you to be a little more aggressive while they can't fire and letting you exploit the slow burn that comes with inserting shells mid-combat. But for that, you have to survive long enough. If you are running after a Shotgun user, be wary of their secondary fire - it is very good at catching reckless chasers off-guard and completely obliterating them, but with enough awareness, it is easy to dodge.
+
 ### Strengths & Weaknesses
 
 **Strong against:**
