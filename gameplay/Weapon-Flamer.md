@@ -24,6 +24,10 @@ Alt fire for this weapon is the sole reason for its high Utility rating. It does
 
 In enclosed spaces, this thing is a beast. Running after people should be a priority for any self-respecting Flamethrower user. They will be scared and run away, though, so you gotta keep chase. It helps to know the map well to ambush people more effectively. But remember, you're just as squishy as everyone else is while holding the Flamethrower - don't get some strange ideas in your head that you can run head-first at somebody holding a Rocket Launcher. Besides the quirkiness of the alt-fire, though, this weapon is relatively simple to use, so there is no real need to explain this any further.
 
+### Counterplay
+
+Aside from the obvious idea to get out of the Flamer's effective range, its primary is less potent near water - since you can put yourself out - and unusable underwater. That also makes you an easy target for other weapons, however, and it does not prevent the use of the air blast, so keep that in mind. But usually, you just want to run away from the Flamer user and get away from crowds so that they don't kill everyone all at once (the Flamer user is then forced to pick and choose which target to follow). It's important to remember that even making vertical distance tends to be enough to get out of their effective range - run up walls, but make sure you are not just hanging in the air afterwards, since a good Flamer user will juggle you, and even an average one can easily resume damaging you. If it's a team game, get close to their teammates (provided it's a much safer option) - the width of the flames will easily deter careful players from trying to attack you, and the reckless ones will make it easier for you to kill their allies.
+
 ### Strengths & Weaknesses
 
 **Strong against:**
