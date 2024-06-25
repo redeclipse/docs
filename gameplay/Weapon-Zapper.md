@@ -24,6 +24,10 @@ The alt-fire is more interesting - charging it fires a huge burst of hitscan ray
 
 Thanks to the way the Zapper works, you can pretty easily play around any range you want and kill people indiscriminately, but it fulfills a very particular long-range rapid-fire weapon niche than no other weapon does in the game, and it's usually best to stick to that when possible, since you are disadvantaged when trying to run away. Sightlines are your best friend, just like with the Laser Rifle. Put the fear of God in people.
 
+### Counterplay
+
+The Zapper is a hellspawn of a weapon that has little weakness, but also no particular strength, but ALSO a deviously long range, which is where its main power comes from. It primarily loses effectiveness by having to face other weapons at their preferred ranges, so make your life easier instead of enduring stray shots from far away by getting as close as you need to (Laser Rifle users may want to take the opposite advice and get as far away as they can). It does not get the luxury of choosing its spacing nearly as easily as other weapons due to its weight. There are other very logical conclusions that can be drawn from the way it functions - do not get up too close unless you can kill its user easily, do not stay in the open so you cannot be picked off, and do not hang in the air for too long, since this gun's killzone is its player's field of vision. But other than that, there is not much to suggest that would not be an applicable strategy for everyone else.
+
 ### Strengths & Weaknesses
 
 **Strong against:**
