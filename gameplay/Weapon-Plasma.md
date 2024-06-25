@@ -24,6 +24,10 @@ Alt fire is a plasma ball, too, but this one grows in size depending on how much
 
 Positioning for the Plasma Gun is very important. You never wanna be too close or too far from your enemies so that both your primary and alt fire stay effective at all times. Since the projectile is quite wide, aiming down corridors may help you hit your enemies way better, and there's the fact that the alt fire blocks those off exceptionally well, too. You will need to hit your enemies to kill them more consistently than with other weapons, but this should not be nearly as hard. Make sure not to be a dickhead and get your allies stunned by the alt-fire, though.
 
+### Counterplay
+
+Plasma has a notorious DPS weakness, where its damage per shot is great, but due to its slow firerate, it takes longer for it to kill than most other weapons. Besides playing at range, you can instead opt to rush down a Plasma user with the right loadout, and it will likely succeed if their parkour game is inferior. After all, all close-range weapons have a better damage output. This problem is further amplified by how the alt-fire functions: the giant projectile ejected from the gun can and will miss you entirely at point-blank range if you are chasing after them. It's all about preventing Plasma users from correctly positioning themselves, and when you can consistently do that, you can win convincingly. Also, avoid tight hallways and other cramped areas - that's where Plasma can be painful to fight against.
+
 ### Strengths & Weaknesses
 
 **Strong against:**
