@@ -1,6 +1,4 @@
 
-##Former Maps
-
 ## 1.6 maps
 
 ### Main Maps
