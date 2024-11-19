@@ -1,3 +1,5 @@
+## Weapons Guide
+
 *NOTE: This guide is up-to-date with version 2.0.9-9 of Red Eclipse.*
 
 In most games, all players are equipped with a pistol and two loadout weapons that can be chosen in the Player Setup menu. Furthermore, explosive weapons can be collected in the arena, such as grenades and mines, to bolster their offensive abilities.
