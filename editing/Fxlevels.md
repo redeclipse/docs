@@ -1,4 +1,4 @@
-Fxlevels are used to optimise performance within a map, dependent on the users graphical settings. These attributes are set by the mapper to control level of detail, with maximum performance in mind for lower end hardware. 
+Fxlevels are used to optimise performance within a map, dependent on the users graphical settings. These attributes are set by the mapper to control level of detail, with maximum performance in mind for lower end hardware.
 
 ## Mapeffects
 
