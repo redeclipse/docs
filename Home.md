@@ -39,4 +39,3 @@
 - **[GitHub Project](http://redeclipse.net/github)** - We do all our development on GitHub, so this is the place to start when developing.
 - **[Subscribe via Patreon](http://redeclipse.net/patreon)** - Pledge to our Patreon in order to help cover project costs.
 - **[Donate via PayPal](http://redeclipse.net/paypal)** - Make a one-time or recurring donation to help cover project costs.
-
