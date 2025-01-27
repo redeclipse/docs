@@ -1119,4 +1119,3 @@ end of Cubescript core commands
 ### weapon vars, var writing commands
 "writevars" "writes the current server's variables to a config file named file;^nif [all] is true, every variable will be written with default values commented out; if false, only changed variables will be written (default: false)^nif [sv_] is true, variables will be prefixed with ^"sv_^" (default: false)" "file [all] [sv_]"
 "writevarsinfo" "writes raw information about all existing vars, commands and aliases to a file;^nfor each item the following fields are printed: NAME TYPE FLAGS ARGS VALTYPE VALUE MIN MAX DESC USAGE,^nfields are separated by tabs, and empty if nonexistent" "file"
-
