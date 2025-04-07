@@ -29,7 +29,7 @@ From the command line:
 - Enter the working directory with `cd base`
 - Compile with `make -C src install -jN`, with `-jN` being set to the number of cores your CPU has (e.g. `-j4` for a quad core system)
 - Enter the source directory with `cd src`
-- Run the game with `./redeclipse_linux`
+- Run the game with `./redeclipse.sh`
 
 ## macOS
 - [Download the macOS tarball](http://redeclipse.net/download/macos).
