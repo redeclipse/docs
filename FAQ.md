@@ -23,14 +23,10 @@ The best way to play Red Eclipse is by downloading it through <span class="fab f
 Red Eclipse is available for download at no cost.
 
 - The [latest release](/download) can be downloaded for all supported operating systems.
-- GNU/Linux packages can also be found on:
-    - [Debian](Install-Guide#debian/ubuntu_repository)
-    - [Ubuntu](Install-Guide#debian/ubuntu_repository)
-    - [AUR](https://aur.archlinux.org/packages/redeclipse)
-- BSD ports are available for:
-    - [FreeBSD](https://www.freshports.org/games/redeclipse/)
-    - [OpenBSD](http://ports.su/games/redeclipse,-main)
-- Or download the developmental [Git version](/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
+- GNU/Linux users can also use the [AppImage](AppImages).
+- Or [build from source](Install-Guide#building-from-source) using the developmental [Git version](/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
+
+These are the only official sources. Packages from Linux distributions, the AUR, BSD ports and other third parties are not maintained or supported by the Red Eclipse development team, see the [Install Guide](Install-Guide#important-notice-about-unofficial-packages).
 
 ## What are my rights?
 
