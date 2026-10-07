@@ -64,6 +64,6 @@ Don't panic! If you have trouble working out how to install and run the game, yo
 
 ## Important Notice About Unofficial Packages
 Red Eclipse is available only through the official installation methods described on this page or via **[Steam](/steam)**.
-Packages found on Flathub, Snap, Flatpak, AUR, Linux distribution repositories, the Ubuntu Software Store, or any other third-party source are not official, not maintained, and not supported by the Red Eclipse development team.h
+Packages found on Flathub, Snap, Flatpak, AUR, Linux distribution repositories, the Ubuntu Software Store, or any other third-party source are not official, not maintained, and not supported by the Red Eclipse development team.
 These unofficial packages may be outdated, incomplete, or insecure, and can cause issues that we cannot assist with.
 For the best experience and to ensure you're receiving verified, up-to-date builds, please install Red Eclipse exclusively through the official methods provided here or via **[Steam](/steam)**.
