@@ -76,10 +76,8 @@ exec "macserver.cfg"
 If all goes well, your client will connect to the master server and register itself, and will then show up in the server list. Please note that the client must be running at all times you wish the server to be online.
 
 ### Using [Docker](https://www.docker.com/)
-Currently there are two different Docker Images, its up to you which one you choose.
-For the installation and configuration steps follow the specific guides.
-1. [https://github.com/TheAssassin/redeclipse-docker](https://github.com/TheAssassin/redeclipse-docker)
-1. [https://hub.docker.com/r/iceflower/redeclipse-server](https://hub.docker.com/r/iceflower/redeclipse-server)
+
+The [Docker image](https://github.com/IceflowRE/redeclipse-server-image) from Iceflower can be used to run a dedicated server in Docker. See its documentation for installation, configuration, available images and usage instructions.
 
 ## Configuration Files
 The configuration files are written in cubescript, lines starting with `//` are ignored. If you want to configure a setting simply remove the `//` in front of it and change its value.
