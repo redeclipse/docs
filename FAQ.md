@@ -94,11 +94,11 @@ Only use bright colours with good contrast. A value of -1 will take your profile
 
 ## What is the game objective?
 
-This depends on the current [mode and mutators](gameplay/Gameplay-Guide.md) of the game, which you can look up any time in the help menu (default key: **F1**). Click the large icons in the help menu to learn more about the rules of the current game. These help menus provide detailed information and tips, of which most can also be read on the wiki. There is also a [guide](gameplay/Gameplay-Guide.md) for beginners.
+This depends on the current [mode and mutators](gameplay/Modes-and-Mutators.md) of the game, which you can look up any time in the help menu (default key: **F1**). Click the large icons in the help menu to learn more about the rules of the current game. These help menus provide detailed information and tips, of which most can also be read on the wiki. There is also a [guide](gameplay/Gameplay-Guide.md) for beginners.
 
 ## Why is my player score negative?
 
-Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](gameplay/Capture-the-Flag.md) or Bomber-ball even double this penalty. For details, see [Deathmatch Scoring](gameplay/Gameplay-Guide.md).
+Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](gameplay/Capture-the-Flag.md) or [bombers](gameplay/Bomber-Ball.md) even double this penalty. For details, see [Scoring System](gameplay/Scoring-System.md).
 
 ## dm, pzap, gg - what did they just say?
 
@@ -106,7 +106,7 @@ For frequently used abbreviations and player slang, see [glossary](Glossary.md).
 
 ## What are those symbols near player names?
 
-These are the Privileges or ranks of registered players.
+These are the [privileges](server-how-to/Privileges.md) or ranks of registered players.
 
 ## Why is there a timer when I get killed?
 
@@ -126,7 +126,7 @@ In Red Eclipse the player regenerates health and [impulse](gameplay/Parkour-Guid
 
 ## Why am I taking damage when no one is near me?
 
-Your are under the effect of the a negative Status-Effects.
+Your are under the effect of the a negative [status effect](gameplay/Status-Effects.md).
 
 ## A green beeping thing obscured my vision - what the heck?
 
