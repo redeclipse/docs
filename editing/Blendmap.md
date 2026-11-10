@@ -66,11 +66,11 @@ A blendbrush can easily be created with any greyscale image. The darker parts ar
 
 | **Where do i place them?** | |
 |-|-|
-| The default brushes are stored in *data/blendbrush*. To add custom brushes, you will want to add them to *blendbrush/* in your [user data](FAQ#where-do-i-find-screenshots-logs-and-other-user-data) directory. | [![Blendmap](images/editing/blendmap04.jpg "A custom blendbrush used to paint stripes")](images/editing/blendmap04.jpg) |
+| The default brushes are stored in *data/blendbrush*. To add custom brushes, you will want to add them to *blendbrush/* in your [user data](../FAQ.md#where-do-i-find-screenshots-logs-and-other-user-data) directory. | [![Blendmap](images/editing/blendmap04.jpg "A custom blendbrush used to paint stripes")](images/editing/blendmap04.jpg) |
 
 ### Dumping the blendmap
 
-You can dump a greyscale image of the blendmap information to your [user data](FAQ#where-do-i-find-screenshots-logs-and-other-user-data). This can be used to quickly visualise which areas of your map have yet to be painted. The painted areas of the blendmap are represented by black pixels.
+You can dump a greyscale image of the blendmap information to your [user data](../FAQ.md#where-do-i-find-screenshots-logs-and-other-user-data). This can be used to quickly visualise which areas of your map have yet to be painted. The painted areas of the blendmap are represented by black pixels.
 
 `/dumpblendtexs`
 
@@ -78,5 +78,5 @@ You can dump a greyscale image of the blendmap information to your [user data](F
 
 -   You can only paint accurately on horizontal surfaces with a blendbrush. In can be very tricky to paint on a vertical surface (such as a vertical wall).
 -   Stacked floors cannot have their own blendmap layer. For example, picture a block of apartments where each floor has a layered texture, the blendmap applied on any of the floors will also appear on every other floor where a layered texture is present.
--   The blendmap can be combined with [grass](grass "wikilink") rendering to create some awesome texture effects.
+-   The blendmap can be combined with grass rendering to create some awesome texture effects.
 -   Blendmaps created with custom brushes can be viewed by other players even if they don't have the blendbrushes present in their User Content directory. The blendmap painting information is packed into the map file itself.
