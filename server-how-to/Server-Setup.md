@@ -12,7 +12,7 @@ Hosting one or more Red Eclipse servers on your system will require a decent ban
 1. Start the server by executing `server.bat`, an icon should appear in the taskbar. Click on it to view the console.
 
 #### GNU/Linux
-For details on locating your Red Eclipse home directory, refer to ~~[Game Settings]()~~.
+For details on locating your Red Eclipse home directory, refer to Game Settings.
 
 ##### Installed
 This is normally the case if you installed Red Eclipse via your package manager, or using the "system-install" make target.
@@ -122,8 +122,8 @@ You can change the "openness" of your server; ie. allowing anyone to claim **hel
 
 ### Server Customization
 - For information on how to limit modes and mutators please see [Game Filters](Server-GameFilters.md)
-- For examples of servinit.cfg configurations see ~~[Server Examples]()~~
-- For information on weapon variables, see ~~[Variables](Variables-Home)~~
+- For examples of servinit.cfg configurations see Server Examples
+- For information on weapon variables, see [Variables](../variables/Variables-home.md)
 
 ## Forwarding Ports
 All servers need enabled port forwarding.
