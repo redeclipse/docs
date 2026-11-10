@@ -15,7 +15,7 @@ serverauthkey [handle] [key] // Authorization key to validate stats server.
 - The master server will save the game statistics to its sqlite database and return the game ID for the server to display.
 
 ## Web Interface
-The statistics web interface/API is at [/stats](https://www.redeclipse.net/stats).  
+The statistics web interface/API is at [https://www.redeclipse.net/stats](https://www.redeclipse.net/stats).  
 It runs alongside the master server and reads from the sqlite database to return sorted data about games, maps, players, modes, and weapons.
 
 ## Privacy
