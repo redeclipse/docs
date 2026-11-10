@@ -75,7 +75,7 @@ If the terminal window closes without launching the game, then there's a problem
 
 ## What does 'devel' mean?
 
-This is the development version of the game, which can be [obtained](Contributing#preliminaries) from our Github repository to check out upcoming features and life on the bleeding edge.
+This is the development version of the game, which can be [built from source](Install-Guide#building-from-source) from our Github repository to check out upcoming features and life on the bleeding edge.
 
 ## What does master and stable mean?
 
@@ -83,7 +83,7 @@ These are the two branches of our base repository on GitHub, <http://github.com/
 
 ## I found a bug, where can I report it?
 
-Technical problems can be reported in the [discussion area](/discuss). Evident bugs can be reported on the [issue list](/issues), but first, please have a look at our [contribution guidelines](Contributing).
+Technical problems can be reported in the [discussion area](/discuss). Evident bugs can be reported on the [issue list](/issues), but first, please have a look at our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
 
 ## Red Eclipse fails with 'OpenGL 2.0 or greater is required!', but I have 2.0 or greater.
 
@@ -91,7 +91,7 @@ On Windows, when Red Eclipse detects the renderer as 'GDI Generic' it will repor
 
 ## Can I contribute to the game?
 
-Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](editing/Basics), art assets like models, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](Contributing).
+Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](editing/Basics), art assets like models, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
 
 ## I found a cheater, what can I do?
 
