@@ -38,8 +38,8 @@ Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open So
 
 ## What are my rights regarding game servers?
 
-- Anyone may run up to three (3) servers, and can be listed on the Red Eclipse Master Server, *however, only if they are in compliance with the guidelines, rules and policies outlined in the [Multiplayer Guidelines](https://raw.githubusercontent.com/redeclipse/base/master/doc/guidelines.txt)*. You can request a "trusted" (more servers) and/or "statistics" (contributes to stats) server from the Red Eclipse team.
-    - Players must also abide by a set of guidelines as well, and are advised to view the **latter half** of the [Multiplayer Guidelines](https://raw.githubusercontent.com/redeclipse/base/master/doc/guidelines.txt).
+- Anyone may run up to three (3) servers, and can be listed on the Red Eclipse Master Server, *however, only if they are in compliance with the guidelines, rules and policies outlined in the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines)*. You can request a "trusted" (more servers) and/or "statistics" (contributes to stats) server from the Red Eclipse team.
+    - Players must also abide by a set of guidelines as well, and are advised to view the **latter half** of the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines).
 - Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
 
 ## Where else can I get help or discuss the game?
@@ -95,7 +95,7 @@ Development of Red Eclipse is open and community driven. Contributions can be ma
 
 ## I found a cheater, what can I do?
 
-If you think someone cheats or violates the [Multiplayer Guidelines](https://raw.githubusercontent.com/redeclipse/base/master/doc/guidelines.txt) in some other way, you can open a issue in the [discussion area](/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
+If you think someone cheats or violates the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines) in some other way, you can open a issue in the [discussion area](/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
 
 ## How can i change the chat colour?
 
