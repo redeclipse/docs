@@ -27,6 +27,10 @@ semabuild_build() {
     o=`echo "${m}" | sed -e "s/^\(.\).*$/\1/"`
 
     if [ "${o}" != "_" ] && [ "${n}" = "md" ]; then
+        if [ "$(head -n 1 "${3}")" = "---" ]; then
+            echo "ERROR: ${2} starts with front matter; it looks like a built page copied back from the website"
+            return 1
+        fi
         p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
         q=`echo "${m}" | sed -e "s/[_]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
         r=`echo "${q}" | sed -e "s/-/_/g"`
@@ -74,7 +78,7 @@ semabuild_build() {
             fi
         done
 
-        echo "${c}" | sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/http:\/\/redeclipse\.net//g;s/http:\/\/www.redeclipse\.net//g" >> "${1}"
+        echo "${c}" | sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/](https\?:\/\/\(www\.\)\?redeclipse\.net/](/g" >> "${1}"
     fi
 }
 
@@ -89,13 +93,13 @@ semabuild_process() {
                 mkdir -pv "${SEMABUILD_DESTDOCS}/${i}"
                 for j in *; do
                     if [ ! -d "${j}" ]; then
-                        semabuild_build "${SEMABUILD_DESTDOCS}/${i}/${j}" "${i}/${j}" "${j}"
+                        semabuild_build "${SEMABUILD_DESTDOCS}/${i}/${j}" "${i}/${j}" "${j}" || return 1
                     fi
                 done
                 popd || return 1
             fi
         else
-            semabuild_build "${SEMABUILD_DESTDOCS}/${i}" "${i}" "${i}"
+            semabuild_build "${SEMABUILD_DESTDOCS}/${i}" "${i}" "${i}" || return 1
         fi
     done
     popd || return 1
