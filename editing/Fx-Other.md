@@ -1,15 +1,3 @@
----
-title: Editing - Fx Other
-layout: docs
-origfile: editing/Fx-Other.md
-origtitle: Fx-Other
-permalink: /docs/editing/Fx-Other
-redirect_from:
-  - /docs/editing/Fx_Other/
-  - /wiki/editing/Fx_Other/
----
-* TOC
-{:toc}
 # Other FX
 
 This section briefly describes other effect types' properties.

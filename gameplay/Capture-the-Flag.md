@@ -1,15 +1,3 @@
----
-title: Gameplay - Capture the Flag
-layout: docs
-origfile: gameplay/Capture-the-Flag.md
-origtitle: Capture-the-Flag
-permalink: /docs/gameplay/Capture-the-Flag
-redirect_from:
-  - /docs/gameplay/Capture_the_Flag/
-  - /wiki/gameplay/Capture_the_Flag/
----
-* TOC
-{:toc}
 
 | Icon | Mode description |
 |-|-|

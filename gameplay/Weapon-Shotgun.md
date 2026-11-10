@@ -1,18 +1,6 @@
----
-title: Gameplay - Weapon Shotgun
-layout: docs
-origfile: gameplay/Weapon-Shotgun.md
-origtitle: Weapon-Shotgun
-permalink: /docs/gameplay/Weapon-Shotgun
-redirect_from:
-  - /docs/gameplay/Weapon_Shotgun/
-  - /wiki/gameplay/Weapon_Shotgun/
----
-* TOC
-{:toc}
 ## Super Shotgun
 
-[Click here to return to the main page.](Weapons-Guide)
+[Click here to return to the main page.](Weapons-Guide.md)
 
 <img src="../images/weapons/weaponsguide/shotgun.png" height="300px"/>
 

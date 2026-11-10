@@ -1,14 +1,3 @@
----
-title: Glossary
-layout: docs
-origfile: Glossary.md
-origtitle: Glossary
-permalink: /docs/Glossary
-redirect_from:
-  - /wiki/Glossary/
----
-* TOC
-{:toc}
 The following list explains some commonly used terms and acronyms.
 
 | term   | Description |

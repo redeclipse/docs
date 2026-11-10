@@ -1,14 +1,3 @@
----
-title: Maps - Auster
-layout: docs
-origfile: maps/Auster.md
-origtitle: Auster
-permalink: /docs/maps/Auster
-redirect_from:
-  - /wiki/maps/Auster/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps/auster/auster.png" width="256px" />
 
 ## Information

@@ -1,15 +1,3 @@
----
-title: Maps old - Convolution
-layout: docs
-origfile: maps-old/Convolution.md
-origtitle: Convolution
-permalink: /docs/maps-old/Convolution
-redirect_from:
-  - /docs/maps_old/Convolution/
-  - /wiki/maps_old/Convolution/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/convolution.png" width="256px" />
 
 ## Information

@@ -1,14 +1,3 @@
----
-title: Maps - Institute
-layout: docs
-origfile: maps/Institute.md
-origtitle: Institute
-permalink: /docs/maps/Institute
-redirect_from:
-  - /wiki/maps/Institute/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps/institute/institute.png" width="256px" />
 
 ## Information

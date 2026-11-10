@@ -1,15 +1,3 @@
----
-title: Maps old - Industrial
-layout: docs
-origfile: maps-old/Industrial.md
-origtitle: Industrial
-permalink: /docs/maps-old/Industrial
-redirect_from:
-  - /docs/maps_old/Industrial/
-  - /wiki/maps_old/Industrial/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/industrial.png" width="256px" />
 
 ## Information
@@ -38,7 +26,7 @@ This map is no longer included with the game. (Removed in 1.4.0)
 
 ## Notes & Strategies
 
-- Has a similar setting as ~~[Depot](Depot)~~ and [Facility](Facility).
+- Has a similar setting as ~~[Depot](Depot)~~ and [Facility](Facility.md).
 - Many sneaky routes.
 
 ## Spawn Register

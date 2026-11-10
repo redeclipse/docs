@@ -1,19 +1,8 @@
----
-title: AppImages
-layout: docs
-origfile: AppImages.md
-origtitle: AppImages
-permalink: /docs/AppImages
-redirect_from:
-  - /wiki/AppImages/
----
-* TOC
-{:toc}
 The Red Eclipse project provides [AppImage](https://appimage.org) builds that should work on any recent Linux distribution as an easy, dependency-free way to install and run the game.
 
 ## Available AppImages
-* [Stable version](/appimage/stable)
-* [Development version](/appimage/master)
+* [Stable version](https://www.redeclipse.net/appimage/stable)
+* [Development version](https://www.redeclipse.net/appimage/master)
 
 ### File names
 * Client: `redeclipse-<BRANCH>-x86_64.AppImage`.

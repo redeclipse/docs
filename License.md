@@ -1,14 +1,3 @@
----
-title: License
-layout: docs
-origfile: License.md
-origtitle: License
-permalink: /docs/License
-redirect_from:
-  - /wiki/License/
----
-* TOC
-{:toc}
 ## THE RED ECLIPSE LICENSE
 
 Red Eclipse is based on Tesseract and Cube Engine 2, both of which are covered under the ZLIB license, you may use the source code so long as you obey this license.

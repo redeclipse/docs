@@ -1,15 +1,3 @@
----
-title: Maps old - Lab
-layout: docs
-origfile: maps-old/Lab.md
-origtitle: Lab
-permalink: /docs/maps-old/Lab
-redirect_from:
-  - /docs/maps_old/Lab/
-  - /wiki/maps_old/Lab/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/lab.png" width="256px" />
 
 ## Information

@@ -1,14 +1,3 @@
----
-title: Maps - Ennui
-layout: docs
-origfile: maps/Ennui.md
-origtitle: Ennui
-permalink: /docs/maps/Ennui
-redirect_from:
-  - /wiki/maps/Ennui/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps/ennui/ennui.png" width="256px" />
 
 ## Information

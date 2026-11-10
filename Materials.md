@@ -1,14 +1,3 @@
----
-title: Materials
-layout: docs
-origfile: Materials.md
-origtitle: Materials
-permalink: /docs/Materials
-redirect_from:
-  - /wiki/Materials/
----
-* TOC
-{:toc}
 | Command                      | Description                                                                                                                                                                                                         |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /showmat [0\|1] (or 'M' Key) | toggles the visibility of material volumes.                                                                                                                                                                         |

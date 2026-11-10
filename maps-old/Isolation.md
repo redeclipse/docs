@@ -1,15 +1,3 @@
----
-title: Maps old - Isolation
-layout: docs
-origfile: maps-old/Isolation.md
-origtitle: Isolation
-permalink: /docs/maps-old/Isolation
-redirect_from:
-  - /docs/maps_old/Isolation/
-  - /wiki/maps_old/Isolation/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/isolation.png" width="256px" />
 
 ## Information

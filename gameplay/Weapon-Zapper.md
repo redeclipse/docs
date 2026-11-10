@@ -1,18 +1,6 @@
----
-title: Gameplay - Weapon Zapper
-layout: docs
-origfile: gameplay/Weapon-Zapper.md
-origtitle: Weapon-Zapper
-permalink: /docs/gameplay/Weapon-Zapper
-redirect_from:
-  - /docs/gameplay/Weapon_Zapper/
-  - /wiki/gameplay/Weapon_Zapper/
----
-* TOC
-{:toc}
 ## Electro Zapper
 
-[Click here to return to the main page.](Weapons-Guide)
+[Click here to return to the main page.](Weapons-Guide.md)
 
 <img src="../images/weapons/weaponsguide/zapper.png" height="300px"/>
 

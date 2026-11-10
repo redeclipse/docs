@@ -1,14 +1,3 @@
----
-title: Gameplay - Deathmatch
-layout: docs
-origfile: gameplay/Deathmatch.md
-origtitle: Deathmatch
-permalink: /docs/gameplay/Deathmatch
-redirect_from:
-  - /wiki/gameplay/Deathmatch/
----
-* TOC
-{:toc}
 
 | Icon | Mode description |
 |-|-|

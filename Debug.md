@@ -1,14 +1,3 @@
----
-title: Debug
-layout: docs
-origfile: Debug.md
-origtitle: Debug
-permalink: /docs/Debug
-redirect_from:
-  - /wiki/Debug/
----
-* TOC
-{:toc}
 To submit a bug report that concerns a crash to the Red Eclipse Team, it is helpful to have a backtrace.
 
 ## Windows (64 bit)

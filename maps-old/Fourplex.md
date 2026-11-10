@@ -1,15 +1,3 @@
----
-title: Maps old - Fourplex
-layout: docs
-origfile: maps-old/Fourplex.md
-origtitle: Fourplex
-permalink: /docs/maps-old/Fourplex
-redirect_from:
-  - /docs/maps_old/Fourplex/
-  - /wiki/maps_old/Fourplex/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/fourplex.png" width="256px" />
 
 ## Information

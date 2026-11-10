@@ -1,14 +1,3 @@
----
-title: Editing - Waypoints
-layout: docs
-origfile: editing/Waypoints.md
-origtitle: Waypoints
-permalink: /docs/editing/Waypoints
-redirect_from:
-  - /wiki/editing/Waypoints/
----
-* TOC
-{:toc}
 
 Waypoints are used to allow bots to navigate through a map. They are hidden by default, but can be viewed by setting `/showwaypoints 1`.
 

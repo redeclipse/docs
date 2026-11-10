@@ -1,14 +1,3 @@
----
-title: Readme
-layout: docs
-origfile: Readme.md
-origtitle: Readme
-permalink: /docs/Readme
-redirect_from:
-  - /wiki/Readme/
----
-* TOC
-{:toc}
 Welcome to the Red Eclipse Documentation repository.
 
 The pages contained here are automatically built and updated on the [Website repository](https://github.com/redeclipse/redeclipse.github.io).

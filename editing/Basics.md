@@ -1,14 +1,3 @@
----
-title: Editing - Basics
-layout: docs
-origfile: editing/Basics.md
-origtitle: Basics
-permalink: /docs/editing/Basics
-redirect_from:
-  - /wiki/editing/Basics/
----
-* TOC
-{:toc}
 
 Red Eclipse makes use of the Tesseract engine, which utilizes an octree node for its level geometry. This allows for a shallow learning curve where anyone can quickly start making their own maps / levels to share with others. The editor itself is also contained within the game as its own game mode, meaning that you can create an entire map without the need of additional tools/software like most other 3D games. You can also join an online server to edit maps with others in realtime multiplayer map editing.
 
@@ -146,11 +135,11 @@ The *Red Eclipse Editing Encyclopedia*, found within the editing menu (press `E`
 
 ### More on map editing
 
-[Blendmaps](Blendmap) - Overlapping, and blend textures together.
-[Waypoints](Waypoints) - Letting bots navigate around the map.
-[Entities](Entities) - Managing particles, lighting, game specific objects, and more.
-[General FX](Fx) - General effects when map making.
-[Particle FX](Fx-Particle) - Using particle effects on map
-[Other FX](Fx-Other) - More effects to using on maps.
-[Level FX](Fxlevels) - How to increasing performance for users on lower settings.
-[Models](Models) - How to import 3D models for use in redeclipse
+[Blendmaps](Blendmap.md) - Overlapping, and blend textures together.
+[Waypoints](Waypoints.md) - Letting bots navigate around the map.
+[Entities](Entities.md) - Managing particles, lighting, game specific objects, and more.
+[General FX](Fx.md) - General effects when map making.
+[Particle FX](Fx-Particle.md) - Using particle effects on map
+[Other FX](Fx-Other.md) - More effects to using on maps.
+[Level FX](Fxlevels.md) - How to increasing performance for users on lower settings.
+[Models](Models.md) - How to import 3D models for use in redeclipse

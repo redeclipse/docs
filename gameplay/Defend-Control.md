@@ -1,15 +1,3 @@
----
-title: Gameplay - Defend Control
-layout: docs
-origfile: gameplay/Defend-Control.md
-origtitle: Defend-Control
-permalink: /docs/gameplay/Defend-Control
-redirect_from:
-  - /docs/gameplay/Defend_Control/
-  - /wiki/gameplay/Defend_Control/
----
-* TOC
-{:toc}
 
 | Icon | Mode description |
 |-|-|

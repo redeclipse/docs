@@ -1,15 +1,3 @@
----
-title: Editing - Entities other
-layout: docs
-origfile: editing/Entities-other.md
-origtitle: Entities-other
-permalink: /docs/editing/Entities-other
-redirect_from:
-  - /docs/editing/Entities_other/
-  - /wiki/editing/Entities_other/
----
-* TOC
-{:toc}
 ## Creating Entities
 
 An entity can be created through usage of either the menu or console commands. To create an entity, you first have to be in edit mode.

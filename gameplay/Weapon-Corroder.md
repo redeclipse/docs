@@ -1,18 +1,6 @@
----
-title: Gameplay - Weapon Corroder
-layout: docs
-origfile: gameplay/Weapon-Corroder.md
-origtitle: Weapon-Corroder
-permalink: /docs/gameplay/Weapon-Corroder
-redirect_from:
-  - /docs/gameplay/Weapon_Corroder/
-  - /wiki/gameplay/Weapon_Corroder/
----
-* TOC
-{:toc}
 ## Corrosion Cannon
 
-[Click here to return to the main page.](Weapons-Guide)
+[Click here to return to the main page.](Weapons-Guide.md)
 
 <img src="../images/weapons/weaponsguide/corroder.png" height="300px"/>
 

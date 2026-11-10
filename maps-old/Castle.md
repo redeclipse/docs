@@ -1,15 +1,3 @@
----
-title: Maps old - Castle
-layout: docs
-origfile: maps-old/Castle.md
-origtitle: Castle
-permalink: /docs/maps-old/Castle
-redirect_from:
-  - /docs/maps_old/Castle/
-  - /wiki/maps_old/Castle/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/castle.png" width="256px" />
 
 ## Information

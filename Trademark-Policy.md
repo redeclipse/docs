@@ -1,15 +1,3 @@
----
-title: Trademark Policy
-layout: docs
-origfile: Trademark-Policy.md
-origtitle: Trademark-Policy
-permalink: /docs/Trademark-Policy
-redirect_from:
-  - /docs/Trademark_Policy/
-  - /wiki/Trademark_Policy/
----
-* TOC
-{:toc}
 # THE RED ECLIPSE MARK POLICY
 
 ## General Guidelines

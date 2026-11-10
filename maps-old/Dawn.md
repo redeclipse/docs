@@ -1,15 +1,3 @@
----
-title: Maps old - Dawn
-layout: docs
-origfile: maps-old/Dawn.md
-origtitle: Dawn
-permalink: /docs/maps-old/Dawn
-redirect_from:
-  - /docs/maps_old/Dawn/
-  - /wiki/maps_old/Dawn/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/dawn.png" width="256px" />
 
 ## Information

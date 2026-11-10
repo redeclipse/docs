@@ -1,15 +1,3 @@
----
-title: Maps old - Condensation
-layout: docs
-origfile: maps-old/Condensation.md
-origtitle: Condensation
-permalink: /docs/maps-old/Condensation
-redirect_from:
-  - /docs/maps_old/Condensation/
-  - /wiki/maps_old/Condensation/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/condensation.png" width="256px" />
 
 ## Information

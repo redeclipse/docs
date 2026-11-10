@@ -1,18 +1,6 @@
----
-title: Gameplay - Weapon Flamer
-layout: docs
-origfile: gameplay/Weapon-Flamer.md
-origtitle: Weapon-Flamer
-permalink: /docs/gameplay/Weapon-Flamer
-redirect_from:
-  - /docs/gameplay/Weapon_Flamer/
-  - /wiki/gameplay/Weapon_Flamer/
----
-* TOC
-{:toc}
 ## Flame Thrower
 
-[Click here to return to the main page.](Weapons-Guide)
+[Click here to return to the main page.](Weapons-Guide.md)
 
 <img src="../images/weapons/weaponsguide/flamer.png" height="300px"/>
 

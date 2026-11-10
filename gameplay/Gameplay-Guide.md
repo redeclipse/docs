@@ -1,15 +1,3 @@
----
-title: Gameplay - Gameplay Guide
-layout: docs
-origfile: gameplay/Gameplay-Guide.md
-origtitle: Gameplay-Guide
-permalink: /docs/gameplay/Gameplay-Guide
-redirect_from:
-  - /docs/gameplay/Gameplay_Guide/
-  - /wiki/gameplay/Gameplay_Guide/
----
-* TOC
-{:toc}
 Red Eclipse features 5 playable game modes which can be further customised through mutators. Along with the cooperative map editor and a demo viewer to playback previously recorded matches.
 
 ### Basic Gameplay
@@ -17,12 +5,12 @@ Default gameplay consists of two teams placed within the level which compete aga
 
 #### Weapons
 
-In most games all players are equipped with a pistol and two of their favorite loadout weapons. Furthermore, explosive weapons can be collected in the arena, such as grenades and mines, to bolster their offensive abilities. See the [main article](Weapons-Guide) on weapons here.
+In most games all players are equipped with a pistol and two of their favorite loadout weapons. Furthermore, explosive weapons can be collected in the arena, such as grenades and mines, to bolster their offensive abilities. See the [main article](Weapons-Guide.md) on weapons here.
 
 #### Parkour
 
 Red Eclipse features a parkour system, that allows you to navigate maps in many different ways.
-See the [main article](Parkour-Guide) on parkour here.
+See the [main article](Parkour-Guide.md) on parkour here.
 
 #### Teams
 
@@ -38,7 +26,7 @@ In some gamemodes where teams are present, the server may randomly swap some pla
 #### Affinities
 
 An affinity is an object in game which can be collected to score points, such as a flag or a ball.
-In game modes [**Capture the Flag**](Capture-the-Flag) and **Bomber Ball**, you can throw the affinity to your teammates by pressing [F].
+In game modes [**Capture the Flag**](Capture-the-Flag.md) and **Bomber Ball**, you can throw the affinity to your teammates by pressing [F].
 
 #### Friendly fire
 
@@ -55,7 +43,7 @@ Some maps will have a layout that is not perfectly symmetrical where one team ma
 | <img src="../images/modes/demo.png" width="64px"/>      |**Demo**              |Play back previously recorded games                   |
 | <img src="../images/modes/editing.png" width="64px"/>   |**Editing**           |Create and edit existing maps                         |
 | <img src="../images/modes/deathmatch.png" width="64px"/>|**Deathmatch**        |Shoot to kill and increase score by fragging          |
-| <img src="../images/modes/capture.png" width="64px"/>   |[**Capture the Flag**](Capture-the-Flag)  |Take the enemy flag and return it to the base to score|
+| <img src="../images/modes/capture.png" width="64px"/>   |[**Capture the Flag**](Capture-the-Flag.md)  |Take the enemy flag and return it to the base to score|
 | <img src="../images/modes/defend.png" width="64px"/>    |**Defend and Control**|Defend control points to score                        |
 | <img src="../images/modes/bomber.png" width="64px"/>    |**Bomber Ball**       |Carry the bomb into the enemy goal to score           |
 | <img src="../images/modes/race.png" width="64px"/>      |**Race**              |Compete for the fastest time completing a lap         |

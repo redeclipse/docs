@@ -1,16 +1,4 @@
----
-title: Server how to - Server Setup
-layout: docs
-origfile: server-how-to/Server-Setup.md
-origtitle: Server-Setup
-permalink: /docs/server-how-to/Server-Setup
-redirect_from:
-  - /docs/server_how_to/Server_Setup/
-  - /wiki/server_how_to/Server_Setup/
----
-* TOC
-{:toc}
-**WARNING: Before setting up a public server you should read the [Multiplayer Guidelines](../gameplay/Multiplayer-Guidelines), which governs how you may and may not use the master server. Be warned that modifications to the source code must be approved, and servers must honour the "auth" system. No if's, but's, or maybe's.**
+**WARNING: Before setting up a public server you should read the [Multiplayer Guidelines](../gameplay/Multiplayer-Guidelines.md), which governs how you may and may not use the master server. Be warned that modifications to the source code must be approved, and servers must honour the "auth" system. No if's, but's, or maybe's.**
 
 ## System Requirements
 Hosting one or more Red Eclipse servers on your system will require a decent bandwith (20-30 Kb/s down and ~10 Kb/s up per player/ bot), but use very few compute resources, such as RAM or CPU power. Therefore, no system requirements are specified, a server should run on any supported operating system. A Red Eclipse can even be run on a Raspberry Pi if so desired, though it is advisable to have a little more compute power to avoid lagspikes on player join.
@@ -123,17 +111,17 @@ serverpass "password_to_connect"
 Note however that this is **NOT** the same as adminpass, and will **NOT** allow those connected to claim admin.
 
 ### Access Restrictions
-You can change the "openness" of your server; ie. allowing anyone to claim **helper** (one hierarchal level lower than [moderator](Privileges)), and/or preventing mastermode from being changed. Although usually unnecessary, these settings are convenient for example, public co-op editing servers. These restrictions may be modified with the serveropen variable, and the following is a list of options:
+You can change the "openness" of your server; ie. allowing anyone to claim **helper** (one hierarchal level lower than [moderator](Privileges.md)), and/or preventing mastermode from being changed. Although usually unnecessary, these settings are convenient for example, public co-op editing servers. These restrictions may be modified with the serveropen variable, and the following is a list of options:
 
 | Type | Description                                                                                                                    |
 |:----:|--------------------------------------------------------------------------------------------------------------------------------|
 | 0    | *Very open* - Allow "open master" (anyone may claim helper with `setpriv 1`) and can set mastermode 2 (locked) or 3 (private). |
 | 1    | *Open master* - Mastermode cannot be modified at all.                                                                          |
 | 2    | *Open master* - Mastermode can be changed, but cannot set to 3 (private). This is useful for public co-op editing.             |
-| 3    | **Default setting** - Only those who know the adminpass may claim admin, and only [Auth users](Privileges) may claim master.   |
+| 3    | **Default setting** - Only those who know the adminpass may claim admin, and only [Auth users](Privileges.md) may claim master.   |
 
 ### Server Customization
-- For information on how to limit modes and mutators please see [Game Filters](Server-GameFilters)
+- For information on how to limit modes and mutators please see [Game Filters](Server-GameFilters.md)
 - For examples of servinit.cfg configurations see ~~[Server Examples]()~~
 - For information on weapon variables, see ~~[Variables](Variables-Home)~~
 
@@ -179,7 +167,7 @@ Done! Run your server with:
 ```
 
 ### Using auth to grant permissions
-Red Eclipse supports a global permissions and identification system called "[auth](Privileges)" that can be used to grant players permission to use commands on your server. In the `servinit.cfg`, simply place a line as so:
+Red Eclipse supports a global permissions and identification system called "[auth](Privileges.md)" that can be used to grant players permission to use commands on your server. In the `servinit.cfg`, simply place a line as so:
 ```
 addlocalop <authname> <privileg>
 ```

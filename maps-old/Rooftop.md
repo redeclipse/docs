@@ -1,15 +1,3 @@
----
-title: Maps old - Rooftop
-layout: docs
-origfile: maps-old/Rooftop.md
-origtitle: Rooftop
-permalink: /docs/maps-old/Rooftop
-redirect_from:
-  - /docs/maps_old/Rooftop/
-  - /wiki/maps_old/Rooftop/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/rooftop.png" width="256px" />
 
 ## Information

@@ -1,15 +1,3 @@
----
-title: Maps old - Alpha Campaign
-layout: docs
-origfile: maps-old/Alpha-Campaign.md
-origtitle: Alpha-Campaign
-permalink: /docs/maps-old/Alpha-Campaign
-redirect_from:
-  - /docs/maps_old/Alpha_Campaign/
-  - /wiki/maps_old/Alpha_Campaign/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/alphacampaign.png" width="256px" />
 
 ## Information

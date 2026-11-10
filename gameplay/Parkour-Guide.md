@@ -1,15 +1,3 @@
----
-title: Gameplay - Parkour Guide
-layout: docs
-origfile: gameplay/Parkour-Guide.md
-origtitle: Parkour-Guide
-permalink: /docs/gameplay/Parkour-Guide
-redirect_from:
-  - /docs/gameplay/Parkour_Guide/
-  - /wiki/gameplay/Parkour_Guide/
----
-* TOC
-{:toc}
 
 *Red Eclipse* features a parkour system, that allows you to navigate maps in many different ways.
 

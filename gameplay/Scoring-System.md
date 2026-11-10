@@ -1,15 +1,3 @@
----
-title: Gameplay - Scoring System
-layout: docs
-origfile: gameplay/Scoring-System.md
-origtitle: Scoring-System
-permalink: /docs/gameplay/Scoring-System
-redirect_from:
-  - /docs/gameplay/Scoring_System/
-  - /wiki/gameplay/Scoring_System/
----
-* TOC
-{:toc}
 Scoring in Red Eclipse is handled using a very intricate Deathmatch Scoring System, with normal point gain and loss as well as bonus points attainable through combo streaks or sprees. Scoring in other game modes is also slightly different. Here team scores are purely objective based, while the scoring system described here still applies to the scores of individual players.
 
 ## Point-gain

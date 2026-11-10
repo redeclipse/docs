@@ -1,15 +1,3 @@
----
-title: Maps old - Foundation
-layout: docs
-origfile: maps-old/Foundation.md
-origtitle: Foundation
-permalink: /docs/maps-old/Foundation
-redirect_from:
-  - /docs/maps_old/Foundation/
-  - /wiki/maps_old/Foundation/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/foundation.png" width="256px" />
 
 ## Information

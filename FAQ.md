@@ -1,14 +1,3 @@
----
-title: FAQ
-layout: docs
-origfile: FAQ.md
-origtitle: FAQ
-permalink: /docs/FAQ
-redirect_from:
-  - /wiki/FAQ/
----
-* TOC
-{:toc}
 ## What operating systems are supported?
 
 Red Eclipse can be played under Windows XP/Vista/7/8.1/10/11, macOS, GNU/Linux and BSD.
@@ -19,14 +8,14 @@ Red Eclipse was branched from the now-defunct [Blood Frontier](https://sourcefor
 
 ## Where can I get the game?
 
-The best way to play Red Eclipse is by downloading it through <span class="fab fa-steam" aria-hidden="true"></span> **[Steam](/steam)**.
+The best way to play Red Eclipse is by downloading it through <span class="fab fa-steam" aria-hidden="true"></span> **[Steam](https://www.redeclipse.net/steam)**.
 Red Eclipse is available for download at no cost.
 
-- The [latest release](/download) can be downloaded for all supported operating systems.
-- GNU/Linux users can also use the [AppImage](AppImages).
-- Or [build from source](Install-Guide#building-from-source) using the developmental [Git version](/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
+- The [latest release](https://www.redeclipse.net/download) can be downloaded for all supported operating systems.
+- GNU/Linux users can also use the [AppImage](AppImages.md).
+- Or [build from source](Install-Guide.md#building-from-source) using the developmental [Git version](https://www.redeclipse.net/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
 
-These are the only official sources. Packages from Linux distributions, the AUR, BSD ports and other third parties are not maintained or supported by the Red Eclipse development team, see the [Install Guide](Install-Guide#important-notice-about-unofficial-packages).
+These are the only official sources. Packages from Linux distributions, the AUR, BSD ports and other third parties are not maintained or supported by the Red Eclipse development team, see the [Install Guide](Install-Guide.md#important-notice-about-unofficial-packages).
 
 ## What are my rights?
 
@@ -34,20 +23,20 @@ Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open So
 
 - Red Eclipse itself and the Cube Engine 2 are under the [Zlib License](http://en.wikipedia.org/wiki/Zlib_License).
 - All content in the game is Free, and no more strict than the Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
-- For more details, see the [License](License) and [Trademark Policy](Trademark-Policy).
+- For more details, see the [License](License.md) and [Trademark Policy](Trademark-Policy.md).
 
 ## What are my rights regarding game servers?
 
-- Anyone may run up to three (3) servers, and can be listed on the Red Eclipse Master Server, *however, only if they are in compliance with the guidelines, rules and policies outlined in the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines)*. You can request a "trusted" (more servers) authorisation from the Red Eclipse team with the [server request form](https://github.com/redeclipse/master/issues/new?template=server.yml).
-    - Players must also abide by a set of guidelines as well, and are advised to view the **latter half** of the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines).
+- Anyone may run up to three (3) servers, and can be listed on the Red Eclipse Master Server, *however, only if they are in compliance with the guidelines, rules and policies outlined in the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines.md)*. You can request a "trusted" (more servers) authorisation from the Red Eclipse team with the [server request form](https://github.com/redeclipse/master/issues/new?template=server.yml).
+    - Players must also abide by a set of guidelines as well, and are advised to view the **latter half** of the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines.md).
 - Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
 
 ## Where else can I get help or discuss the game?
 
 Apart from this wiki, and playing on the game servers, you can:
 
-- Participate in [Discussions](/discuss).
-- Chat on our [Discord](/discord).
+- Participate in [Discussions](https://www.redeclipse.net/discuss).
+- Chat on our [Discord](https://www.redeclipse.net/discord).
 
 ## Where do I find screenshots, logs and other user data?
 
@@ -75,7 +64,7 @@ If the terminal window closes without launching the game, then there's a problem
 
 ## What does 'devel' mean?
 
-This is the development version of the game, which can be [built from source](Install-Guide#building-from-source) from our Github repository to check out upcoming features and life on the bleeding edge.
+This is the development version of the game, which can be [built from source](Install-Guide.md#building-from-source) from our Github repository to check out upcoming features and life on the bleeding edge.
 
 ## What does master mean?
 
@@ -83,7 +72,7 @@ All development happens on the master branch of our [base repository](https://gi
 
 ## I found a bug, where can I report it?
 
-Technical problems can be reported in the [discussion area](/discuss). Evident bugs can be reported on the [issue list](/issues), but first, please have a look at our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
+Technical problems can be reported in the [discussion area](https://www.redeclipse.net/discuss). Evident bugs can be reported on the [issue list](https://www.redeclipse.net/issues), but first, please have a look at our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
 
 ## Red Eclipse fails with 'OpenGL 2.0 or greater is required!', but I have 2.0 or greater.
 
@@ -91,11 +80,11 @@ On Windows, when Red Eclipse detects the renderer as 'GDI Generic' it will repor
 
 ## Can I contribute to the game?
 
-Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](editing/Basics), art assets like models, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
+Development of Red Eclipse is open and community driven. Contributions can be maps created with the in-game [editor](editing/Basics.md), art assets like models, or modifications of the [source code](https://github.com/redeclipse/base/tree/master/src). For further information, please read our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
 
 ## I found a cheater, what can I do?
 
-If you think someone cheats or violates the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines) in some other way, you can open a issue in the [discussion area](/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
+If you think someone cheats or violates the [Multiplayer Guidelines](gameplay/Multiplayer-Guidelines.md) in some other way, you can open a issue in the [discussion area](https://www.redeclipse.net/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
 
 ## How can i change the chat colour?
 
@@ -105,15 +94,15 @@ Only use bright colours with good contrast. A value of -1 will take your profile
 
 ## What is the game objective?
 
-This depends on the current [mode and mutators](gameplay/Gameplay-Guide) of the game, which you can look up any time in the help menu (default key: **F1**). Click the large icons in the help menu to learn more about the rules of the current game. These help menus provide detailed information and tips, of which most can also be read on the wiki. There is also a [guide](gameplay/Gameplay-Guide) for beginners.
+This depends on the current [mode and mutators](gameplay/Gameplay-Guide.md) of the game, which you can look up any time in the help menu (default key: **F1**). Click the large icons in the help menu to learn more about the rules of the current game. These help menus provide detailed information and tips, of which most can also be read on the wiki. There is also a [guide](gameplay/Gameplay-Guide.md) for beginners.
 
 ## Why is my player score negative?
 
-Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](gameplay/Capture-the-Flag) or Bomber-ball even double this penalty. For details, see [Deathmatch Scoring](gameplay/Gameplay-Guide).
+Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [flag carriers](gameplay/Capture-the-Flag.md) or Bomber-ball even double this penalty. For details, see [Deathmatch Scoring](gameplay/Gameplay-Guide.md).
 
 ## dm, pzap, gg - what did they just say?
 
-For frequently used abbreviations and player slang, see [glossary](Glossary).
+For frequently used abbreviations and player slang, see [glossary](Glossary.md).
 
 ## What are those symbols near player names?
 
@@ -129,11 +118,11 @@ It is easy to hit someone with a shotgun, but the weapon is really only effectiv
 
 ## How did they take away their own flag?
 
-In [capture](gameplay/Capture-the-Flag) games, you can press **F** (per default) to pick up the flag in your own base, so the enemy cannot reach it that easily. The same button can also be used to drop a flag you carry, be it yours or the enemy's.
+In [capture](gameplay/Capture-the-Flag.md) games, you can press **F** (per default) to pick up the flag in your own base, so the enemy cannot reach it that easily. The same button can also be used to drop a flag you carry, be it yours or the enemy's.
 
 ## Why are there no health pickups?
 
-In Red Eclipse the player regenerates health and [impulse](gameplay/Parkour-Guide) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
+In Red Eclipse the player regenerates health and [impulse](gameplay/Parkour-Guide.md) energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball… or just fragging!
 
 ## Why am I taking damage when no one is near me?
 

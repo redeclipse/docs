@@ -1,18 +1,6 @@
----
-title: Gameplay - Weapon Rocket
-layout: docs
-origfile: gameplay/Weapon-Rocket.md
-origtitle: Weapon-Rocket
-permalink: /docs/gameplay/Weapon-Rocket
-redirect_from:
-  - /docs/gameplay/Weapon_Rocket/
-  - /wiki/gameplay/Weapon_Rocket/
----
-* TOC
-{:toc}
 ## Rocket Launcher
 
-[Click here to return to the main page.](Weapons-Guide)
+[Click here to return to the main page.](Weapons-Guide.md)
 
 <img src="../images/weapons/weaponsguide/rocket.png" height="300px"/>
 

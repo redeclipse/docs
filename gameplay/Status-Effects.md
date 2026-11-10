@@ -1,15 +1,3 @@
----
-title: Gameplay - Status Effects
-layout: docs
-origfile: gameplay/Status-Effects.md
-origtitle: Status-Effects
-permalink: /docs/gameplay/Status-Effects
-redirect_from:
-  - /docs/gameplay/Status_Effects/
-  - /wiki/gameplay/Status_Effects/
----
-* TOC
-{:toc}
 ## Buffs
 <img src="../images/icons/buff.png" width="64px"/>
 

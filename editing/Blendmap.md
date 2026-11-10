@@ -1,14 +1,3 @@
----
-title: Editing - Blendmap
-layout: docs
-origfile: editing/Blendmap.md
-origtitle: Blendmap
-permalink: /docs/editing/Blendmap
-redirect_from:
-  - /wiki/editing/Blendmap/
----
-* TOC
-{:toc}
 
 ## Blendmap
 

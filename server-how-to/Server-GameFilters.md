@@ -1,15 +1,3 @@
----
-title: Server how to - Server GameFilters
-layout: docs
-origfile: server-how-to/Server-GameFilters.md
-origtitle: Server-GameFilters
-permalink: /docs/server-how-to/Server-GameFilters
-redirect_from:
-  - /docs/server_how_to/Server_GameFilters/
-  - /wiki/server_how_to/Server_GameFilters/
----
-* TOC
-{:toc}
 ## Vote filtering
 If you wish to limit voting on your server to only certain modes or mutators you will need to
 - Take all the the *bit shifted* values for the modes/mutators you want to allow

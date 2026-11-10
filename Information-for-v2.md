@@ -1,15 +1,3 @@
----
-title: Information for v2
-layout: docs
-origfile: Information-for-v2.md
-origtitle: Information-for-v2
-permalink: /docs/Information-for-v2
-redirect_from:
-  - /docs/Information_for_v2/
-  - /wiki/Information_for_v2/
----
-* TOC
-{:toc}
 The time since the release of v1.6 has seen some major developments within the project, starting at the New UI and culminating in a full port of the Tesseract engine to Red Eclipse that is now being dubbed "version 2.0", which we will hopefully be releasing in the near future. So, what does this mean?
 
 ## A New Rendering Engine

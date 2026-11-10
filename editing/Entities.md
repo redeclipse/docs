@@ -1,14 +1,3 @@
----
-title: Editing - Entities
-layout: docs
-origfile: editing/Entities.md
-origtitle: Entities
-permalink: /docs/editing/Entities
-redirect_from:
-  - /wiki/editing/Entities/
----
-* TOC
-{:toc}
 ## Actor
 
 `/newent actor`

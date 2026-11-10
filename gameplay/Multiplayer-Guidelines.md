@@ -1,15 +1,3 @@
----
-title: Gameplay - Multiplayer Guidelines
-layout: docs
-origfile: gameplay/Multiplayer-Guidelines.md
-origtitle: Multiplayer-Guidelines
-permalink: /docs/gameplay/Multiplayer-Guidelines
-redirect_from:
-  - /docs/gameplay/Multiplayer_Guidelines/
-  - /wiki/gameplay/Multiplayer_Guidelines/
----
-* TOC
-{:toc}
 ## GUIDELINES FOR CONNECTING TO THE RED ECLIPSE MASTER SERVER
 
 The Red Eclipse Team provides the play.redeclipse.net master server for the

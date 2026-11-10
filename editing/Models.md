@@ -1,14 +1,3 @@
----
-title: Editing - Models
-layout: docs
-origfile: editing/Models.md
-origtitle: Models
-permalink: /docs/editing/Models
-redirect_from:
-  - /wiki/editing/Models/
----
-* TOC
-{:toc}
 # Models
 ## Importing Models
 ### Supported Formats

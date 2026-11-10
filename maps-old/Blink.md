@@ -1,15 +1,3 @@
----
-title: Maps old - Blink
-layout: docs
-origfile: maps-old/Blink.md
-origtitle: Blink
-permalink: /docs/maps-old/Blink
-redirect_from:
-  - /docs/maps_old/Blink/
-  - /wiki/maps_old/Blink/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/blink.png" width="256px" />
 
 ## Information

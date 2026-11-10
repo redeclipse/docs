@@ -1,15 +1,3 @@
----
-title: Maps old - Warp
-layout: docs
-origfile: maps-old/Warp.md
-origtitle: Warp
-permalink: /docs/maps-old/Warp
-redirect_from:
-  - /docs/maps_old/Warp/
-  - /wiki/maps_old/Warp/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/warp.png" width="256px" />
 
 ## Information

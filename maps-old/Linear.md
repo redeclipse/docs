@@ -1,15 +1,3 @@
----
-title: Maps old - Linear
-layout: docs
-origfile: maps-old/Linear.md
-origtitle: Linear
-permalink: /docs/maps-old/Linear
-redirect_from:
-  - /docs/maps_old/Linear/
-  - /wiki/maps_old/Linear/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/linear.png" width="256px" />
 
 ## Information

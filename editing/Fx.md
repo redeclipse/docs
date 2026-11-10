@@ -1,14 +1,3 @@
----
-title: Editing - Fx
-layout: docs
-origfile: editing/Fx.md
-origtitle: Fx
-permalink: /docs/editing/Fx
-redirect_from:
-  - /wiki/editing/Fx/
----
-* TOC
-{:toc}
 # Description of FX System
 
 Red Eclipse comes with an extensible FX system, which allows for scripted audio/visual events, such as particles and sounds.

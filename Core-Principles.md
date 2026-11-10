@@ -1,15 +1,3 @@
----
-title: Core Principles
-layout: docs
-origfile: Core-Principles.md
-origtitle: Core-Principles
-permalink: /docs/Core-Principles
-redirect_from:
-  - /docs/Core_Principles/
-  - /wiki/Core_Principles/
----
-* TOC
-{:toc}
 
 The core principles for how RE2 gameplay is designed. This does not cover the specific gameplay choices of the game, but instead is focused on the parameters the game has been attempted to be balanced upon. Red Eclipse's gameplay is not a unique solution to these parameters, but explaining what kinds of thoughts led to these decisions.
 

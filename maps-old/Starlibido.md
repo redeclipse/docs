@@ -1,15 +1,3 @@
----
-title: Maps old - Starlibido
-layout: docs
-origfile: maps-old/Starlibido.md
-origtitle: Starlibido
-permalink: /docs/maps-old/Starlibido
-redirect_from:
-  - /docs/maps_old/Starlibido/
-  - /wiki/maps_old/Starlibido/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/starlibido.png" width="256px" />
 
 ## Information

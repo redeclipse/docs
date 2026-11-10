@@ -1,15 +1,3 @@
----
-title: Maps old - Amplification
-layout: docs
-origfile: maps-old/Amplification.md
-origtitle: Amplification
-permalink: /docs/maps-old/Amplification
-redirect_from:
-  - /docs/maps_old/Amplification/
-  - /wiki/maps_old/Amplification/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/amplification.png" width="256px" />
 
 ## Information

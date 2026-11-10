@@ -1,15 +1,3 @@
----
-title: Maps old - Facility
-layout: docs
-origfile: maps-old/Facility.md
-origtitle: Facility
-permalink: /docs/maps-old/Facility
-redirect_from:
-  - /docs/maps_old/Facility/
-  - /wiki/maps_old/Facility/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/facility.png" width="256px" />
 
 ## Information
@@ -38,7 +26,7 @@ This map is no longer included with the game. (Removed in 1.4.0)
 
 ## Notes & Strategies
 
-- Has a similar setting as ~~[Depot](Depot)~~ and [Industrial](Industrial).
+- Has a similar setting as ~~[Depot](Depot)~~ and [Industrial](Industrial.md).
 
 ## Spawn Register
 

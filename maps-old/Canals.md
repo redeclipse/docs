@@ -1,15 +1,3 @@
----
-title: Maps old - Canals
-layout: docs
-origfile: maps-old/Canals.md
-origtitle: Canals
-permalink: /docs/maps-old/Canals
-redirect_from:
-  - /docs/maps_old/Canals/
-  - /wiki/maps_old/Canals/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/canals.png" width="256px" />
 
 ## Information

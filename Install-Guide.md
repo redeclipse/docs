@@ -1,17 +1,5 @@
----
-title: Install Guide
-layout: docs
-origfile: Install-Guide.md
-origtitle: Install-Guide
-permalink: /docs/Install-Guide
-redirect_from:
-  - /docs/Install_Guide/
-  - /wiki/Install_Guide/
----
-* TOC
-{:toc}
 ## Windows
-- [Download the installer](/download/windows) and run it.
+- [Download the installer](https://www.redeclipse.net/download/windows) and run it.
 - Follow the installation prompts.
 - You can now access Red Eclipse from your start menu.
 
@@ -19,21 +7,21 @@ If you get a permission denied error during install, right click the installer a
 
 ## GNU/Linux or BSD
 ### AppImage
-- [Download the stable AppImage](/download/appimage)
+- [Download the stable AppImage](https://www.redeclipse.net/download/appimage)
 - After download, give the AppImage executable permissions through your file manager or using the terminal command `chmod +x redeclipse-*.AppImage`
 - You can then run Red Eclipse by double-clicking the AppImage or executing it from a terminal.
 
-[More information and options](AppImages).
+[More information and options](AppImages.md).
 
 ### Standard Package
 - Install Red Eclipse's dependencies.
     - Debian/Ubuntu: `sudo apt-get install curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0`
     - Fedora: `dnf install curl SDL2 SDL2_mixer SDL2_image`
-- [Download the tarball](/download/linux), move it to your home directory, and extract it with your file manager, an archive utility, or the terminal command `tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2`.
+- [Download the tarball](https://www.redeclipse.net/download/linux), move it to your home directory, and extract it with your file manager, an archive utility, or the terminal command `tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2`.
 - Enter the extracted folder (redeclipse-X.Y.Z) and run `redeclipse.sh` to launch Red Eclipse.
 
 ## macOS
-There are no official macOS packages, but you can build the game yourself by following [Building from Source](#building-from-source). macOS support has only recently returned and has not been tested by the developers yet, so please report any problems on our [Discord](/discord) or [Discussions](/discuss).
+There are no official macOS packages, but you can build the game yourself by following [Building from Source](#building-from-source). macOS support has only recently returned and has not been tested by the developers yet, so please report any problems on our [Discord](https://www.redeclipse.net/discord) or [Discussions](https://www.redeclipse.net/discuss).
 
 ## Building from Source
 Building from source gives you the latest development version of the game on GNU/Linux, BSD or macOS.
@@ -60,10 +48,10 @@ The game can also be built with [CMake](https://cmake.org), which can generate a
 - Run the game with `./redeclipse.sh`
 
 ## If you get stuck
-Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [Discord](/discord) or [Discussions](/discuss). Please be ready to provide as much information as possible, especially what operating system you're on and specifically which package you're trying to install!
+Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [Discord](https://www.redeclipse.net/discord) or [Discussions](https://www.redeclipse.net/discuss). Please be ready to provide as much information as possible, especially what operating system you're on and specifically which package you're trying to install!
 
 ## Important Notice About Unofficial Packages
-Red Eclipse is available only through the official installation methods described on this page or via **[Steam](/steam)**.
+Red Eclipse is available only through the official installation methods described on this page or via **[Steam](https://www.redeclipse.net/steam)**.
 Packages found on Flathub, Snap, Flatpak, AUR, Linux distribution repositories, the Ubuntu Software Store, or any other third-party source are not official, not maintained, and not supported by the Red Eclipse development team.
 These unofficial packages may be outdated, incomplete, or insecure, and can cause issues that we cannot assist with.
-For the best experience and to ensure you're receiving verified, up-to-date builds, please install Red Eclipse exclusively through the official methods provided here or via **[Steam](/steam)**.
+For the best experience and to ensure you're receiving verified, up-to-date builds, please install Red Eclipse exclusively through the official methods provided here or via **[Steam](https://www.redeclipse.net/steam)**.

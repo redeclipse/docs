@@ -1,15 +1,3 @@
----
-title: Editing - Fx Particle
-layout: docs
-origfile: editing/Fx-Particle.md
-origtitle: Fx-Particle
-permalink: /docs/editing/Fx-Particle
-redirect_from:
-  - /docs/editing/Fx_Particle/
-  - /wiki/editing/Fx_Particle/
----
-* TOC
-{:toc}
 # Particle FX
 
 This document describes how to create particle effects.

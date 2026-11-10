@@ -1,14 +1,3 @@
----
-title: Maps - Rift
-layout: docs
-origfile: maps/Rift.md
-origtitle: Rift
-permalink: /docs/maps/Rift
-redirect_from:
-  - /wiki/maps/Rift/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps/rift/rift.png" width="256px" />
 
 ## Information

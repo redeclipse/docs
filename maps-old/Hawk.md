@@ -1,15 +1,3 @@
----
-title: Maps old - Hawk
-layout: docs
-origfile: maps-old/Hawk.md
-origtitle: Hawk
-permalink: /docs/maps-old/Hawk
-redirect_from:
-  - /docs/maps_old/Hawk/
-  - /wiki/maps_old/Hawk/
----
-* TOC
-{:toc}
 <img style='border:5px solid #ffe0e0e0' src="../images/maps-old/hawk.png" width="256px" />
 
 ## Information

@@ -1,15 +1,3 @@
----
-title: Official Maps
-layout: docs
-origfile: Official-Maps.md
-origtitle: Official-Maps
-permalink: /docs/Official-Maps
-redirect_from:
-  - /docs/Official_Maps/
-  - /wiki/Official_Maps/
----
-* TOC
-{:toc}
 ## Maps in 2.0 (Tesseract)
 
 ### 2.0 FFA Maps
