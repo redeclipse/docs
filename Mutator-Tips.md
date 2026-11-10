@@ -1,4 +1,4 @@
-For those mutators specific to certain game modes, see the corresponding ~~[mode pages](Modes-and-Mutators)~~.
+For those mutators specific to certain game modes, see the corresponding [mode pages](gameplay/Modes-and-Mutators.md).
 
 ## FFA
 <img src="images/modes/ffa.png" width="64px"/>
