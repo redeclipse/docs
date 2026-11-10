@@ -17,7 +17,7 @@ These are usually placed with *modebit* and *mutsbit* set to the corresponding b
 
 `/newent camera`
 
-These entities are used when spectating with spectv. These can be linked to [rails](#rails) to allow them to move around.
+These entities are used when spectating with spectv. These can be linked to [rails](#rail) to allow them to move around.
 
 ## Checkpoint
 
