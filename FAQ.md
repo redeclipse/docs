@@ -33,8 +33,8 @@ These are the only official sources. Packages from Linux distributions, the AUR,
 Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open Source](http://www.opensource.org/) game.
 
 - Red Eclipse itself and the Cube Engine 2 are under the [Zlib License](http://en.wikipedia.org/wiki/Zlib_License).
-- All content in the game is Free, and no more strict than the Creative Commons [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/) license.
-- For more details, see the [License](https://raw.githubusercontent.com/redeclipse/base/master/doc/license.txt) and [Trademark Policy](https://raw.githubusercontent.com/redeclipse/base/master/doc/trademark.txt).
+- All content in the game is Free, and no more strict than the Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+- For more details, see the [License](License) and [Trademark Policy](Trademark-Policy).
 
 ## What are my rights regarding game servers?
 
