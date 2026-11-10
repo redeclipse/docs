@@ -26,7 +26,7 @@ This map is no longer included with the game. (Removed in 1.4.0)
 
 ## Notes & Strategies
 
-- Has a similar setting as ~~[Depot](Depot)~~ and [Industrial](Industrial.md).
+- Has a similar setting as Depot and [Industrial](Industrial.md).
 
 ## Spawn Register
 
