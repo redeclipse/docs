@@ -77,9 +77,9 @@ If the terminal window closes without launching the game, then there's a problem
 
 This is the development version of the game, which can be [built from source](Install-Guide#building-from-source) from our Github repository to check out upcoming features and life on the bleeding edge.
 
-## What does master and stable mean?
+## What does master mean?
 
-These are the two branches of our base repository on GitHub, <http://github.com/redeclipse/base/>. The stable branch is for the current release version of the game. This also includes important bug fixes that are fetched via automatic updates. The master branch is for the current development version.
+All development happens on the master branch of our [base repository](https://github.com/redeclipse/base) on GitHub. Every build of it that passes our automated checks goes to the devel branch on Steam, which is the easiest way to try upcoming changes. The old stable branch holds the 2.0 release from 2019 and is no longer updated.
 
 ## I found a bug, where can I report it?
 
