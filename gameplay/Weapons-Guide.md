@@ -67,7 +67,7 @@ The player model is split into 3 parts, which determine how much damage is appli
 
 ### Weapon variables
 
-When playing offline or as a server privileges, almost all aspects of game rules can be tuned and modified using the Console to control thousands of variables. This includes a large array of variables for each weapon that give you deep control of their characteristics.
+When playing offline or as a server [operator](../server-how-to/Privileges.md), almost all aspects of game rules can be tuned and modified using the Console to control thousands of [variables](../variables/Variables-home.md). This includes a large array of variables for each weapon that give you deep control of their characteristics.
 
 #### Weapon IDs
 
