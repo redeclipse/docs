@@ -88,7 +88,7 @@ semabuild_process() {
         if [ -d "${i}" ]; then
             if [ "${i}" = "images" ]; then
                 cp -rv "${i}" "${SEMABUILD_DESTDOCS}/"
-            elif [ "${i}" != "src" ]; then
+            else
                 pushd "${i}" || return 1
                 mkdir -pv "${SEMABUILD_DESTDOCS}/${i}"
                 for j in *; do
@@ -104,22 +104,17 @@ semabuild_process() {
     done
     popd || return 1
 
+    # Remove every published file, at any depth, whose source no longer exists.
     pushd "${SEMABUILD_DESTDOCS}" || return 1
-    for i in *; do
-        if [ -d "${i}" ]; then
-            if [ "${i}" != "src" ] && [ "${i}" != "bits" ]; then
-                pushd "${i}" || return 1
-                for j in *; do
-                    if [ ! -d "${j}" ] &&  [ ! -e "${SEMABUILD_GIT}/${i}/${j}" ]; then
-                        git rm "${j}" || return 1
-                    fi
-                done
-                popd || return 1
-            fi
-        elif [ ! -e "${SEMABUILD_GIT}/${i}" ]; then
-            git rm "${i}" || return 1
+    find . -type f | sort | while IFS= read -r i; do
+        i="${i#./}"
+        if [ ! -e "${SEMABUILD_GIT}/${i}" ]; then
+            echo "REMOVE: ${i}"
+            git rm -q -- "${i}" || exit 1
         fi
-    done
+    done || return 1
+    popd || return 1
+
     return 0
 }
 
