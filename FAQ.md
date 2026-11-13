@@ -23,7 +23,7 @@ Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open So
 
 - Red Eclipse itself and the Cube Engine 2 are under the [Zlib License](http://en.wikipedia.org/wiki/Zlib_License).
 - All content in the game is Free, and no more strict than the Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
-- For more details, see the [License](License.md) and [Trademark Policy](Trademark-Policy.md).
+- For more details, see the [License](License.md), [Trademark Policy](Trademark-Policy.md), and [Privacy Policy](Privacy-Policy.md).
 
 ## What are my rights regarding game servers?
 
