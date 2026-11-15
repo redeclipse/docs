@@ -34,12 +34,16 @@ semabuild_build() {
         p=`echo "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
         q=`echo "${m}" | sed -e "s/[_]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
         r=`echo "${q}" | sed -e "s/-/_/g"`
-        s=`echo "${p}" | sed -e "s/\// - /g"`
-        t="$(echo "${s:0:1}" | tr '[:lower:]' '[:upper:]')${s:1}"
-        # a folder's main page is named after the folder, such as variables/Variables, and titled by it alone
+        # a page is titled <Subsection> - <Name>, every word of the folder capitalised, and an Index.md by its folder alone
         d=`dirname "${m}"`
-        if [ "${d}" != "." ] && [ "$(basename "${m}" | tr '[:upper:]' '[:lower:]')" = "$(echo "${d}" | tr '[:upper:]' '[:lower:]')" ]; then
-            t=`basename "${m}"`
+        t=`basename "${m}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g"`
+        if [ "${d}" != "." ]; then
+            s=`echo "${d}" | sed -e "s/[-_]/ /g;s/  / /g;s/^ //g;s/ $//g;s/\(^\| \|\/\)\(.\)/\1\u\2/g;s/\// - /g"`
+            if [ "$(basename "${m}")" = "Index" ]; then
+                t="${s}"
+            else
+                t="${s} - ${t}"
+            fi
         fi
         u=`echo "${m}" | cut -d"/" -f2-`
 
