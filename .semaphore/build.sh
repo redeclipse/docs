@@ -21,6 +21,23 @@ semabuild_setup() {
     return 0
 }
 
+# the addresses a page named ${2} is served at besides its permalink, written to ${1}; with ${3} as 1 its own name too
+semabuild_redirect() {
+    local a b
+    a=`echo "${2}" | sed -e "s/[_]/-/g;s/--/-/g;s/^-//g;s/-$//g"`
+    b=`echo "${a}" | sed -e "s/-/_/g"`
+    if [ "${3}" = "1" ]; then
+        echo "  - /docs/${a}/" >> "${1}"
+    fi
+    if [ "${2}" != "${a}" ]; then
+        echo "  - /docs/${2}/" >> "${1}"
+    fi
+    if [ "${a}" != "${b}" ]; then
+        echo "  - /docs/${b}/" >> "${1}"
+    fi
+    echo "  - /wiki/${b}/" >> "${1}"
+}
+
 semabuild_build() {
     m=`echo "${2}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\1/"`
     n=`echo "${2}" | sed -e "s/^\(.*\)\.\([^.]*\)$/\2/"`
@@ -53,29 +70,40 @@ semabuild_build() {
         echo "layout: docs" >> "${1}"
         echo "origfile: ${2}" >> "${1}"
         echo "origtitle: ${u}" >> "${1}"
-        echo "permalink: /docs/${q}" >> "${1}"
+        # an Index.md is served at its folder, and the top-level one at /docs/
+        if [ "$(basename "${m}")" = "Index" ]; then
+            if [ "${d}" = "." ]; then
+                echo "permalink: /docs/" >> "${1}"
+            else
+                echo "permalink: /docs/${q%/Index}/" >> "${1}"
+            fi
+        else
+            echo "permalink: /docs/${q}" >> "${1}"
+        fi
 
-        SEMABUILD_REDIRECT="0"
+        # the names a page had before it was renamed, and older addresses still linked from elsewhere
+        case "${m}" in
+            Index) w="Home"; x="/docs/Main_Page/ /wiki/ /wiki/Main_Page/" ;;
+            variables/Index) w="variables/Variables variables/Variables-home"; x="" ;;
+            gameplay/Index) w="gameplay/Gameplay-Guide"; x="" ;;
+            maps/Index) w="Official-Maps"; x="" ;;
+            server-how-to/Index) w="server-how-to/Server-Setup"; x="" ;;
+            gameplay/Speedrun) w=""; x="/docs/gameplay/Race/ /docs/gameplay/race/ /wiki/gameplay_Race/ /wiki/race/" ;;
+            *) w=""; x="" ;;
+        esac
+
         echo "redirect_from:" >> "${1}"
-        if [ "${m}" = "Home" ]; then
-            echo "  - /docs/" >> "${1}"
-            echo "  - /docs/Main_Page/" >> "${1}"
-            echo "  - /wiki/" >> "${1}"
-            echo "  - /wiki/Main_Page/" >> "${1}"
-        elif [ "${m}" = "gameplay/Speedrun" ]; then
-            echo "  - /docs/gameplay/Race/" >> "${1}"
-            echo "  - /docs/gameplay/race/" >> "${1}"
-            echo "  - /wiki/gameplay_Race/" >> "${1}"
-            echo "  - /wiki/race/" >> "${1}"
-        elif [ "${m}" = "variables/Variables" ]; then
-            echo "  - /docs/variables/Variables-home/" >> "${1}"
-        elif [ "${m}" != "${q}" ]; then
-            echo "  - /docs/${m}/" >> "${1}"
+        if [ "$(basename "${m}")" = "Index" ]; then
+            semabuild_redirect "${1}" "${m}" 1
+        else
+            semabuild_redirect "${1}" "${m}" 0
         fi
-        if [ "${q}" != "${r}" ]; then
-            echo "  - /docs/${r}/" >> "${1}"
-        fi
-        echo "  - /wiki/${r}/" >> "${1}"
+        for g in ${w}; do
+            semabuild_redirect "${1}" "${g}" 1
+        done
+        for g in ${x}; do
+            echo "  - ${g}" >> "${1}"
+        done
         echo "---" >> "${1}"
 
         echo "* TOC" >> "${1}"
@@ -94,7 +122,8 @@ semabuild_build() {
             fi
         done
 
-        echo "${c}" | sed -e "s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/](https\?:\/\/\(www\.\)\?redeclipse\.net/](/g" >> "${1}"
+        # a link to an Index.md goes to its folder, where the page is served
+        echo "${c}" | sed -e "s/\](Index\.md)/](.\/)/g;s/\](Index\.md#\([^)]*\))/](.\/#\L\1)/g;s/\](\([^)#]*\/\)Index\.md)/](\1)/g;s/\](\([^)#]*\/\)Index\.md#\([^)]*\))/](\1#\L\2)/g;s/\](\([^)]*\)\.md)/](\1)/g;s/\](\([^#)]*\)\.md#\([^)]*\))/](\1#\L\2)/g;s/](https\?:\/\/\(www\.\)\?redeclipse\.net/](/g" >> "${1}"
     fi
 }
 
