@@ -51,8 +51,13 @@ semabuild_build() {
         if [ "${m}" = "Home" ]; then
             echo "  - /docs/" >> "${1}"
             echo "  - /docs/Main_Page/" >> "${1}"
-            echo "  - /wiki/"
+            echo "  - /wiki/" >> "${1}"
             echo "  - /wiki/Main_Page/" >> "${1}"
+        elif [ "${m}" = "gameplay/Speedrun" ]; then
+            echo "  - /docs/gameplay/Race/" >> "${1}"
+            echo "  - /docs/gameplay/race/" >> "${1}"
+            echo "  - /wiki/gameplay_Race/" >> "${1}"
+            echo "  - /wiki/race/" >> "${1}"
         elif [ "${m}" != "${q}" ]; then
             echo "  - /docs/${m}/" >> "${1}"
         fi

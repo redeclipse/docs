@@ -10,6 +10,7 @@
 
 ## Server Administration
 - **[Server Setup](server-how-to/Server-Setup.md)** - How to configure and run a Red Eclipse server.
+- **[Server HTTPS](server-how-to/Server-HTTPS.md)** - Enabling HTTPS and TLS certificates for your server's Web API.
 - **[Administration Guide](server-how-to/Admin-Guide.md)** - How to manage and moderate a server.
 - **[Accounts](Accounts.md)** - Registering an account, saving its key, and linking Steam and Discord.
 - **[Privilege Levels](server-how-to/Privileges.md)** - What those icons next to player names are all about.
