@@ -36,6 +36,9 @@ semabuild_build() {
         r=`echo "${q}" | sed -e "s/-/_/g"`
         s=`echo "${p}" | sed -e "s/\// - /g"`
         t="$(echo "${s:0:1}" | tr '[:lower:]' '[:upper:]')${s:1}"
+        if [ "${m}" = "variables/Home" ]; then
+            t="Variables"
+        fi
         u=`echo "${m}" | cut -d"/" -f2-`
 
         echo "CONVERT: ${m} (${n}) - ${p} (${q}) > ${1}"
@@ -58,6 +61,8 @@ semabuild_build() {
             echo "  - /docs/gameplay/race/" >> "${1}"
             echo "  - /wiki/gameplay_Race/" >> "${1}"
             echo "  - /wiki/race/" >> "${1}"
+        elif [ "${m}" = "variables/Home" ]; then
+            echo "  - /docs/variables/Variables-home/" >> "${1}"
         elif [ "${m}" != "${q}" ]; then
             echo "  - /docs/${m}/" >> "${1}"
         fi

@@ -1,4 +1,4 @@
-Red Eclipse moderators and administrators have several powerful commands at their disposal to manage players and gameplay. This guide lists common admin commands, print it for a handy cheat sheet. For a complete list of admin commands and variables, see the [Variables Reference](../variables/Variables-home.md).
+Red Eclipse moderators and administrators have several powerful commands at their disposal to manage players and gameplay. This guide lists common admin commands, print it for a handy cheat sheet. For a complete list of admin commands and variables, see the [Variables Reference](../variables/Home.md).
 
 ## Using Commands
 ### Entering Commands

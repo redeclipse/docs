@@ -124,7 +124,7 @@ You can change the "openness" of your server; i.e., allowing anyone to claim loc
 ### Server Customization
 - For information on how to limit modes and mutators please see [Game Filters](Server-GameFilters.md)
 - For an example `servinit.cfg` configuration see [doc/examples/servinit.cfg](https://github.com/redeclipse/base/blob/master/doc/examples/servinit.cfg)
-- For information on server and game variables, see [Variables](../variables/Variables-home.md)
+- For information on server and game variables, see [Variables](../variables/Home.md)
 
 ## Forwarding Ports
 Public servers need port forwarding (and firewall rules) configured for the game ports, plus the Web API port if direct HTTP/HTTPS connections are desired.
