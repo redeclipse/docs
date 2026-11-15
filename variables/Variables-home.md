@@ -76,7 +76,7 @@ Variables and commands can be used to change almost everything about how the gam
 | Variable / Command | Description | Arguments / Fields |
 | :--- | :--- | :--- |
 | `demoautoclientsave` | determines if the client automatically saves demos after each match | `value` |
-| `demolock` | determines who may record demos;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `demolock` | determines who may record demos;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `democount` | determines the maximum amount of demo files that may be saved simultaneously on the server (deletes old demos if exceeded) | `value` |
 | `demomaxsize` | determines the maximum size of individual demo files that may be saved on the server | `bytes` |
 | `demoautorec` | determines if demos are automatically recorded each match | `value` |
@@ -271,18 +271,18 @@ Applies to `<action>`: `jump`, `boost`, `dash`, `slide`, `launch`, `melee`, `kic
 | Variable / Command | Description | Arguments / Fields |
 | :--- | :--- | :--- |
 | `mastermode` | set a specific mode to the server;<br>0 = open (everybody can join), 1 = veto (vetolock determines who can force a vote), 2 = locked (only moderator or higher can spawn), 3 = private (only global privs and players with the password can join the server) | `value` |
-| `masterlock` | determines who can set mastermode;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `spawneditlock` | determines who may spawn in editing mode when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `editlock` | determines who may toggle editing when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `speclock` | determines who may force players to spectate;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `crclock` | determines who may use maps with an incorrect CRC integrity check;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `kicklock` | determines who may kick players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `allowlock` | determines who may allow players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `banlock` | determines who may ban players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `mutelock` | determines who may mute players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `limitlock` | determines who may limit players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `vetolock` | determines who may force match votes;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `floodlock` | enables flood protection for everyone below a specific privilege level;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `masterlock` | determines who can set mastermode;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `spawneditlock` | determines who may spawn in editing mode when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `editlock` | determines who may toggle editing when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `speclock` | determines who may force players to spectate;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `crclock` | determines who may use maps with an incorrect CRC integrity check;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `kicklock` | determines who may kick players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `allowlock` | determines who may allow players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `banlock` | determines who may ban players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `mutelock` | determines who may mute players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `limitlock` | determines who may limit players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `vetolock` | determines who may force match votes;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `floodlock` | enables flood protection for everyone below a specific privilege level;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `floodmute` | automatically mute player when warned this many times | `value` |
 | `floodtime` | time span to check for floody messages | `value` |
 | `floodlines` | number of lines in floodtime span before too many | `value` |
@@ -315,13 +315,13 @@ Applies to `<action>`: `jump`, `boost`, `dash`, `slide`, `launch`, `melee`, `kic
 | `duelmaps` | duel map filter (extra filter on top of mode filter) | `list` |
 | `gladiatormaps` | gladiator map filter (extra filter on top of mode filter) | `list` |
 | `kingmaps` | king-of-the-hill maps | `list` |
-| `modelock` | determines at which privilege level modes are locked, according to modelocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `modelock` | determines at which privilege level modes are locked, according to modelocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `modelocktype` | determines the mode locking type;<br>0 = off, 1 = lock level only, 2 = lock level can set limited mode and higher | `value` |
 | `mapsfilter` | 0 = off, 1 = filter based on mutators, 2 = also filter based on players | `value` |
-| `mapslock` | determines at which privilege level maps are locked, according to mapslocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `mapslock` | determines at which privilege level maps are locked, according to mapslocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `mapslocktype` | determines the maps locking type;<br>0 = off, 1 = lock level needed for maps not in allowmaps, 2 = lock level needed for maps not in the rotation | `value` |
-| `varslock` | determines if vars are locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `votelock` | determines at which privilege level votes are locked, according to votelocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `varslock` | determines if vars are locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `votelock` | determines at which privilege level votes are locked, according to votelocktype;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `votelocktype` | determines the vote locking type;<br>0 = off, 1 = lock level only, 2 = lock level can select prevmaps | `value` |
 | `votewait` | time in milliseconds before a player may cast another vote (to avoid flooding) | `milliseconds` |
 | `votestyle` | determines how mid-match votes are handled;<br>0 = votes don't pass mid-match, 1 = passes if votethreshold is met, 2 = passes if unanimous | `value` |
@@ -348,7 +348,7 @@ Applies to `<action>`: `jump`, `boost`, `dash`, `slide`, `launch`, `melee`, `kic
 | :--- | :--- | :--- |
 | `serverspectators` | number of spectator slots, -1 = same as serverclients | `value` |
 | `serverdupclients` | maximum number of clients allowed from the same address, 0 = unlimited | `value` |
-| `connectlock` | players below this privilege level are treated as requiring a password to connect;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `connectlock` | players below this privilege level are treated as requiring a password to connect;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `queryinterval` | rebuild the client list for server queries this often | `milliseconds` |
 | `masterinterval` | keep the master server connection alive this often | `milliseconds` |
 | `connecttimeout` | disconnect clients whose connection attempt takes longer than this | `milliseconds` |
@@ -357,21 +357,21 @@ Applies to `<action>`: `jump`, `boost`, `dash`, `slide`, `launch`, `melee`, `kic
 | `mutetimeout` | temporary mutes last this long | `milliseconds` |
 | `limittimeout` | temporary team change limits last this long | `milliseconds` |
 | `excepttimeout` | temporary excepts last this long | `milliseconds` |
-| `messagelock` | determines who may send chat messages;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `messagelock` | determines who may send chat messages;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `messagelength` | maximum length of a chat message | `value` |
 | `censorwords` | list of words censored in chat messages | `list` |
-| `setinfolock` | determines who may change their player info;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `setinfolock` | determines who may change their player info;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `setinfowait` | minimum time between player info changes | `milliseconds` |
 | `demokeep` | determines if demos that don't run to the end of the match are kept | `bool` |
-| `teamlock` | determines who may change the team of other players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `exceptlock` | determines who may except players from bans, mutes and limits;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `spawnlock` | determines who may spawn when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `iphostlock` | determines who may see player addresses and hosts;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `overflowlock` | players at or above this privilege level are not kicked for message overflow;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `teamlock` | determines who may change the team of other players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `exceptlock` | determines who may except players from bans, mutes and limits;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `spawnlock` | determines who may spawn when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `iphostlock` | determines who may see player addresses and hosts;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `overflowlock` | players at or above this privilege level are not kicked for message overflow;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `overflowsize` | kick players with this many or more queued messages | `value` |
 | `eventfuture` | drop timed events scheduled more than this far ahead, 0 = off | `milliseconds` |
 | `eventlimit` | drop events when a client has this many queued, counting each hit and shot they carry, 0 = unlimited | `value` |
-| `teamkilllock` | players at or above this privilege level are exempt from team kill warnings and punishments;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `teamkilllock` | players at or above this privilege level are exempt from team kill warnings and punishments;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `teamkillrelax` | forgive human-on-bot team kills;<br>0 = off, 1 = forgive, 2 = forgive and don't dock points | `value` |
 | `resetexceptsonend` | determines when the except list is reset;<br>0 = off, 1 = just when empty, 2 = when matches end | `value` |
 | `smallmaps` | maps preferred when the player count is at most smallmapmax | `list` |
@@ -389,8 +389,8 @@ Applies to `<action>`: `jump`, `boost`, `dash`, `slide`, `launch`, `melee`, `kic
 | `resetvars` | resets game variables to their defaults; map variables are only reset if all is true | `all` |
 | `savevars` | saves the current game variables to the server's config | — |
 | `resetconfig` | reloads the server configuration | — |
-| `botoverridelock` | determines who may override bots aiming at them on another team;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
-| `botoverrideffalock` | determines who may command bots in free-for-all games;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = creator, 7 = nobody | `value` |
+| `botoverridelock` | determines who may override bots aiming at them on another team;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `botoverrideffalock` | determines who may command bots in free-for-all games;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 
 ### gameplay settings
 
