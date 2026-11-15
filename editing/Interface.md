@@ -72,10 +72,10 @@ The five buttons under the selection box switch view modes; each is lit while it
 
 `F3` opens **Search action** in the centre. Every editor action has a name, and many Tool panel settings are listed too.
 
-- Type part of a name and press `Return` to search. Up to 20 results are shown.
+- Type part of a name and the results show as you type. Up to 20 results are shown.
 - An action result shows its key in orange and its category: AI, Editor, Entities, Environment, Map, Materials, Physics or Textures. A wheel icon and a `+` mean hold the key and turn the mouse wheel.
 - A **Go to** result opens the Tool panel holding that setting and flashes it.
-- Up and Down pick a result, `Return` runs it, `Esc` closes the search. Clicking a result runs it too.
+- `Return` leaves the text field, then Up and Down pick a result, `Return` runs it and `Esc` closes the search. Clicking a result runs it too.
 
 ![Action search for grab](../images/editing/interface-search.png "Searching for grab")
 
@@ -129,7 +129,7 @@ Every editor action, grouped by category, with its key. Open it from the bottom 
 ![The Editor bindings Tool panel with the preset popup](../images/editing/interface-editor-bindings.png "Editor bindings, with the Preset popup open")
 
 - **Preset**: shows the bind preset last applied; click to choose another.
-- **Search**: show only the actions whose names contain the text.
+- **Search**: show only the actions whose names contain the text, as you type.
 - Each action's key field: click it and press a key, with `Ctrl`, `Alt` or `Shift` if you like, to bind it. An action has one key, and taking a key from another action leaves that action unbound.
 - **X**: clear the action's key.
 - A wheel icon marks an action you hold while turning the mouse wheel.
@@ -138,7 +138,7 @@ The mouse buttons, the wheel, the arrow keys, `Return` and the digits can't be b
 
 ### Bind presets
 
-A preset is a set of editor keys. **Default** is what a new player gets; **Legacy** keeps the older keys. Applying a preset sets its own keys and leaves other actions' keys as they are, and it is remembered between games.
+A preset is a set of editor keys. **Default** is what a new player gets; **Legacy** keeps the older keys. Applying a preset sets its own keys and leaves other actions' keys as they are, and it is remembered between games. When a game update changes the legacy preset, the game applies it again once at start, so legacy players get its new keys, and says so in the console.
 
 Legacy differs in these keys:
 
