@@ -6,7 +6,7 @@
 - **[Gameplay Guide](gameplay/Index.md)** - Want to learn how to play? This is a good start.
 - **[Learn about the Weapons](gameplay/Weapons-Guide.md)** - Each weapon is unique, learn the pros and cons.
 - **[Tips and Tricks for using Parkour](gameplay/Parkour-Guide.md)** - Everyone loves running on walls, but there's more to learn.
-- **[Official Maps](Official-Maps.md)** - Descriptions and recommendations for the included levels.
+- **[Official Maps](maps/Index.md)** - Descriptions and recommendations for the included levels.
 
 ## Server Administration
 - **[Server Setup](server-how-to/Server-Setup.md)** - How to configure and run a Red Eclipse server.
