@@ -107,6 +107,20 @@ These are easier to place by using `/droproute 1` similar as to how [waypoints](
 
 Will play a map-specific sound so long as the player is within the radius. By default (size 0), the sound is a point source. Its volume is maximal at the entity's location, and tapers off to 0 at the radius. Radius is always defined as distance from the entity's location. Sound entities can also be linked to other entities, such as mapmodels (allowing you to play a sound when a door is opened).
 
+Looping map sounds play from the match clock, so every player hears the same part of them at the same time.
+
+### Songs and other long sounds
+
+A map sound is normally loaded whole into memory when the map loads, which is wasteful for a long file such as a song (about 32 MB for three minutes of stereo). Mark its slot as streamed and the file is read a little at a time as it plays instead. Set it with the **Streamed** button beside the slot in the Environment panel's Sound tab, or with the last argument of `mapsound` in the map's config:
+
+`mapsound "mymap/jukebox" 1 1 1 -1 -1 1 1`
+
+A streamed sound is a map sound in every other way: it is placed, attenuated, occluded and given environment effects like any other, follows the player's effects volume, and plays whether or not they have music turned on. Only a few streamed sounds play at once (the player's `soundmaxstreams`, 4 by default), the loudest first, and the rest are silent until one of them drops out, so don't count on more than that being heard from one place.
+
+### Making the music yield
+
+Tick **Music yields** in a sound entity's flags and the map's music grows quieter the louder that sound is heard, down to silence at the sound's full volume (within its reference distance), and returns as the sound fades with distance, behind walls or in another sound environment. Where the entity has a distance clamp, the music is back to full by that distance. This works on any sound entity, streamed or not, and is what lets a song playing from a place in the map take over from the map's music as the player walks up to it. Players can turn the effect down or off with `musicyield`.
+
 ## Teleport
 
 `/newent teleport`
