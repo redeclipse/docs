@@ -50,8 +50,6 @@ Menus, the HUD and the field of view.
 | `addpostfx` | adds this effect to the post-processing stack | `value` |
 | `setpostfx` | replaces all the current post-processing effects with this one | `value` |
 | `clearpostfx` | clears all post-processing effects | - |
-| `musictype` | 0 = no in-game music, 1 = map music (or random if none), 2 = always random, 3 = map music (silence if none), 4-5 = same as 1-2 but pick new tracks when done | `value` |
-| `musicedit` | 0 = no editing music, 1 = map music (or random if none), 2 = always random, 3 = map music (silence if none), 4-5 = same as 1-2 but pick new tracks when done | `value` |
 | `followdead` | 0 = never, 1 = in all but duel/survivor, 2 = always | `value` |
 | `specmode` | 0 = float, 1 = tv | `value` |
 | `waitmode` | 0 = float, 1 = tv in duel/survivor, 2 = tv always | `value` |
@@ -89,6 +87,7 @@ Menus, the HUD and the field of view.
 | `mouseaccelexp` | determines the acceleration curve; 2 is linear, above 2 accelerates more at higher speeds, between 1 and 2 gives logarithmic curves, 1 adds a constant boost once past the offset; uses the same values as cl_mouseAccelPower in Quake Live | `value` |
 | `mouseacceloffset` | determines the mouse speed (counts per millisecond) that must be exceeded before acceleration starts, negative values accelerate more at lower speeds; uses the same values as cl_mouseAccelOffset in Quake Live | `value` |
 | `mouseaccelsenscap` | determines the maximum sensitivity acceleration can reach, keeping fast flicks under control, 0 disables the cap; like sensitivity, this is the Quake Live cl_mouseSensCap multiplied by 2.2 at the default sensitivityscale | `value` |
+| `entityedituiselmaxdist` | maximum distance at which the entityedit world interface is drawn for selected entities, 0 = no limit | `distance` |
 
 `<hud>` is one of these HUD and world UI elements: `player`, `playeroverlay`, `capture`, `captureflag`, `defend`, `bomber`, `entityedit`, `entityitem`, `entityproj`.
 
@@ -113,3 +112,5 @@ Menus, the HUD and the field of view.
 | `specfov` | determines the size of the spectator field of view | `angle` |
 | `firstpersonfov` | determines the size of the first person ingame field of view | `angle` |
 | `thirdpersonfov` | determines the size of the third person ingame field of view | `angle` |
+| `firstpersondepthfov` | field of view the first person weapon is drawn with, so it looks the same whatever fov is (0 = the same as fov) | `angle` |
+| `firstpersonbodydepthfov` | field of view the first person body is drawn with (0 = the same as fov) | `angle` |

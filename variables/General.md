@@ -32,6 +32,13 @@ Joining and leaving games, your player, recording movies and demos, and the clie
 | `mapvariant` | returns the current map variant; 1 for normal and 2 for alt | - |
 | `forcemapvariant` | force selection of a particular variant when loading maps, will change current variant if called when a map is loaded;<br>0 = off, 1 = default, 2 = alternate | `value` |
 | `forcetriggerid` | sets the current triggerid; -1 for random | `value` |
+| `getmaptitle` | returns the title of the map file, or its name if it has none | `map` |
+| `getmapauthor` | returns the author of the map file | `map` |
+| `getmapdesc` | returns the description of the map file | `map` |
+| `getmapfile` | returns the path of a map, adding maps/ to a bare name | `map` |
+| `getmapstate` | returns 0 with no map, 1 while a map is loading or loaded, 2 while it is being saved | - |
+| `gettriggerid` | returns the current triggerid | - |
+| `mapversion` | returns the file format version of the current map | - |
 
 ## Miscellaneous
 
@@ -84,6 +91,17 @@ Joining and leaving games, your player, recording movies and demos, and the clie
 | `demoserverkeeptime` | if greater than 0, only keep auto-recorded demos younger than demoserverkeeptime seconds | `value` |
 | `listdemos` | get a list of recorded demos available for download | - |
 | `getdemo` | get the demo id and save to the name name, id defaults to the last and name defaults to the current time | `[id] [name]` |
+| `recorddemo` | records a demo of the next match on the server (1) or stops it being recorded (0); needs demolock privilege | `boolean` |
+| `stopdemo` | stops the demo being recorded, or the demo being played back; needs demolock privilege | - |
+| `cleardemos` | clears the demo with the given number from the server's list, or every demo if 0; needs demolock privilege | `number` |
+| `demoplayback` | returns 1 while a demo is being played back | - |
+| `demoendless` | when a demo ends, plays another picked at random from demolist, until a game that isn't a demo starts | `boolean` |
+| `demolist` | the demos demoendless picks from | `list` |
+| `demoscan` | reads the header of a demo file into the list of demos, returning its index there, or -1 if it can't be read | `file` |
+| `demoinfo` | returns the number of demos in the list if index is -1, or one property of a demo in it:<br>0 = game version, 1 = map, 2 = mode, 3 = mutators, 4 = time it started, 5 = file | `index property` |
+| `loopdemos` | runs body for every demo in the list, with var set to its index and var2 to its file | `var var2 body` |
+| `demosort` | sorts the list of demos | - |
+| `demoreset` | forgets the demos that failed to read, and the whole list as well if all is 1 | `all` |
 
 ## Clients
 
@@ -119,3 +137,9 @@ Joining and leaving games, your player, recording movies and demos, and the clie
 | `meteam` | send a message to the team chat in the form of an action<br>ex: * foobar (to team ..) demonstrates something | `text` |
 | `whisper` | send a message directly to another player on the server<br>note: messages are not private and are visible in demos | `name/cn text` |
 | `mewhisper` | send a message directly to another player on the server in the form of an action<br>ex: * foobar (whispers to barfoo) demonstrates something<br>note: messages are not private and are visible in demos | `name/cn text` |
+| `echomsg` | prints text to the chat and console as a message from the game, in colour (white if not given) | `colour text` |
+| `chatlines` | the most chat messages shown on the HUD at once | `value` |
+| `chatouttime` | how long a chat message stays on the HUD (0 = until pushed off by newer ones) | `milliseconds` |
+| `chatintime` | time a new chat message takes to grow in | `milliseconds` |
+| `chatfadetime` | time a chat message takes to fade away at the end of chatouttime | `milliseconds` |
+| `chatblend` | opacity of chat messages on the HUD | `value` |

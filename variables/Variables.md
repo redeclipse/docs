@@ -7,7 +7,7 @@ Where a family of variables shares a pattern, such as one for each weapon, the p
 - [Gameplay](Gameplay.md): The rules of a match: health, damage, spawning, items, teams and scoring
 - [Server](Server.md): Running a server: its settings, the privileges needed for each action, moderation and the IRC relay
 - [Modes](Modes.md): Settings for each mode, and the aliases that pick a mode and its mutators
-- [Sound](Sound.md): Volume, music, the sound device and footsteps
+- [Sound](Sound.md): Volume, music, footsteps, and how sounds carry, echo and give way to the announcer
 - [Interface](Interface.md): Menus, the HUD and the field of view
 - [Engine](Engine.md): The engine's own settings, and the values it reports
 - [Editing](Editing.md): Editing maps: entities, the map's settings, its lighting and sky, textures and materials

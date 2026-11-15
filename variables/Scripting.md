@@ -143,6 +143,15 @@ Binary operators take two arguments and return a single value (this is not the s
 | `rnd` | returns a random number between 0 or min and max;<br>example: rnd 50 25 | `max [min]` |
 | `round` | returns the float given rounded to the nearest integer to to the nearest N if N is passed | `value, N` |
 | `precf` | returns the value float truncated to accuracy number of decimals;<br>example: (precf 0.14986 2) will give 0.14 | `float accuracy` |
+| `&` | returns the bit-wise AND of int1 and int2 | `int1 int2` |
+| `&~` | returns the bit-wise NOT of the bit-wise AND of int1 and int2 | `int1 int2` |
+| `<<` | returns int1 left shifted int2 times | `int1 int2` |
+| `>>` | returns int1 right shifted int2 times | `int1 int2` |
+| `^` | returns the bit-wise XOR of int1 and int2 | `int1 int2` |
+| `^~` | returns the bit-wise NOT of the bit-wise XOR of int1 and int2 | `int1 int2` |
+| `\|` | returns the bit-wise OR of int1 and int2 | `int1 int2` |
+| `\|~` | returns the bit-wise NOT of the bit-wise OR of int1 and int2 | `int1 int2` |
+| `~` | returns the bit-wise NOT of int | `int` |
 
 ## Unary operators
 
@@ -178,15 +187,6 @@ Boolean operators output true (`1`) or false (`0`), unlike the arithmetic/bitwis
 
 | Variable / Command | Description | Arguments / Fields |
 | :--- | :--- | :--- |
-| `&` | returns the bit-wise AND of int1 and int2 | `int1 int2` |
-| `&~` | returns the bit-wise NOT of the bit-wise AND of int1 and int2 | `int1 int2` |
-| `<<` | returns &lt;int1 left shifted int2 times | `int1 int2` |
-| `>>` | returns int1 right shifted int2 times | `int1 int2` |
-| `^` | returns the bit-wise XOR of int1 and int2 | `int1 int2` |
-| `^~` | returns the bit-wise NOT of the bit-wise XOR of int1 and int2 | `int1 int2` |
-| `\|` | returns the bit-wise OR of int1 and int2 | `int1 int2` |
-| `\|~` | returns the bit-wise NOT of the bit-wise OR of int1 and int2 | `int1 int2` |
-| `~` | returns the bit-wise NOT of int | `int` |
 | `!` | returns the logical not of condition | `condition` |
 | `&&` | returns the logical and of all given conditions | `condition..` |
 | `?` | returns true_body when condition is true, otherwise false_body | `condition true_body false_body` |
@@ -196,10 +196,10 @@ Boolean operators output true (`1`) or false (`0`), unlike the arithmetic/bitwis
 | `!=s` | returns true when string1 is not equal to string2 on the ascii table | `string1 string2` |
 | `<=` | returns true when int1 is less than or equal to int2 | `int1 int2` |
 | `<=f` | returns true when float1 is less than or equal to float2 | `float1 float2` |
-| `<=s` | returns true when &lt;string1 is less than or equal to string2 on the ascii table | `string1 string2` |
-| `<` | returns true when &lt;int1 is less than int2 | `int1 int2` |
-| `<f` | returns true when &lt;float1 is less than float2 | `float1 float2` |
-| `<s` | returns true when &lt;string1 is less than string2 on the ascii table | `string1 string2` |
+| `<=s` | returns true when string1 is less than or equal to string2 on the ascii table | `string1 string2` |
+| `<` | returns true when int1 is less than int2 | `int1 int2` |
+| `<f` | returns true when float1 is less than float2 | `float1 float2` |
+| `<s` | returns true when string1 is less than string2 on the ascii table | `string1 string2` |
 | `=` | returns true when int1 is equal to int2 | `int1 int2` |
 | `=f` | returns true when float1 is equal to float2 | `float1 float2` |
 | `=s` | returns true when string1 is equal to string2 on the ascii table | `string1 string2` |
@@ -210,8 +210,23 @@ Boolean operators output true (`1`) or false (`0`), unlike the arithmetic/bitwis
 | `>f` | returns true when float1 is greater than float2 | `float1 float2` |
 | `>s` | returns true when string1 is greater than string2 on the ascii table | `string1 string2` |
 | `~=s` | returns true when string1 is equal to string2 ignoring case;<br>example: ~=s "str" "StR" | `string1 string2` |
+| `!~=s` | returns true when string1 is not equal to string2 ignoring case | `string1 string2` |
+| `<~s` | returns true when string1 is less than string2 ignoring case | `string1 string2` |
+| `>~s` | returns true when string1 is greater than string2 ignoring case | `string1 string2` |
+| `<~=s` | returns true when string1 is less than or equal to string2 ignoring case | `string1 string2` |
+| `>~=s` | returns true when string1 is greater than or equal to string2 ignoring case | `string1 string2` |
 | `~=sn` | returns true when the first count characters of string1 and string2 are equal ignoring case;<br>example: ~=sn "str" "StRiNg" 3 | `string1 string2 count` |
 | `=sn` | returns true when the first count characters of string1 and string2 are equal;<br>example: =sn "str" "string" 3 | `string1 string2 count` |
+| `!=sn` | returns true when the first count characters of string1 and string2 are not equal | `string1 string2 count` |
+| `<sn` | returns true when the first count characters of string1 are less than those of string2 | `string1 string2 count` |
+| `>sn` | returns true when the first count characters of string1 are greater than those of string2 | `string1 string2 count` |
+| `<=sn` | returns true when the first count characters of string1 are less than or equal to those of string2 | `string1 string2 count` |
+| `>=sn` | returns true when the first count characters of string1 are greater than or equal to those of string2 | `string1 string2 count` |
+| `!~=sn` | returns true when the first count characters of string1 and string2 are not equal ignoring case | `string1 string2 count` |
+| `<~sn` | returns true when the first count characters of string1 are less than those of string2 ignoring case | `string1 string2 count` |
+| `>~sn` | returns true when the first count characters of string1 are greater than those of string2 ignoring case | `string1 string2 count` |
+| `<~=sn` | returns true when the first count characters of string1 are less than or equal to those of string2 ignoring case | `string1 string2 count` |
+| `>~=sn` | returns true when the first count characters of string1 are greater than or equal to those of string2 ignoring case | `string1 string2 count` |
 | `strcasecmp` | returns true when string1 is equal to string2 ignoring case;<br>example: strcasecmp "str" "StR" | `string1 string2` |
 | `strcmp` | returns true when string1 is equal to string2, equivalent to =s;<br>example: strcmp "str" "str" | `string1 string2` |
 | `strncasecmp` | returns true when the first count characters of string1 and string2 are equal ignoring case;<br>example: strncasecmp "str" "StRiNg" 3 | `string1 string2 count` |
@@ -235,9 +250,12 @@ Boolean operators output true (`1`) or false (`0`), unlike the arithmetic/bitwis
 | `strupper` | returns the input string in all uppercase;<br>example: strupper "String" -> "STRING" | - |
 | `strlower` | returns the input string in all lowercase;<br>example: strupper "String" -> "string" | - |
 
-## Writing variables
+## Config files
 
 | Variable / Command | Description | Arguments / Fields |
 | :--- | :--- | :--- |
 | `writevars` | writes the current server's variables to a config file named file;<br>if [all] is true, every variable will be written with default values commented out; if false, only changed variables will be written (default: false)<br>if [sv_] is true, variables will be prefixed with "sv_" (default: false) | `file [all] [sv_]` |
 | `writevarsinfo` | writes raw information about all existing vars, commands and aliases to a file;<br>for each item the following fields are printed: NAME TYPE FLAGS ARGS VALTYPE VALUE MIN MAX DESC USAGE,<br>fields are separated by tabs, and empty if nonexistent | `file` |
+| `writecfg` | saves your settings to config.cfg, or the settings read at the start to init.cfg if init is 1; the game does this when it quits | `[init]` |
+| `exec` | runs the CubeScript in a file, returning 1 if it could be read; msg 1 reports a file that can't be read | `file [flags] [msg]` |
+| `execute` | runs a string as CubeScript and returns its result | `code` |

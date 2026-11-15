@@ -47,6 +47,7 @@ The engine's own settings, and the values it reports.
 | `windanimdist` | sets the maximum distance for drawing wind animations | `value` |
 | `windanimfalloff` | sets the falloff distance for drawing wind animations | `value` |
 | `windmaxemitters` | sets the maximum amount of active wind emitters | `value` |
+| `windcostdiv` | how often things sample the wind, divided into the cost of the active wind emitters; higher samples more often | `value` |
 | `particlewind` | toggles allowing particles to move with the wind (including map wind and explosions) | `boolean` |
 | `fileredirect` | reads replacement in place of removed once removed can't be found anywhere; removed can use * and ? wildcards and \| between alternatives, and replacement fills in what they matched as $1 to $9 ($$ is a $);<br>a texture, sky box, model, sound or music a map names that's removed is ported to replacement when the map loads, so saving the map saves it, and colour (0xRRGGBB) tints a diffuse texture's slot;<br>an empty replacement drops removed, so a map slot loses that texture and its shader the part that used it;<br>example: fileredirect "textures/old/*" "textures/new/$1" | `removed replacement [colour]` |
 | `fileredirectclear` | removes every redirect made with fileredirect | - |
@@ -66,3 +67,34 @@ The engine's own settings, and the values it reports.
 | `cameraposy` | returns the y coordinate of the camera's location as a float precise to seven digits | - |
 | `cameraposz` | returns the z coordinate of the camera's location as a float precise to seven digits | - |
 | `getenginestat` | returns an engine value:<br>0:wtr     1:wtr%    2:wvt     3:wvt%    4:evt<br>5:eva     6:ond      7:va       8:gl       9:gb<br>10:oq     11:fps    12:best   13:worst  14:ents<br>15:entsel 16:wp     17:pvs    18:vel     19:m/s<br>20:km/h  21:posx  22:posy   23:posz   24:yaw<br>25:pitch  26:roll    27:selox  28:seloy  29:seloz<br>30:selsx  31:selsy  32:selsz  33:selcx  34:selcxs<br>35:selcy  36:selcys 37:cube   38:mat   39:corner<br>40:orient 41:grid | - |
+| `curfps` | the current frame rate, averaged over the last few frames | - |
+| `bestfps` | the best frame rate of the last few frames | - |
+| `worstfps` | the worst frame rate of the last few frames | - |
+| `getfps` | returns the current frame rate, or that of the last frame alone if raw is 1 | `[raw]` |
+| `curtime` | milliseconds of game time the last frame took, which is 0 while paused and scaled by timescale | - |
+| `lastmillis` | milliseconds of game time since the game started, which stops while paused | - |
+| `totalmillis` | milliseconds of real time since the game started | - |
+| `elapsedtime` | milliseconds of real time the last frame took | - |
+| `paused` | 1 while the game is paused | - |
+| `timescale` | the speed game time runs at, as a percentage of real time | - |
+| `desktopw` | width of the desktop, in pixels | - |
+| `desktoph` | height of the desktop, in pixels | - |
+| `refreshrate` | refresh rate of the display the game is on, in hertz | - |
+| `renderw` | width the world is rendered at, in pixels | - |
+| `renderh` | height the world is rendered at, in pixels | - |
+| `hudw` | width the HUD and menus are drawn at, in pixels | - |
+| `hudh` | height the HUD and menus are drawn at, in pixels | - |
+| `gfxvendor` | the graphics driver's vendor | - |
+| `gfxrenderer` | the graphics card, as the driver names it | - |
+| `gfxversion` | the graphics driver's OpenGL version string | - |
+| `glversion` | the OpenGL version in use, such as 330 for 3.3 | - |
+| `glslversion` | the GLSL version in use, such as 330 for 3.30 | - |
+| `versionstring` | the game's version, such as 2.1.0 | - |
+| `versionmajor` | the major part of the game's version | - |
+| `versionminor` | the minor part of the game's version | - |
+| `versionpatch` | the patch part of the game's version | - |
+| `versionname` | the game's name | - |
+| `versionbranch` | the branch the game was built from | - |
+| `versionbuild` | the build number of the game, 0 if it was built by hand | - |
+| `versionplatname` | the short name of the platform the game is running on | - |
+| `versionplatlongname` | the name of the platform the game is running on: windows, macos or linux/bsd | - |
