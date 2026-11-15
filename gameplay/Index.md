@@ -99,3 +99,39 @@ Additional mutators which can only be enabled in specific game modes.
 |<img src="../images/modes/speedrunlapped.png" width="64px"/>    |Speedrun          |Lapped    |Try to complete the obstacle course the most number of times|
 |<img src="../images/modes/speedrunendurance.png" width="64px"/> |Speedrun          |Endurance |Laps must be completed without dying at all                 |
 |<img src="../images/modes/speedrungauntlet.png" width="64px"/>  |Speedrun          |Gauntlet  |Teams take turns running the gauntlet                       |
+
+### Gameplay Pages
+
+#### Mode Pages
+- [Modes and Mutators](Modes-and-Mutators.md) - Every mode and mutator, and what each one changes.
+- [Deathmatch](Deathmatch.md) - Battle it out, highest score wins.
+- [Capture the Flag](Capture-the-Flag.md) - Take the enemy flag back to your base, whilst defending your own.
+- [Defend and Control](Defend-Control.md) - Capture and hold control points across the map.
+- [Bomber Ball](Bomber-Ball.md) - Carry the bomb into the enemy goal before its timer runs out.
+- [Speedrun](Speedrun.md) - Complete the obstacle course in the fastest time.
+- [Demo](Demo.md) - Play back recorded matches.
+
+#### Guides
+- [Weapons Guide](Weapons-Guide.md) - The weapons, their loadouts and how each one plays.
+- [Parkour Guide](Parkour-Guide.md) - The impulse system, and the moves you can chain together.
+- [Scoring System](Scoring-System.md) - How points are gained and lost, and the bonuses for streaks and sprees.
+- [Status Effects](Status-Effects.md) - Buffs, and the shock, burn, bleed and corrode ailments.
+
+#### Weapon Pages
+- [Claw Attack](Weapon-Claw.md)
+- [Sidearm Pistol](Weapon-Pistol.md)
+- [Energy Sword](Weapon-Sword.md)
+- [Super Shotgun](Weapon-Shotgun.md)
+- [Submachine Gun](Weapon-Smg.md)
+- [Flame Thrower](Weapon-Flamer.md)
+- [Plasma Inductor](Weapon-Plasma.md)
+- [Electro Zapper](Weapon-Zapper.md)
+- [Laser Rifle](Weapon-Rifle.md)
+- [Corrosion Cannon](Weapon-Corroder.md)
+- [Frag Grenade](Weapon-Grenade.md)
+- [Shock Mine](Weapon-Mine.md)
+- [Rocket Launcher](Weapon-Rocket.md)
+- [Heavy Minigun](Weapon-Minigun.md)
+- [Jet Chainsaw](Weapon-Jetsaw.md)
+- [Eclipse Rod](Weapon-Eclipse.md)
+- [Trident](Weapon-Trident.md)
