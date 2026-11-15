@@ -6,9 +6,9 @@ Keys here are the default bind preset's. Where the legacy preset differs, it is 
 
 ## Cursor mode and keyboard
 
-The mouse looks around until you switch to cursor mode, which frees the cursor for the toolbar and Tool panels.
+Edit mode starts in cursor mode: the mouse moves a cursor for the toolbar and Tool panels, and edits go where it points.
 
-- `Tab`: toggle cursor mode.
+- `Tab`: switch between cursor mode and mouse look, where the mouse turns the view and edits go to the centre of the screen.
 - Right click in cursor mode: a short click opens the context menu of what is under the cursor; holding it looks around. A mouse icon next to the cursor shows when there is a context menu.
 - Up, Down, Left, Right and `Return`: move through and pick items in the Tool panel whose title bar is highlighted. With no such Tool panel, `Return` opens chat.
 - `Esc`: back out of a Tool panel's keyboard navigation, else cancel the selection. The main menu is on the toolbar.
