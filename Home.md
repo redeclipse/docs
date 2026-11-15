@@ -9,7 +9,7 @@
 - **[Official Maps](maps/Index.md)** - Descriptions and recommendations for the included levels.
 
 ## Server Administration
-- **[Server Setup](server-how-to/Server-Setup.md)** - How to configure and run a Red Eclipse server.
+- **[Server Setup](server-how-to/Index.md)** - How to configure and run a Red Eclipse server.
 - **[Server HTTPS](server-how-to/Server-HTTPS.md)** - Enabling HTTPS and TLS certificates for your server's Web API.
 - **[Web API Guide](Web-API-Guide.md)** - What the master and game servers answer over HTTP and WebSockets, for web developers and bot authors.
 - **[Administration Guide](server-how-to/Admin-Guide.md)** - How to manage and moderate a server.
