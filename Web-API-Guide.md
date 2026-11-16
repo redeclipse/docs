@@ -504,7 +504,7 @@ The Control entries your Privilege may see:
 | Field | Meaning |
 |---|---|
 | `type` | `allow`, `ban`, `mute`, `limit` or `except` |
-| `scope` | `temporary`, `internal`, `local` or `global`. Global entries come from the master and can't be removed here |
+| `scope` | `temporary`, `internal`, `local` or `global`. Global entries come from the master and can't be removed here, and only a global `except` lifts a global ban, mute or limit |
 | `source` | `server`, `player`, `automatic` or `master` |
 | `name`, `handle`, `by`, `reason` | Present when known |
 | `ip`, `mask` | At the server's `iphostlock` and above (moderator by default). `mask` is the prefix length, and is present only for ranges |
@@ -517,7 +517,7 @@ The Control entries your Privilege may see:
 
 - `type` is `kick`, `allow`, `ban`, `mute`, `limit` or `except`. `reason` is optional.
 - Success is `201` with `{"ok": true}`.
-- You can't act on a player whose Privilege is higher than yours. A player protected by an `except` entry can only be acted on by an Administrator.
+- You can't act on a player whose Privilege is higher than yours. A player protected by an `except` entry can only be acted on by an Administrator, and a player protected by a global `except` can't be banned, muted or limited here at all.
 
 ### DELETE /controls/\<id\>
 
