@@ -34,6 +34,8 @@ This password can be entered via the `/setpriv` command. On servers configured w
 /setpriv <password>
 ```
 
+Anyone with a privilege can give another player a local one on that server, from the Players panel or with `/addpriv <player> <level>`, and take it back with `/resetpriv <player>`. It has to be below your own, and so does the standing of anyone you change: a local administrator can give moderator at most. Only the server's host and founders can go further.
+
 ## How to get an account
 Anyone can register an account, in the game under **Player setup**, **Account**, or at https://www.redeclipse.net/account. See [Accounts](../Accounts.md).
 

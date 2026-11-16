@@ -1013,7 +1013,7 @@ An account can link one Steam account and one Discord account, each proven throu
 
 ### Administration
 
-The master has no console, so its administrators manage it here, signed in with a remembered sign-in at the master's `masteradminlock` (administrator by default). Nobody can change an account at or above their own standing, or give one, except a founder.
+The master has no console, so its administrators manage it here, signed in with a remembered sign-in at the master's `masteradminlock` (administrator by default). Nobody can change or remove an account or server account at or above their own standing, or give either a standing at or above their own, except a founder.
 
 | Route | Does |
 |---|---|
