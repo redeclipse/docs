@@ -53,7 +53,7 @@ Right click a texture, other than the sky (#0) and the default (#1), for its men
 - **Cull from here**: remove the slots the map doesn't use, from this one to the end of the list.
 - **Cull group**: remove the slots the map doesn't use from this one's group.
 
-The menu isn't available online, and removing and culling can't be undone. Saving the map writes its slots to the map's `.cfg` file.
+The menu isn't available online, and removing and culling can't be undone; culling also clears the undo history, as it renumbers the slots. Saving the map writes its slots to the map's `.cfg` file.
 
 ## Texture variants
 

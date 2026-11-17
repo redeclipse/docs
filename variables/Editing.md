@@ -116,7 +116,7 @@ Editing maps: entities, the map's settings, its lighting and sky, textures and m
 | `mapfile` | path to map .mpz file | `path` |
 | `mapname` | path to map file | `path` |
 | `savemap` | saves the current map as "mapname.mpz" in the homedir | `map` |
-| `shrinkmap` | shrinks the map size to smallest cubed area,<br>only empty space outside of the map will be removed | - |
+| `shrinkmap` | shrinks the map size to smallest cubed area,<br>only empty space outside of the map will be removed;<br>it clears the undo history | - |
 | `sendmap` | manually sends map to the server; not in edit mode, where other players send it when needed | - |
 | `getmap` | manually retrieves map from the server, or in edit mode from another player | - |
 | `newmap` | create new map with the specified gridpower and name | `size, name` |
