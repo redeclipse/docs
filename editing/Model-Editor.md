@@ -14,10 +14,10 @@ The editor remembers what you had on screen (the host model, its attachments and
 
 ## The host model and its attachments
 
-The left side of the editor lists what's on screen.
+The left side of the editor lists what's on screen. Lists to choose from, such as models, tags and vanities, open at the foot of it, with a field to filter them and **Cancel** to close them.
 
-- **Host model** is the model the others attach to. Click its name to tune it, or **Change host** to pick another. The list offers the player bodies, the first person hands and the janitor, then every model loaded so far; type to filter it, or type a model's path and choose **Load** to load one that isn't.
-- **Attachments** are models shown on one of the host model's tags, listed as `tag : model`. Click one to tune it, or **x** to take it off.
+- **Host model** is the model the others attach to. Click its name to tune it, or **Change host** to pick another. The list offers the player bodies, the first person hands and the janitor, then every model loaded so far; type to filter it, or type a model's path and choose **Load** to load one that isn't. During a match hundreds of models can be loaded, so the list shows the first 150 that match and says how many more there are.
+- **Attachments** are models shown on one of the host model's tags, listed as `tag : model`. Click one to tune it, or **x** to take it off. To move the selected attachment to another of the host's tags, choose **Change tag** at the top of the right side.
 - **Add attachment** asks for a model, the same way as the host, and then for one of the host's tags. A tag the host doesn't have can be typed in, but nothing shows until the host has that tag.
 - **Add vanity** lists the vanities. It picks the version of the vanity made for the host's body (male, female or janitor), with your own head on a player body, and puts it on the vanity's tag, as the game would.
 
@@ -31,7 +31,7 @@ The model turns when you drag it, moves when you drag with the right mouse butto
 
 ## Placement
 
-The right side tunes whichever model you clicked: the host or an attachment. These are the same values as the model's config commands.
+The right side tunes whichever model you clicked: the host or an attachment. Its **Placement** tab holds the same values as the model's config commands.
 
 | Value | Command | What it does |
 | --- | --- | --- |
@@ -41,13 +41,13 @@ The right side tunes whichever model you clicked: the host or an attachment. The
 | Pitch | `mdlpitch` | Tips the model forward or back |
 | Roll | `mdlroll` | Rolls the model to one side |
 
-Each value has a slider, **-** and **+** buttons, and a field to type it in. **Step** sets how far the buttons and slider move: fine, normal or coarse (0.01, 0.1 or 1 for distances, 1, 5 or 15 degrees for angles, and 1, 5 or 25 percent for scale).
+Each value has a slider, **-** and **+** buttons, and a field to type it in. **Step**, above both tabs, sets how far the buttons and slider move: fine, normal or coarse (0.01, 0.1 or 1 for distances, 1, 5 or 15 degrees for angles, and 1, 5 or 25 percent for scale).
 
 A change applies to the model everywhere it's drawn, not only in the editor, until the editor closes.
 
 ## Tags
 
-**Tags** lists the selected model's tags and the bone each one is on. Click a tag to move it (X, Y, Z) and turn it (Rot X, Rot Y, Rot Z); anything attached to it moves with it. Tags on models without bones (MD2, MD3 and OBJ) are listed but can't be changed.
+The **Tags** tab lists the selected model's tags and the bone each one is on. Click a tag to move it (X, Y, Z) and turn it (Rot X, Rot Y, Rot Z); anything attached to it moves with it. Tags on models without bones (MD2, MD3 and OBJ) are listed but can't be changed.
 
 **Add tag** adds a tag to a model with bones (IQM, MD5 or SMD). Pick the bone, name the tag, and choose **Add tag**. It starts on the bone with no offset; attach something to it to see where it is.
 
