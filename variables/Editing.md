@@ -302,6 +302,7 @@ Add `alt` to the end of these for the alternate map variant (`mapvariant 2`).
 
 | Variable / Command | Description | Arguments / Fields |
 | :--- | :--- | :--- |
+| `editproblem` | returns why an edit over the selection is too big to send to the other players online, or nothing when it can be made | |
 | `editmat` | modifies the material properties for selected cubes;<br>type is the material to be applied {water, clip, ladder..},<br>filter limits the command to only affect cubes whose material<br>match this, if given as empty string "" it matches all;<br>style limits the command to only affect cubes whose<br>geometry match this:<br>0 = normal<br>1 = non-empty<br>2 = empty<br>3 = not entirely solid<br>4 = entirely solid<br>example: editmat air water 2 would set all empty cubes<br>with water within the current selection to instead be air | `type filtermat filterstyle` |
 | `showmat` | toggles the visibility of material volumes | `value` |
 | `showphyslayers` | toggles the visibility of physical layers | `value` |
