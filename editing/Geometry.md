@@ -139,6 +139,8 @@ The server limits how fast each player's edits may arrive ([`editcost`](../varia
 
 Commands that change the whole map, such as shrinking it or culling texture slots, reach everyone in the order the server gets them. An edit another player made just before, still on its way, lands where the map was, so run them while nobody else is in the middle of an edit.
 
+Two players placing new entities at the same moment can each take the same slot, and each ends up with the other's entity in place of their own. Check entities placed together with someone else, and place again any that went missing.
+
 ## Keys
 
 | Key | Action |
