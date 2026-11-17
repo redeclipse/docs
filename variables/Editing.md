@@ -85,6 +85,25 @@ Editing maps: entities, the map's settings, its lighting and sky, textures and m
 | `mapsoundstream` | sets whether the map sound slot at index is streamed, read as it plays rather than held whole in memory, or returns it if no value is given | `index value` |
 | `mapsoundinfo` | returns number of mapsound slots used in the current map when supplied index = -1, otherwise returns path to the sound on the slot provided by the index | `index` |
 
+## Shapes
+
+| Variable / Command | Description | Arguments / Fields |
+| :--- | :--- | :--- |
+| `buildsphere` | builds a sphere over the selection from its corner, sizes in cubes of the grid size; detail halves the cubes its surface crosses that many times, the offset moves it in its box, the scales stretch it along each axis, and carve 1 cuts it out of the geometry instead of adding it | `radius` `detail` `offx` `offy` `offz` `scalex` `scaley` `scalez` `carve` |
+| `buildellipsoid` | the same as buildsphere, for a sphere stretched by its scales | `radius` `detail` `offx` `offy` `offz` `scalex` `scaley` `scalez` `carve` |
+| `buildcylinder` | builds an upright cylinder over the selection, as buildsphere does | `radius` `height` `detail` `offx` `offy` `offz` `carve` |
+| `buildtunnel` | builds a block with an arched passage through it along Y over the selection, as buildsphere does | `radius` `length` `detail` `offx` `offy` `offz` `carve` |
+| `buildpipebend` | builds a quarter bend of pipe with straight ends over the selection, as buildsphere does | `radius` `piperadius` `detail` `offx` `offy` `offz` `carve` |
+| `buildtorus` | builds a flat ring over the selection, as buildsphere does | `radius` `tuberadius` `detail` `offx` `offy` `offz` `carve` |
+| `buildparaboloid` | builds a dome as wide as its box at the bottom over the selection, as buildsphere does | `radius` `detail` `offx` `offy` `offz` `carve` |
+| `buildoctahedron` | builds an eight-sided diamond over the selection, as buildsphere does | `radius` `detail` `offx` `offy` `offz` `carve` |
+| `buildhelix` | builds a coil around Z over the selection, as buildsphere does | `tuberadius` `coilradius` `detail` `carve` |
+| `buildbox` | builds a box with its edges and corners rounded over the selection, as buildsphere does | `sizex` `sizey` `sizez` `rounding` `detail` `offx` `offy` `offz` `carve` |
+| `buildcone` | builds a cone standing on its base over the selection, as buildsphere does | `radius` `height` `detail` `offx` `offy` `offz` `carve` |
+| `buildterrain` | builds terrain from a greyscale heightmap image over the selection, one cube smaller than the image on each side, brighter being higher up to height cubes; name the image with its extension | `image` `height` `carve` |
+| `importsmc` | imports an SMC file of cubes from the selection's corner, a line per cube of x y z size and its eight corner densities, negative inside; voxel 1 makes each listed cube solid instead | `file` `voxel` |
+| `shapeproblem` | returns why a shape whose box is x y z cubes can't be built at the selection now, or nothing when it can | `x` `y` `z` |
+
 ## Map settings
 
 | Variable / Command | Description | Arguments / Fields |
