@@ -135,6 +135,8 @@ The shapes, and their commands, which take the same sizes followed by the detail
 
 Shapes, terrain, imports and heightmap strokes reach the other players in the session. A very large one is sent a part at a time, so they may see it arrive over a few moments, and one too big to send at all is taken back, saying so in the console.
 
+The server limits how fast each player's edits may arrive ([`editcost`](../variables/Server.md)), so the game sends large edits and many quick ones a little at a time to stay within it. An edit over a selection holding more cubes than that allows at once (1048576 at the server's defaults, counted at the selection's grid size) is refused online, saying so in the console: select a larger grid size, or edit it in parts.
+
 ## Keys
 
 | Key | Action |
