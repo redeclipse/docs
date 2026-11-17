@@ -166,7 +166,7 @@ The slot itself: the image files the texture is made of, and the settings every 
 
 ## Replace texture
 
-**Replace textures**, in the Textures Tool panel's **More** menu, swaps one texture for another on every face that has it. Not available online.
+**Replace textures**, in the Textures Tool panel's **More** menu, swaps one texture for another on every face that has it.
 
 - **Limit to selection**: replace only within the selection.
 - **Old texture**: the texture to replace. Click it to choose from the list, or use the arrow button to take the selection's.

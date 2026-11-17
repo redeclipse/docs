@@ -129,7 +129,7 @@ Camera:
 Editing:
 
 - **Undo size (MB)**: memory kept for undo ([`undomegs`](../variables/Editing.md)).
-- **Lock non-multiplayer functionality**: when editing online, refuse an undo too big to send to the other players, rather than undoing it only on your map.
+- **Lock non-multiplayer functionality**: when editing online, turn off the edits other players can't receive, such as adding texture slots, map sounds and waypoints, and refuse an undo too big to send to them rather than undoing it only on your map.
 - **Offset selection grid**: draw the selection grid slightly off the surfaces.
 - **Default auto-apply during texture edit**: turn on auto-apply while editing a texture variant.
 - **Free value scrolling**: the wheel steps values without `Shift`. It can get in the way of scrolling a Tool panel.
