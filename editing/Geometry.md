@@ -109,7 +109,7 @@ A shape is geometry worked out from a formula, such as a sphere, a cone or terra
 - **Offset** moves the shape inside its box, so it can sit part way into the selection, and a sphere's **Stretch** makes it longer along an axis, an ellipsoid.
 - New faces take the texture last applied, as extruding does.
 - One undo takes the whole shape back. A shape whose box is too big for **Undo size** in [Editor settings](Interface.md#editor-settings) isn't built: raise it, or use a larger grid size.
-- A box holds at most 2048 cubes on a side and 8388608 in all. Its **Build** button is grey while a shape can't be built, and its tip says why.
+- A box holds at most 2048 cubes on a side and 1048576 in all. Its **Build** button is grey while a shape can't be built, and its tip says why.
 
 The shapes, and their commands, which take the same sizes followed by the detail, the offset and `1` to carve:
 
