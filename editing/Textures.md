@@ -15,7 +15,7 @@ The texture under the selection is the one on the first solid cube in it, on the
 
 ## The Textures Tool panel
 
-`F4` (legacy `Shift+F1`) opens it in its dock, as do the toolbar's **Textures** button and the dock's **Textures** tab (see [Tool panels](Interface.md#tool-panels)).
+`F4` (legacy `Shift+F1`) opens it in its dock, as does the toolbar's **Textures** button (see [Tool panels](Interface.md#tool-panels)).
 
 ### Picked texture
 
@@ -178,7 +178,7 @@ The back arrow on its title bar returns to Textures.
 
 ## Blend painting
 
-The toolbar's **Blendmap paint** button, or the dock's **Paint** tab, opens the Blendmap paint Tool panel, and `P` cycles the paint mode. Painting brings out each texture's blend layer, set in [Blending](#blending). See [Blendmap](Blendmap.md).
+The toolbar's **Blendmap paint** button opens the Blendmap paint Tool panel, and `P` cycles the paint mode. Painting brings out each texture's blend layer, set in [Blending](#blending). See [Blendmap](Blendmap.md).
 
 ## Keys
 
