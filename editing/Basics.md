@@ -149,3 +149,4 @@ Pressing `F3` in edit mode opens the action search dialog. Pressing `Tab` switch
 [Other FX](Fx-Other.md) - More effects to using on maps.
 [Level FX](Fxlevels.md) - How to increasing performance for users on lower settings.
 [Models](Models.md) - How to import 3D models for use in redeclipse
+[Model Editor](Model-Editor.md) - Lining up a model's attachments and tags while you watch

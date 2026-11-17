@@ -18,6 +18,7 @@
 
 ## Map Editing
 - **[Editing Basics](editing/Basics.md)** - Learn how to start making your own maps in Red Eclipse.
+- **[Model Editor](editing/Model-Editor.md)** - Line up vanities, weapons and other attachments on a model and its tags.
 
 ## Development
 - **[Contributing](Contributing.md)** - Instructions on contributing to the Red Eclipse project.
