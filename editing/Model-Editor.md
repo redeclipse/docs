@@ -2,7 +2,7 @@
 
 The Model Editor shows a model with other models attached to it, and lets you move, turn and scale each of them while you watch. It's for lining things up: a vanity on a player's head, a weapon or glove in the first person hands, an attachment on a new tag. Without it, each try means editing the model's config, saving, running `/clearmodel` and looking again.
 
-Nothing you change in the editor touches the model's files. When the placement looks right, save it to a file in your home folder and copy the lines you need into the model's own config. Closing the editor puts every model back as its files have it.
+Nothing you change in the editor touches the model's files. When the placement looks right, save it to a file in your home folder and copy the lines you need into the model's own config. Closing the editor puts every model back as its files have it; if you've changed anything since you last saved, it asks first, offering to save and leave, leave without saving, or stay.
 
 The editor can't be used while connected to a server, and connecting puts every model back.
 
