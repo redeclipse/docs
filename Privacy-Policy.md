@@ -50,9 +50,14 @@ Red Eclipse integrates with Discord in two ways:
     the sender's Discord display name and role badge.
   - The master server's administrators get its admin notices in a private
     channel of the Red Eclipse Discord server: changes to accounts, server
-    accounts and the global lists, and the master's automatic bans of hostile
-    game servers. These can include account handles and the IP addresses on
-    the global lists.
+    accounts and the global lists, account registrations, failed sign-ins,
+    game servers that couldn't be listed or signed in from a new address,
+    Matchmaking Queue pops, and the master's automatic bans of hostile game
+    servers. These can include account handles, linked Steam and Discord
+    account IDs, and the IP addresses of the players and servers involved,
+    such as the address an account was registered or signed in from. They
+    never include email addresses. The notices stay in that channel until an
+    administrator removes them.
 
 ### Steam Integration
 
