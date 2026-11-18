@@ -52,7 +52,7 @@ ws.onmessage = (e) =>
 ### Keep a server list up to date
 
 ```js
-const live = new WebSocket("wss://play.redeclipse.net:28888/api/v1/servers/live");
+const live = new WebSocket("wss://play.redeclipse.net:28888/api/v1/live");
 live.onmessage = (e) =>
 {
     const ev = JSON.parse(e.data);
@@ -285,7 +285,7 @@ Errors:
 | 429 | Too many failed attempts, or more than 8 sessions waiting on servers for one sign-in |
 | 501 | `this server doesn't support sessions from the master`: an older server, which can't be signed in on |
 
-`POST /api/v1/signin/session`, with no server named, gives a session on the master's own Web API, in the same form without `local`. Open the [live list](#websocket-apiv1serverslive) with it to queue as the account in the [Matchmaking Queue](#the-matchmaking-queue). It ends with the remembered sign-in that made it, and lapses unused like any other session.
+`POST /api/v1/signin/session`, with no server named, gives a session on the master's own Web API, in the same form without `local`. Open the [live list](#websocket-apiv1live) with it to queue as the account in the [Matchmaking Queue](#the-matchmaking-queue). It ends with the remembered sign-in that made it, and lapses unused like any other session.
 | 502, 504 | The server's link closed, or it didn't answer within 10 seconds |
 
 ### Failed attempts
@@ -800,7 +800,7 @@ h.peaks.forEach((p, i) => {
 const usual = sums.map((row, d) => row.map((s, hr) => counts[d][hr] ? s / counts[d][hr] : null));
 ```
 
-### WebSocket /api/v1/servers/live
+### WebSocket /api/v1/live
 
 The live list sends these messages:
 
@@ -809,6 +809,8 @@ The live list sends these messages:
 - **When a server goes:** `{"event": "remove", "host": "...", "port": ...}`.
 
 Changes are checked once a second. All you can say to it is about the Matchmaking Queue, below; anything else is ignored. A token, as `?token=` on the URL, is read as the socket opens and sets, for as long as it stays open, which account the socket queues as and what it sees of the queue. A session on the master, [from a remembered sign-in](#sessions-from-a-remembered-sign-in), is one.
+
+`/api/v1/servers/live`, its old path, is the same socket and stays for older games and pages. Use `/api/v1/live` in anything new.
 
 If your visitors' networks block port 28888, fall back to polling `GET /servers` with `If-None-Match`, no more often than every 5 seconds.
 
