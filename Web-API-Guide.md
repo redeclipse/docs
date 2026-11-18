@@ -812,6 +812,16 @@ Changes are checked once a second. All you can say to it is about the Matchmakin
 
 `/api/v1/servers/live`, its old path, is the same socket and stays for older games and pages. Use `/api/v1/live` in anything new.
 
+#### Admin notices
+
+A socket whose token is at the master's `masternoticelock` (administrator by default) also gets the master's admin notices: what its administrators should see, such as Master Shield's bans, control entries added or removed, and accounts and server accounts changed or removed.
+
+```json
+{"event": "notice", "id": 1794974050, "time": 1794974050, "kind": "shield", "text": "..."}
+```
+
+`kind` is `shield`, `control`, `account` or `serveraccount`, and `text` is the line the master puts in its own log. Ids only go up, across restarts too. The master keeps its last 100, and `?since=<id>` with the token sends every kept one after that id as the socket opens, so a bot that was away can catch up on what it missed.
+
 If your visitors' networks block port 28888, fall back to polling `GET /servers` with `If-None-Match`, no more often than every 5 seconds.
 
 ### Join links and bounce links
