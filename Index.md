@@ -1,4 +1,4 @@
-[Red Eclipse](https://www.redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](gameplay/Parkour-Guide.md), [distinct but all potent weapons](gameplay/Weapons-Guide.md), and fast paced accessible gameplay.
+[Red Eclipse](https://redeclipse.net/) is an open-source arena shooter, built using the technology found in [Tesseract](http://tesseract.gg/) and [Cube Engine 2](http://cubeengine.com/). Offering an [innovative parkour system](gameplay/Parkour-Guide.md), [distinct but all potent weapons](gameplay/Weapons-Guide.md), and fast paced accessible gameplay.
 
 ## New to Red Eclipse?
 - **[Frequently Asked Questions](FAQ.md)** - See if your question is one of the ones we're asked a lot.
@@ -26,11 +26,11 @@
 - **[Debugging](Debug.md)** - How to gather information for debugging.
 
 ## Important Links
-- **[Downloads](https://www.redeclipse.net/download)** - Download the game and play it!
-- **[Discussion Area](https://www.redeclipse.net/discuss)** - Talk with your fellow players and developers.
-- **[Discord Server](https://www.redeclipse.net/discord)** - Join our Discord Server and hang out with the community.
-- **[Issue Tracker](https://www.redeclipse.net/issues)** - The place for bug reports and approved feature requests.
-- **[Contribution Guidelines](https://www.redeclipse.net/contribute)** - See our rules and suggestions for contributing.
-- **[GitHub Project](https://www.redeclipse.net/github)** - We do all our development on GitHub, so this is the place to start when developing.
-- **[Sponsor via Open Collective](https://www.redeclipse.net/opencollective)** - Sponsor the project and help cover project costs.
-- **[Donate via PayPal](https://www.redeclipse.net/donate)** - Make a one-time or recurring donation to help cover project costs.
+- **[Downloads](https://redeclipse.net/download)** - Download the game and play it!
+- **[Discussion Area](https://redeclipse.net/discuss)** - Talk with your fellow players and developers.
+- **[Discord Server](https://redeclipse.net/discord)** - Join our Discord Server and hang out with the community.
+- **[Issue Tracker](https://redeclipse.net/issues)** - The place for bug reports and approved feature requests.
+- **[Contribution Guidelines](https://redeclipse.net/contribute)** - See our rules and suggestions for contributing.
+- **[GitHub Project](https://redeclipse.net/github)** - We do all our development on GitHub, so this is the place to start when developing.
+- **[Sponsor via Open Collective](https://redeclipse.net/opencollective)** - Sponsor the project and help cover project costs.
+- **[Donate via PayPal](https://redeclipse.net/donate)** - Make a one-time or recurring donation to help cover project costs.

@@ -8,12 +8,12 @@ Red Eclipse was branched from the now-defunct [Blood Frontier](https://sourcefor
 
 ## Where can I get the game?
 
-The best way to play Red Eclipse is by downloading it through <span class="fab fa-steam" aria-hidden="true"></span> **[Steam](https://www.redeclipse.net/steam)**.
+The best way to play Red Eclipse is by downloading it through <span class="fab fa-steam" aria-hidden="true"></span> **[Steam](https://redeclipse.net/steam)**.
 Red Eclipse is available for download at no cost.
 
-- The [latest release](https://www.redeclipse.net/download) can be downloaded for all supported operating systems.
+- The [latest release](https://redeclipse.net/download) can be downloaded for all supported operating systems.
 - GNU/Linux users can also use the [AppImage](AppImages.md).
-- Or [build from source](Install-Guide.md#building-from-source) using the developmental [Git version](https://www.redeclipse.net/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
+- Or [build from source](Install-Guide.md#building-from-source) using the developmental [Git version](https://redeclipse.net/devel), which is hosted by [GitHub](https://github.com/redeclipse/base).
 
 These are the only official sources. Packages from Linux distributions, the AUR, BSD ports and other third parties are not maintained or supported by the Red Eclipse development team, see the [Install Guide](Install-Guide.md#important-notice-about-unofficial-packages).
 
@@ -35,8 +35,8 @@ Red Eclipse is a [Free](http://www.gnu.org/philosophy/free-sw.html) and [Open So
 
 Apart from this wiki, and playing on the game servers, you can:
 
-- Participate in [Discussions](https://www.redeclipse.net/discuss).
-- Chat on our [Discord](https://www.redeclipse.net/discord).
+- Participate in [Discussions](https://redeclipse.net/discuss).
+- Chat on our [Discord](https://redeclipse.net/discord).
 
 ## Where do I find screenshots, logs and other user data?
 
@@ -56,15 +56,15 @@ Check the app data in your home directory: `/Users/<username>/Library/Applicatio
 
 ## How do I join a server from a link?
 
-A server's address on the [server browser](https://www.redeclipse.net/servers) is a join link, such as `redeclipse://203.0.113.5:28801`. Clicking it opens Red Eclipse and joins that server. If the game is already open, the link goes to it instead of starting another copy, and it asks first if that would take you out of a match or away from unsaved edits.
+A server's address on the [server browser](https://redeclipse.net/servers) is a join link, such as `redeclipse://203.0.113.5:28801`. Clicking it opens Red Eclipse and joins that server. If the game is already open, the link goes to it instead of starting another copy, and it asks first if that would take you out of a match or away from unsaved edits.
 
-Each server's chat thread on our [Discord](https://www.redeclipse.net/discord) has a "join it" link, and each post saying someone joined has a "Join them" link. Discord can't open the game itself, so these go to a page on the master server that opens it for you.
+Each server's chat thread on our [Discord](https://redeclipse.net/discord) has a "join it" link, and each post saying someone joined has a "Join them" link. Discord can't open the game itself, so these go to a page on the master server that opens it for you.
 
 The game sets up join links whenever it starts, without needing administrator rights, and the copy you started most recently is the one they open. Join links never include a server's password. If clicking one does nothing, start the game once and try again. To stop a copy of the game from taking join links, set `joinlinks 0` in its console.
 
 ## Can my friends see what I'm playing and join me?
 
-On Steam and Discord, your friends see the mode and map you're playing, the server's name and how many people are on it. While you're on a server from the [server browser](https://www.redeclipse.net/servers) that is open, needs no password and has room, they also get a Join button that brings them to the same server, the same way a join link does. Your server's address is never shown as text.
+On Steam and Discord, your friends see the mode and map you're playing, the server's name and how many people are on it. While you're on a server from the [server browser](https://redeclipse.net/servers) that is open, needs no password and has room, they also get a Join button that brings them to the same server, the same way a join link does. Your server's address is never shown as text.
 
 Choose what friends see under Settings, Gameplay, Friends, or with `presence` in the console: `0` shows nothing, `1` shows what you're playing without a Join button, and `2` (the default) adds the Join button.
 
@@ -84,13 +84,13 @@ L %t/discord-ipc-0 - - - - app/com.discordapp.Discord/discord-ipc-0
 
 Join the **Matchmaking queue**. Say how small a match you'd play, 2+, 4+, 6+ or 8+, then carry on with whatever you're doing. Once enough people are waiting, everyone is sent to the same server together, and anyone already on that server counts towards the match, so a server with a couple of players on it fills first.
 
-The queue needs a Red Eclipse account, which only takes an email: register one on the Account page of the game's Player menu, or on the [website](https://www.redeclipse.net/account/register). Your place is your account's, so you can join from one place and leave or renew from another, and everyone can see who's waiting.
+The queue needs a Red Eclipse account, which only takes an email: register one on the Account page of the game's Player menu, or on the [website](https://redeclipse.net/account/register). Your place is your account's, so you can join from one place and leave or renew from another, and everyone can see who's waiting.
 
 You can wait from three places, and they all share one queue:
 
 - **In the game:** the server browser has the queue above the list, and the game queues with the account it signs in with. Leave the game open in the background and it flashes and asks you to join when your match is ready. It never joins by itself.
-- **On the website:** the [server browser](https://www.redeclipse.net/servers) has the same queue once you've [signed in](https://www.redeclipse.net/account/login). Keep the page open: it chimes, shows a notification if you allow it, and gives you a Join button.
-- **On our [Discord](https://www.redeclipse.net/discord):** link Discord to your account on [your account's page](https://www.redeclipse.net/account/profile). The pinned Matchmaking post in the servers forum lists the servers and has the queue's buttons. You're mentioned in the server's own thread with a join link when your match is ready, wherever you queued from. Use `/matchmaking status` to see where you stand. #find-players shows who joins or leaves the queue and the servers, with links to join them. Press Get Matchmaking Pings under the queue to get the @Matchmaking role members mention there when they want more players, and Stop Matchmaking Pings to drop it.
+- **On the website:** the [server browser](https://redeclipse.net/servers) has the same queue once you've [signed in](https://redeclipse.net/account/login). Keep the page open: it chimes, shows a notification if you allow it, and gives you a Join button.
+- **On our [Discord](https://redeclipse.net/discord):** link Discord to your account on [your account's page](https://redeclipse.net/account/profile). The pinned Matchmaking post in the servers forum lists the servers and has the queue's buttons. You're mentioned in the server's own thread with a join link when your match is ready, wherever you queued from. Use `/matchmaking status` to see where you stand. #find-players shows who joins or leaves the queue and the servers, with links to join them. Press Get Matchmaking Pings under the queue to get the @Matchmaking role members mention there when they want more players, and Stop Matchmaking Pings to drop it.
 
 Your place lasts 60 minutes, and you can add 30 more when it's nearly up: the game and the website show a Renew button, and Discord asks you shortly before it runs out. If you join a server while you're waiting, you aren't counted twice, and you're taken out of the queue once that server has as many on as you wanted. The game signs you in on servers with your account, which is how the queue sees you arrive. When you're sent to a server, it keeps a place for you for 5 minutes, so someone joining it by themselves can't take it first.
 
@@ -104,7 +104,7 @@ All development happens on the master branch of our [base repository](https://gi
 
 ## I found a bug, where can I report it?
 
-Technical problems can be reported in the [discussion area](https://www.redeclipse.net/discuss). Evident bugs can be reported on the [issue list](https://www.redeclipse.net/issues), but first, please have a look at our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
+Technical problems can be reported in the [discussion area](https://redeclipse.net/discuss). Evident bugs can be reported on the [issue list](https://redeclipse.net/issues), but first, please have a look at our [contribution guidelines](https://github.com/redeclipse/.github/blob/master/CONTRIBUTING.md).
 
 ## Red Eclipse fails with 'OpenGL 3.3 or greater is required!' (or fails to create an OpenGL 3.3 context).
 
@@ -116,7 +116,7 @@ Development of Red Eclipse is open and community driven. Contributions can be ma
 
 ## I found a cheater, what can I do?
 
-If you think someone cheats or violates the [Multiplayer Guidelines](Multiplayer-Guidelines.md) in some other way, you can open a issue in the [discussion area](https://www.redeclipse.net/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
+If you think someone cheats or violates the [Multiplayer Guidelines](Multiplayer-Guidelines.md) in some other way, you can open a issue in the [discussion area](https://redeclipse.net/discuss). Be sure to attach a demo record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
 
 ## How can i change the chat colour?
 

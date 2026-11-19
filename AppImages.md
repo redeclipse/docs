@@ -1,8 +1,8 @@
 The Red Eclipse project provides [AppImage](https://appimage.org) builds that should work on any recent Linux distribution as an easy, dependency-free way to install and run the game.
 
 ## Available AppImages
-* [Stable version](https://www.redeclipse.net/appimage/stable)
-* [Development version](https://www.redeclipse.net/appimage/master)
+* [Stable version](https://redeclipse.net/appimage/stable)
+* [Development version](https://redeclipse.net/appimage/master)
 
 ### File names
 * Client: `redeclipse-<BRANCH>-x86_64.AppImage`.

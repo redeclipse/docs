@@ -8,4 +8,4 @@ It covers where to get help, what each repository holds, reporting issues, sugge
 
 * Get the source with `git clone --recurse-submodules https://github.com/redeclipse/base.git redeclipse`, then follow [Building from Source](Install-Guide.md#building-from-source).
 * Report a bug or request a feature on the [issue tracker](https://github.com/redeclipse/base/issues/new/choose).
-* Ask for help in the [help and support discussions](https://github.com/redeclipse/base/discussions/categories/help-and-support) or on [Discord](https://www.redeclipse.net/discord).
+* Ask for help in the [help and support discussions](https://github.com/redeclipse/base/discussions/categories/help-and-support) or on [Discord](https://redeclipse.net/discord).
