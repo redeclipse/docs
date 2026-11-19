@@ -16,7 +16,7 @@ Edit mode starts in cursor mode: the mouse moves a cursor for the toolbar and To
 
 ## Menu bar
 
-The menu bar across the top of the screen holds every editor action by name, with its key beside it. It is hidden until it is needed: move the cursor to the top edge of the screen in cursor mode, or press and release `Alt` on its own. It stays while a menu is open, and hides again when the cursor leaves it, or on another lone `Alt`. While it shows, the toolbar and docks move down under it.
+The menu bar across the top of the screen holds every editor action by name, with its key beside it. It is hidden until it is needed: rest the cursor on the top edge of the screen in cursor mode, or press and release `Alt` on its own. It slides in, stays while a menu is open, and slides away again when the cursor leaves it, or on another lone `Alt`. While it shows, the toolbar and docks move down under it.
 
 - **File**: start a new map, save, save as, download the map, reload it, Map settings, enlarge and shrink the map, and the main menu.
 - **Edit**: undo, redo, copy, paste, flip; apply, get and replace textures; set a material volume; add, delete, link, unlink and unify entities, and the entity snap mode.
@@ -140,6 +140,8 @@ Interface:
 
 - **Edit UI scale**: the size of the menu bar, toolbar and Tool panels, 100% to 150%.
 - **Edit info length**: how long the info bar stays.
+- **Menu bar delay**: how long the cursor rests on the top edge before the menu bar shows, 0.3 seconds by default.
+- **Menu bar slide**: how long the menu bar takes to slide in and out, 0.15 seconds by default; 0 shows it at once.
 - **Edit info notification sound**: chime when the info bar shows.
 - **Show extended render status**: more renderer counts in the status line.
 
