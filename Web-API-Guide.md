@@ -990,12 +990,12 @@ Errors:
 | 404 | The link is unknown, ran out or was removed |
 | 409 | The handle or email is taken |
 | 410 | The account is already activated |
-| 429 | Too many registrations from your address today (3 by default) |
-| 503 | Registration is closed, or the website can't register (no captcha set up) |
+| 429 | Too many registrations from your address today (3 by default), two captcha checks from your address are still waiting, or your address has had too many captcha checks today (20 by default) |
+| 503 | Registration is closed, the website can't register (no captcha set up), or too many captcha checks are waiting (try again after `Retry-After`) |
 
 ### Lost keys
 
-`POST /api/v1/accounts/reset` with `{"handle": "<handle>"}` or `{"email": "<address>"}`, and a `captcha` or `"game": true` as above, asks for a new key. It always answers 202 the same way, so it never says whether an account exists. If one does and has an email address, that address gets a link to `/account/reset#<token>`, lasting 24 hours. Only the newest link works.
+`POST /api/v1/accounts/reset` with `{"handle": "<handle>"}` or `{"email": "<address>"}`, and a `captcha` or `"game": true` as above, asks for a new key. It always answers 202 the same way, so it never says whether an account exists. A request with a captcha can get the same 429 and 503 answers for captcha checks as registration. If one does and has an email address, that address gets a link to `/account/reset#<token>`, lasting 24 hours. Only the newest link works.
 
 The page posts the token to `POST /api/v1/accounts/reset/confirm`, which answers like activation, with the new key. The old key stops working, and the account's remembered sign-ins end.
 
