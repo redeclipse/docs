@@ -845,7 +845,7 @@ A socket whose token is at the master's `masternoticelock` (administrator by def
 
 `level` is `info`, `warning` for something to look into, or `error` for something wrong with the master itself. A master older than the field sends none, which is `info`. `text` is the line the master puts in its own log, never with an email address and at most 1500 characters, cut short with `...`.
 
-What can happen over and over, such as failed sign-ins and servers that keep failing to be listed, is folded: the first for each account or server is sent at once, and the rest within `masternoticefold` seconds (an hour by default) come as one notice when that time is up, saying how many there were and the last of them. Every one still goes in the master's log.
+What can happen over and over, such as failed sign-ins and servers that keep failing to be listed, is folded: the first for each account or server is sent at once, and the rest within `masternoticefold` seconds (an hour by default) come as one notice when that time is up, saying how many there were and the last of them. The master's log folds them the same way, apart from mail failures, which it logs every time.
 
 Ids only go up, across restarts too. The master keeps its last 100, and `?since=<id>` with the token sends every kept one after that id as the socket opens, so a bot that was away can catch up on what it missed.
 
