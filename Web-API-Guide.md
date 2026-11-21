@@ -395,7 +395,7 @@ Pass `?include=` with a comma-separated list of extra groups (or `all`) to ask f
 | `map` | `mapfilecrc` (present whenever the server has a map CRC, even without a preview) and `mapsize` (MPZ size in bytes) | Public |
 | `vars` | `mods`: object mapping each modified game variable (`IDF_GAMEMOD`) to its current value | Public |
 | `config` | `config`: `{"uptime", "password", "open", "connectlock", "editlock", "varslock"}` | Public |
-| `ips` | `playerips`: array of `{"cn", "name", "handle", "ip"}` for connected human players | Administrator+ |
+| `ips` | `playerips`: array of `{"cn", "name", "handle", "ip"}` for connected human players | The server's `iphostlock` and above (moderator by default) |
 
 ### GET /players
 
