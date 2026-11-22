@@ -526,7 +526,7 @@ The Control entries your Privilege may see:
 
 - `type` is `kick`, `allow`, `ban`, `mute`, `limit` or `except`. `reason` is optional.
 - Success is `201` with `{"ok": true}`.
-- You can't act on a player whose Privilege is higher than yours. A player protected by an `except` entry can only be acted on by an Administrator, and a player protected by a global `except` can't be banned, muted or limited here at all.
+- You can't act on a player whose Privilege is higher than yours. A player protected by an `except` entry can only be acted on at the server's `protectlock` (administrator by default), and a player protected by a global `except` can't be banned, muted or limited here at all.
 
 ### DELETE /controls/\<id\>
 

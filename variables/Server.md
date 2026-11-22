@@ -99,6 +99,7 @@ Running a server: its settings, the privileges needed for each action, moderatio
 | `demokeep` | determines if demos that don't run to the end of the match are kept | `bool` |
 | `teamlock` | determines who may change the team of other players;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `exceptlock` | determines who may except players from bans, mutes and limits;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `protectlock` | determines who may kick, ban, mute or limit a player an except protects;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `spawnlock` | determines who may spawn when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `iphostlock` | determines who may see player addresses and hosts;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `overflowlock` | players at or above this privilege level are not kicked for message overflow;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
