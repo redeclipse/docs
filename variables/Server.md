@@ -6,6 +6,7 @@ Running a server: its settings, the privileges needed for each action, moderatio
 | :--- | :--- | :--- |
 | `mastermode` | set a specific mode to the server;<br>0 = open (everybody can join), 1 = veto (vetolock determines who can force a vote), 2 = locked (only moderator or higher can spawn), 3 = private (only global privs and players with the password can join the server) | `value` |
 | `masterlock` | determines who can set mastermode;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
+| `serveropenlock` | determines who can set a mastermode that serveropen doesn't allow;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `spawneditlock` | determines who may spawn in editing mode when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `editlock` | determines who may toggle editing when the server is locked;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
 | `speclock` | determines who may force players to spectate;<br>0 = off, 1 = player, 2 = supporter, 3 = moderator, 4 = administrator, 5 = developer, 6 = founder, 7 = nobody | `value` |
