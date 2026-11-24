@@ -303,7 +303,7 @@ The paths below leave out `/api/v1`. All `GET` routes also answer `HEAD`.
 
 | Method and path | Privilege | What it does |
 |---|---|---|
-| `GET /` (no `/api/v1`) | none | Says where the API is: `{"name": "Red Eclipse", "api": "/api/v1"}` |
+| `GET /` (no `/api/v1`) | none | Says where the API is: `{"name": "Red Eclipse", "api": "/api/v1"}`, where `name` is the game's name (`versionname`) |
 | `GET /api/v1` | none | What the server is and the routes you may use |
 | `GET /status` | none | The match: map, mode, counts, time left |
 | `GET /players` | none | Everyone connected, with scores |
@@ -337,6 +337,7 @@ Operators can add routes of their own outside `/api`, and those appear in the in
 }
 ```
 
+- `name` is the game's name (`versionname`), which a renamed build changes.
 - `type` is `server` or `master`.
 - Each route maps its methods to the Privilege they need. `WS` is a WebSocket.
 - Only the routes your Privilege reaches are listed.
