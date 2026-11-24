@@ -225,7 +225,7 @@ Computing the answer:
 
 - **The private key** is in the player's `auth.cfg`, as the second word after `authkey <name>`. It is a secret, so it must never leave the player's machine.
 - **The key's answer:** the challenge is a point on NIST P-192 in compressed form: a sign (`+` or `-`, for the parity of y), then x in hex. Multiply that point by the private key and take its x coordinate in lowercase hex, without leading zeros. See `answerchallenge` in `src/shared/crypto.cpp`. From tools, `genkey answer <private key> <challenge>` prints it.
-- **What the master takes** is the SHA-256 of `Red Eclipse master sign-in ` (with its trailing space) followed by that hex, as 64 lowercase hex digits. This is what makes the answer count only on the master: the game answers a server's challenge with the key's answer alone, so a server can't turn one into a sign-in. See `signinanswer` in `src/engine/http.cpp`.
+- **What the master takes** is the SHA-256 of `Master Sign-in ` (with its trailing space) followed by that hex, as 64 lowercase hex digits. This is what makes the answer count only on the master: the game answers a server's challenge with the key's answer alone, so a server can't turn one into a sign-in. See `signinanswer` in `src/engine/http.cpp`.
 - **A browser** does the maths itself, with `crypto.subtle.digest("SHA-256", ...)` for the hash, which needs a secure page.
 
 Options on the last step:
